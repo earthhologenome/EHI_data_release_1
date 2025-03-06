@@ -1,0 +1,98 @@
+# Data statistics
+
+```{r load_metadata, warning=FALSE, comments="", message=FALSE}
+rawdata_metadata <- read_tsv(file=str_c("data/",release,"_rawdata.tsv"))
+#assembly_metadata <- read_tsv(file=str_c("data/",release,"_assembly.tsv"))
+#genome_metadata <- read_tsv(file=str_c("data/",release,"_genome.tsv"))
+sample_metadata <- read_tsv(file=str_c("data/",release,"_sample.tsv"))
+capture_metadata <- read_tsv(file=str_c("data/",release,"_capture.tsv"))
+specimen_metadata <- read_tsv(file=str_c("data/",release,"_specimen.tsv"))
+sampling_metadata <- read_tsv(file=str_c("data/",release,"_sampling.tsv"))
+host_metadata <- read_tsv(file=str_c("data/",release,"_host.tsv"))
+```
+
+## Amount of data
+
+### Absolute total data
+
+```{r rawdata_absolute, warning=FALSE, comments="", message=FALSE}
+rawdata_metadata %>%
+  summarise(total=sum(total_gb),host=sum(host_gb),metagenomic=sum(metagenomic_gb),lowqual=sum(lowqual_gb)) %>%
+  tt()
+```
+
+### Relative total data
+
+```{r rawdata_relative, warning=FALSE, comments="", message=FALSE}
+rawdata_metadata %>%
+  summarise(total=sum(total_gb),host=sum(host_gb),metagenomic=sum(metagenomic_gb),lowqual=sum(lowqual_gb)) %>%
+  mutate(host=host/total*100,metagenomic=metagenomic/total*100,lowqual=lowqual/total*100) %>% 
+  mutate(total=total/total*100) %>% 
+  tt()
+```
+
+### Per-sample data
+
+```{r rawdata_absolute_persample, warning=FALSE, comments="", message=FALSE}
+rawdata_metadata %>%
+  summarise(total=mean(total_gb),sd(total_gb),host=mean(host_gb),metagenomic=mean(metagenomic_gb),lowqual=mean(lowqual_gb)) %>%
+  tt()
+```
+
+## Amount of samples
+
+```{r host_species_summary, warning=FALSE, comments="", message=FALSE}
+summary_table <- sampling_metadata %>% 
+  separate_rows(capture_id, sep = ", ") %>%
+  right_join(capture_metadata,by="capture_id") %>%
+  select(-capture_id) %>%
+  right_join(specimen_metadata,by="specimen_id") %>%
+  inner_join(host_metadata,by="host_species") %>%
+  select(-capture_id) %>%
+  separate_rows(sample_id, sep = ", ") %>%
+  right_join(sample_metadata,by="sample_id") %>%
+  select(-rawdata_id) %>%
+  right_join(rawdata_metadata,by="sample_id") %>%
+  separate_rows(rawdata_id, sep = ", ") %>%
+  filter(rawdata_id %in% datasets)
+
+summary_table %>% 
+  group_by(host_species,host_order,host_class) %>% 
+  summarise(events=n_distinct(sampling_id),individuals=n_distinct(specimen_id),samples=n_distinct(sample_id),data=sum(total_gb)) %>% 
+  tt()
+```
+
+## Sample type statistics
+```{r sample_type_summary, warning=FALSE, comments="", message=FALSE}
+summary_table %>% 
+  mutate(sample_type=ifelse(sample_type=="Skin swab: dorsal","Skin swab",sample_type),
+         sample_type=ifelse(sample_type=="Skin swab: ventral","Skin swab",sample_type)) %>% 
+  group_by(sample_type) %>% 
+  summarise(samples=n()) %>% 
+  tt()
+```
+
+## Country statistics
+
+```{r number_countries, warning=FALSE, comments="", message=FALSE}
+sampling_metadata %>%
+  pull(country) %>%
+  unique() %>% 
+  length()
+
+summary_table %>% 
+  group_by(country) %>% 
+  summarise(samples=n()) %>% 
+  tt()
+```
+
+
+## Environmental representation
+
+```{r number_environments, warning=FALSE, comments="", message=FALSE}
+sampling_metadata %>%
+  group_by(biome) %>% 
+  summarise(count = n()) %>% 
+  arrange(-count) %>% 
+  tt()
+```

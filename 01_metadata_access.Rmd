@@ -1,0 +1,177 @@
+# Metadata access
+
+Earth Hologenome Initiative metadata are stored in Airtable databases. Contents of those databases can be fetched using the R package raritable. However, data can be directly fetched only with personal access tokens. The relevant fraction of the EHI metadata is published on the EHI website www.earthhologenome.org/database.
+
+### Declare release
+
+EHI data releases are coded 
+
+```{r}
+release="EHR01"
+```
+
+## Raw dataset metadata
+
+List EHI dataset names included in the data release.
+
+```{r release_datasets, warning=FALSE, comments="", message=FALSE}
+datasets <- airtable("tblGyiZjOFa0skpV9", "appQpr6MxnaiVHsHy") %>% #get base ID from Airtable browser URL
+  read_airtable(., fields = c("ID","Samples_flat"), id_to_col = TRUE) %>% #get 3 columns from MAGs table
+  filter(ID==release) %>%
+  pull(Samples_flat) %>%
+  strsplit(split = ", ") %>%
+  unlist()
+```
+
+Fetch dataset preprocessing metadata containing some quantitative metrics of data composition and complexity.
+
+```{r rawdata_preprocessing_metadata, warning=FALSE, comments="", message=FALSE}
+rawdata_preprocessing_metadata <- airtable("tblJfLRU2FIVz37Y1", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = c("EHI_plaintext","C","singlem_fraction"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>% 
+  filter(EHI_plaintext %in% datasets) %>% 
+  rename(rawdata_id=EHI_plaintext,microbial_fraction=singlem_fraction,nonpareil_completeness=C) %>% 
+  group_by(rawdata_id) %>% 
+  summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) %>% 
+  mutate(microbial_fraction=ifelse(microbial_fraction == 0, NA, microbial_fraction),
+         nonpareil_completeness=ifelse(nonpareil_completeness == 0, NA, nonpareil_completeness)) %>% 
+  as_tibble() 
+```
+
+Fetch dataset metadata and merge with the preprocessing table.
+
+```{r rawdata_metadata, warning=FALSE, comments="", message=FALSE}
+rawdata_metadata <- airtable("tblaMWLkBUn2g5gRR", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = c("EHI_number","sample_alias","Total Data (GB)","Host Data (GB)","Metagenomic Data (GB)","ENA_experiment_accession","ENA_run_accession"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>% 
+  filter(EHI_number %in% datasets) %>% 
+  rename(rawdata_id=EHI_number,sample_id=sample_alias,total_gb=`Total Data (GB)`,host_gb=`Host Data (GB)`,metagenomic_gb=`Metagenomic Data (GB)`,accession_experiment=`ENA_experiment_accession`,accession_run=`ENA_run_accession`) %>% 
+  mutate(lowqual_gb=total_gb-host_gb-metagenomic_gb) %>% 
+  left_join(rawdata_preprocessing_metadata,by="rawdata_id") %>%
+  group_by(rawdata_id,sample_id) %>% 
+  summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) %>% 
+  as_tibble() 
+
+# Write to table
+rawdata_metadata %>% write_tsv(file=str_c("data/",release,"_rawdata.tsv"))
+```
+
+## Sample metadata
+
+Fetch metadata of the biological sample from which the DNA sequencing data were derived.
+
+```{r sample_metadata, warning=FALSE, comments="", message=FALSE}
+sample_metadata <- airtable("tblW03Z3DcjRdEkoS", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = c("Code","captures_flat","Type","Origin","Freshness","Freezing","Datasets_flat","ENA_sample_accession"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>%
+  #only retain samples associated with datasets
+  filter(str_detect(Datasets_flat, paste(datasets, collapse = "|"))) %>% 
+  rename(sample_id=Code,capture_id=captures_flat,sample_type="Type",sample_origin="Origin",freshness="Freshness",time_to_freezing="Freezing",rawdata_id="Datasets_flat",accession="ENA_sample_accession") %>% 
+  as_tibble() %>%
+  filter(lengths(sample_type) == 1) %>% 
+  mutate(sample_type=unlist(sample_type))
+
+# Write to table
+sample_metadata %>% write_tsv(file=str_c("data/",release,"_sample.tsv"))
+```
+
+## Capture metadata
+
+```{r capture_metadata, warning=FALSE, comments="", message=FALSE}
+capture_metadata <- airtable("tbldKeYbUhEYC9NGQ", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = c("Capture ID code","specimen_id","sample_id_flat","Length (mm)","Weight (g)","Development"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>%
+  #only retain samples associated with samples
+  filter(str_detect(sample_id_flat, paste(sample_metadata$sample_id, collapse = "|"))) %>% 
+  rename(capture_id=`Capture ID code`,sample_id=sample_id_flat,animal_length="Length (mm)",animal_weight="Weight (g)",animal_development="Development") %>% 
+  as_tibble() 
+
+# Write to table
+capture_metadata %>% write_tsv(file=str_c("data/",release,"_capture.tsv"))
+```
+
+## Specimen metadata
+
+```{r specimen_metadata, warning=FALSE, comments="", message=FALSE}
+specimen_metadata <- airtable("tbl95ZvubrshwRyhD", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = c("Specimen ID Code","captures_flat","scientific_name","Sex"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>%
+  #only retain samples associated with samples
+  filter(str_detect(captures_flat, paste(capture_metadata$capture_id, collapse = "|"))) %>% 
+  rename(specimen_id=`Specimen ID Code`,capture_id=captures_flat,host_species=scientific_name,sex=Sex) %>% 
+  select(specimen_id,host_species,sex,capture_id) %>% 
+  as_tibble() %>% 
+  mutate(host_species=unlist(host_species))
+
+# Write to table
+specimen_metadata %>% write_tsv(file=str_c("data/",release,"_specimen.tsv"))
+```
+
+## Sampling metadata
+
+```{r samopling_metadata, warning=FALSE, comments="", message=FALSE}
+sampling_metadata <- airtable("tbl48d3HmXsRKwqv1", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = c("EHI event Code","captures_flat","Collaborator(s)","country_flat","Region","Place","Biome ontology","Environmental features","Date","Latitude reduced","Longitude reduced","Weather","Temperature"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>%
+  #only retain samples associated with samples
+  filter(str_detect(captures_flat, paste(capture_metadata$capture_id, collapse = "|"))) %>% 
+  rename(sampling_id=`EHI event Code`,capture_id=captures_flat,researcher=`Collaborator(s)`,country=country_flat,region=Region,place=Place,biome=`Biome ontology`,environment=`Environmental features`,date=Date,latitude=`Latitude reduced`,longitude=`Longitude reduced`,weather=Weather,temperature=Temperature) %>% 
+  as_tibble() %>%
+  mutate(researcher = map_chr(researcher, ~ paste(.x, collapse = ","))) %>%
+  mutate(biome=unlist(biome))
+# Write to table
+sampling_metadata %>% write_tsv(file=str_c("data/",release,"_sampling.tsv"))
+```
+
+## Host species metadata
+
+```{r host_metadata, warning=FALSE, comments="", message=FALSE}
+host_metadata <- airtable("tblaRHhZHRPMUjcKJ", "app6ADWyLxBkDcqYX") %>%
+  read_airtable(., fields = c("Name","taxid","genus_flat","family_flat","order_flat","class_flat"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>%
+  #only retain samples associated with samples
+  filter(Name %in% unique(unlist(specimen_metadata$host_species))) %>% 
+  rename(host_species=Name,host_genus=genus_flat,host_family=family_flat,host_order=order_flat,host_class=class_flat) %>% 
+  as_tibble() 
+
+# Write to table
+host_metadata %>% write_tsv(file=str_c("data/",release,"_host.tsv"))
+```
+
+## Assembly metadata
+
+Fetch metadata of individual assemblies derived from the raw datasets. Note that co-assemblies encompassing multiple datasets are not included here.
+
+```{r assembly_metadata, warning=FALSE, comments="", message=FALSE}
+assembly_metadata <- airtable("tblG6ZIvkYN844I97", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = c("ID","EHI_number_api","Type (from AB Batch)","N50","L50","num_contigs","num_bins"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>% 
+  filter(EHI_number_api %in% datasets) %>% 
+  rename(assembly_id=ID,rawdata_id=EHI_number_api,assembly_type=`Type (from AB Batch)`,assembly_n50=N50,assembly_l50=L50,assembly_contigs=num_contigs) %>%
+  #only retain individual assemblies
+  filter(assembly_type == "Individual") %>%
+  #only retain successful assemblies
+  filter(assembly_contigs>0) %>%
+  select(assembly_id,rawdata_id,assembly_n50,assembly_l50,assembly_contigs,num_bins) %>% 
+  as_tibble() 
+
+# Write to table
+assembly_metadata %>% write_tsv(file=str_c("data/",release,"_assembly.tsv"))
+```
+
+## Genome metadata
+
+Fetch metadata of metagenome-assembled genomes (MAGs) derived from individual assemblies.
+
+```{r genome_metadata, warning=FALSE, comments="", message=FALSE, eval=FALSE}
+genome_metadata <- airtable("tblMzd3oyaJhdeQcs", "appWbHBNLE6iAsMRV") %>%
+  read_airtable(., fields = c("ID","eha_number","GTDB_version","domain","phylum","class","order","family","genus","species","completeness","contamination","size","GC","N50","coding_density","contigs"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>%
+  #only retain genomes associated with assemblies
+  filter(eha_number %in% assembly_metadata$assembly_id) %>% 
+  rename(genome_id=ID,assembly_id=eha_number,genome_size=size,genome_gc=GC,genome_n50=N50) %>% 
+  as_tibble() 
+
+# Write to table
+genome_metadata %>% write_tsv(file=str_c("data/",release,"_genome.tsv"))
+```

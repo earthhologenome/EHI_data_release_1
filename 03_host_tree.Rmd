@@ -1,0 +1,31 @@
+# Host tree
+
+Fetch all host species logged in the EHI database and output them into a texfile.
+
+```{r all_host_species, warning=FALSE, comments="", message=FALSE}
+airtable("tbl95ZvubrshwRyhD", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = "scientific_name", id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>%
+  pull(scientific_name) %>%
+  unlist() %>%
+  unique() %>% 
+  write.table(.,file=str_c("data/",release,"_allhosts.txt"),row.names=FALSE,col.names=FALSE,quote=FALSE)
+```
+
+Pull taxonomic metadata of all hosts.
+
+```{r all_host_species_metadata, warning=FALSE, comments="", message=FALSE}
+airtable("tbl95ZvubrshwRyhD", "appQpr6MxnaiVHsHy") %>%
+  read_airtable(., fields = c("scientific_name","Family","Order","Class"), id_to_col = TRUE) %>% 
+  select(-airtable_record_id) %>%
+  unlist() %>%
+  write.table(.,file=str_c("data/",release,"_allhosts.tsv"),row.names=FALSE,col.names=FALSE,quote=FALSE)
+```
+
+Generate a time-calibrated host tree in https://timetree.org and load it.
+```{r all_host_tree, warning=FALSE, comments="", message=FALSE}
+all_host_tree <- read_tree(str_c("data/",release,"_allhosts.nwk"))
+```
+```{r tree_plot, warning=FALSE, comments="", message=FALSE}
+ggtree(all_host_tree)
+```

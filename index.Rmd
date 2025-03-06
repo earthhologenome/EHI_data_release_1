@@ -1,0 +1,65 @@
+---
+title: "Earth Hologenome Initiative | Gaun et al. 2025"
+subtitle: "The Earth Hologenome Initiative: Data Release 1"
+author:
+  - Nanna Gaun, Raphael Eisenhofer, Carlotta Pietroni, Antton Alberdi^[University of Copenhagen, antton.alberdi@sund.ku.dk]
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+url: https://earthhologenome.github.io/EHI_data_release_1
+description: |
+  Summary statistics of the first EHI data release.
+link-citations: yes
+github-repo: earthhologenome/EHI_data_release_1
+---
+
+```{r knitr_opts, echo=FALSE}
+knitr::opts_chunk$set(
+    class.source = "script-source",
+    class.output = "script-output",
+    comment = NA)
+```
+
+# Introduction
+
+This webbook contains all the code used for the comparative study on the generation of metagenomic data from faeces of various species using three extraction methods.
+
+## Prepare the R environment
+
+### Environment
+
+To reproduce all the analyses locally, clone this repository in your computer using:
+
+```
+RStudio > New Project > Version Control > Git
+```
+
+And indicating the following git repository:
+
+> https://github.com/earthhologenome/EHI_data_release_1.git
+
+Once the R project has been created, follow the instructions and code chunks shown in this webbook.
+
+### Libraries
+
+The following R packages are required for the data analysis.
+
+```{r load_libraries, warning=FALSE, comments="", message=FALSE}
+# Base
+library(R.utils)
+library(tidyverse)
+library(knitr)
+library(tidyverse)
+library(devtools)
+library(tinytable)
+library(rairtable)
+library(phyloseq)
+library(ggtree)
+library(ape)
+library(ggnewscale)
+library(ggtreeExtra)
+library(gridExtra)
+library(ggh4x)
+library(phytools)
+```

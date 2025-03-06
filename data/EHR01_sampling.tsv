@@ -1,0 +1,319 @@
+sampling_id	researcher	region	date	biome	environment	weather	temperature	place	latitude	longitude	country	capture_id
+SE00838	Tobias Uller	Colle di Sassa	2022-04-27	1000246 - Village	unknown		NA	NA	42.35	13.29	Italy	SD0226301, SD0226401, SD0226501
+SE00226	Luc Wauters	Lombardy	2021-02-23	1000221 - Temperate woodland	riparian woodland		18	Calusco	45.68	9.46	Italy	SD0045501, SD0046601
+SE01179	Carlos Cabido	Orio	2023-04-22	1000252 - Lake or pond	unknown		NA	NA	43.28	-2.12	Spain	SD0346701, SD0346801, SD0346901, SD0347001, SD0347101
+SE00281	Javier Abalos	Aragón	2021-07-18	1000221 - Temperate woodland	Rocky outcrops in forest and stone-walls		25	NA	42.71	-0.61	Spain	SD0063401, SD0063501, SD0063601, SD0063701, SD0063801, SD0063901, SD0064001, SD0064101, SD0064201, SD0064301, SD0064401, SD0064501
+SE00268	Javier Juste	León	2021-07-11	1000221 - Temperate woodland	Mix Deciduous Forest, Botton Valley		15	NA	42.98	-6.36	Spain	SD0049901, SD0050001, SD0050101, SD0048701, SD0048801, SD0048901, SD0049001, SD0049101, SD0049201, SD0049301, SD0049401, SD0049501, SD0049601, SD0049701, SD0049801
+SE00229	Luc Wauters	Piedmont	2021-02-23	1000221 - Temperate woodland	parklike habitat		17	Torino	45.06	7.69	Italy	SD0032401, SD0032201, SD0032101, SD0031301, SD0031701, SD0030001, SD0032701, SD0042301, SD0031001, SD0029501, SD0041101, SD0029901, SD0030101
+SE01324	Garazi Martin	Nafarroa	2023-07-07	1000198 - Mixed forest	unknown		NA	NA	43.21	-1.79	Spain	SD0379901, SD0380001, SD0380101, SD0380201, SD0380301, SD0380401, SD0380501, SD0380601, SD0380701, SD0380801, SD0380901, SD0381001, SD0381101, SD0381201, SD0381301, SD0381401, SD0381501, SD0381601, SD0382801
+SE01426	Carlos Cabido	Usurbil	2023-12-14	1000252 - Lake or pond	unknown		NA	NA	43.29	-2.05	Spain	SD0449301, SD0449401, SD0449501, SD0449601, SD0449701, SD0449801, SD0449901, SD0450001, SD0450101
+SE01074	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-01	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0317701, SD0317801
+SE00341	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-16	1000194 - Montane grassland	in ski resort		19	Tourmalet	42.91	0.16	France	SD0080801, SD0080901, SD0081001, SD0081101, SD0081201
+SE00683	Luc Wauters	Lombardy	2021-10-25	1000221 - Temperate woodland	mixed conifer-deciduous wood		10	Varese	45.84	8.81	Italy	SD0178001, SD0169502, SD0169602, SD0178101
+SE00270	Javier Abalos	Catalunya	2021-06-24	1000221 - Temperate woodland	Village		15	NA	42.48	0.71	Spain	SD0050801, SD0050901, SD0051001, SD0051101, SD0051201, SD0051301, SD0051401, SD0051501, SD0051601, SD0051701, SD0051801, SD0051901, SD0052001, SD0052101, SD0052201, SD0052301, SD0052401, SD0052501, SD0052601, SD0052701, SD0052801, SD0052901, SD0053001, SD0053101, SD0053201, SD0053301, SD0053401, SD0053501
+SE00687	Luc Wauters	Piedmont	2021-11-10	1000221 - Temperate woodland	parklike habitat		9	Torino	45.06	7.69	Italy	SD0031002, SD0031303, SD0031703, SD0029602, SD0178401, SD0178501, SD0191701, SD0178601
+SE01391	Tobias Uller	Linaria	2023-05-02	1000215 - Temperate shrubland	town		NA	NA	38.84	24.54	Greece	SD0430901, SD0431001, SD0431101, SD0431201, SD0431301
+SE00214	Luc Wauters	Lombardy	2021-01-14	1000221 - Temperate woodland	riparian woodland		3	AddaNord	45.56	9.52	Italy	SD0044003
+SE01410	Tobias Uller	Escull d'Espartar	2023-04-26	1000215 - Temperate shrubland	islet		NA	NA	38.96	1.2	Spain	SD0438101, SD0438201
+SE01396	Tobias Uller	Pollonia	2023-05-09	1000215 - Temperate shrubland	town		NA	NA	36.76	24.53	Greece	SD0433501, SD0433601, SD0433701
+SE00219	Luc Wauters	Lombardy	2021-01-12	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		-1	Golasecca	45.69	8.66	Italy	SD0038503
+SE00178	Luc Wauters	Piedmont	2020-10-12	1000221 - Temperate woodland	oak-hornbeam forest		19	Piobesi	44.94	7.59	Italy	SD0034201, SD0034301, SD0034101, SD0034401, SD0035901, SD0034302, SD0035801, SD0036701
+SE00663	Luc Wauters	Lombardy	2021-09-27	1000221 - Temperate woodland	parklike habitat		18	Varese	45.83	8.8	Italy	SD0169102
+SE00198	Luc Wauters	Lombardy	2020-12-01	1000221 - Temperate woodland	oak-hornbeam forest		6	Curone	45.73	9.38	Italy	SD0043501, SD0046801, SD0043301
+SE00632	Luc Wauters	Lombardy	2021-04-28	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		14	Pineta	45.78	8.91	Italy	SD0040602, SD0043002, SD0376901, SD0041602, SD0168401
+SE00206	Luc Wauters	Lombardy	2020-12-15	1000221 - Temperate woodland	oak-hornbeam forest		5	Curone	45.73	9.38	Italy	SD0045101
+SE00974	Raphael Eisenhofer	Warren	2022-05-11	1000221 - Temperate woodland	Open Forest 10m-30m. Jarrah/Marri Domiant		7	NA	-34.04	116.47	Australia	SD0284101
+SE00348	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-23	1000246 - Village	cemetery		29	Tourmalet	42.96	0.25	France	SD0085801, SD0085901, SD0086001, SD0086101, SD0086201, SD0086301, SD0086401, SD0086501, SD0086601, SD0086701
+SE01073	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-18	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0317601
+SE01430	Carlos Cabido	Aia	2023-12-20	1000252 - Lake or pond	unknown		NA	NA	43.26	-2.15	Spain	SD0452401, SD0452501, SD0452601, SD0452701, SD0452801, SD0452901, SD0453001
+SE00051	Jim Groombridge	Grand Gauges	2021-02-10	1001803 - Tropical forest	Forest clearing		27	Camp aviary	-20.38	57.45	Mauritius	SD0017301
+SE00264	Luc Wauters	Lombardy	2021-04-14	1000221 - Temperate woodland	riparian woodland		14	Calusco	45.68	9.46	Italy	SD0046002, SD0043402, SD0045602, SD0045302, SD0045001
+SE01170	Carlos Cabido	Irun	2023-04-18	1000252 - Lake or pond	unknown		NA	NA	43.33	-1.77	Spain	SD0342001, SD0342101, SD0342201, SD0342301, SD0342401, SD0342501, SD0342601, SD0342701
+SE00853	Tobias Uller	Nifi	2022-05-19	1000218 - Xeric shrubland	unknown		NA	NA	38.81	24.57	Greece	SD0235801, SD0235901, SD0236001, SD0236101, SD0236201, SD0236301, SD0236401, SD0236501, SD0236601
+SE00849	Tobias Uller	Marsaskala	2022-05-07	1000245 - Cropland	unknown		NA	NA	35.86	14.56	Malta	SD0231801, SD0231901, SD0232001, SD0232101, SD0232201, SD0232301
+SE00195	Luc Wauters	Lombardy	2020-11-10	1000221 - Temperate woodland	parklike habitat		10	AddaNord	45.56	9.52	Italy	SD0045801, SD0044801
+SE01099	Jim Groombridge	Grand Gorges	2021-12-22	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.38	57.44	Mauritius	SD0324101
+SE00256	Luc Wauters	Lombardy	2021-04-14	1000221 - Temperate woodland	parklike habitat		12	Gallarate	45.66	8.78	Italy	SD0032601, SD0032001, SD0031801
+SE00703	Luc Wauters	Lombardy	2022-01-25	1000221 - Temperate woodland	mixed conifer-deciduous wood		1	Varese	45.83	8.83	Italy	SD0177902
+SE00062	Jim Groombridge	Grand Gauges	2021-02-18	1001803 - Tropical forest	Forest clearing		26	Camp aviary	-20.38	57.45	Mauritius	SD0018401
+SE01062	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-02	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0314601, SD0322801, SD0322901, SD0323001, SD0323101
+SE00193	Luc Wauters	Lombardy	2020-11-11	1000221 - Temperate woodland	riparian woodland		9	AddaNord	45.56	9.53	Italy	SD0044001, SD0043601
+SE00678	Luc Wauters	Lombardy	2021-10-18	1000221 - Temperate woodland	mixed conifer-deciduous wood		11	Pineta	45.76	8.9	Italy	SD0030303, SD0040102, SD0031502, SD0177201, SD0177301
+SE00672	Luc Wauters	Lombardy	2021-10-07	1000221 - Temperate woodland	parklike habitat		14	Gallarate	45.66	8.78	Italy	SD0032603, SD0030602
+SE00847	Tobias Uller	Manikata	2022-05-06	1000248 - Dense settlement	unknown		NA	NA	35.93	14.34	Malta	SD0231001, SD0231101
+SE01098	Jim Groombridge	Grand Gorges	2021-12-22	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.38	57.44	Mauritius	SD0324001
+SE00866	Tobias Uller	Atsitsa_1	2022-05-29	1000218 - Xeric shrubland	unknown		NA	NA	38.91	24.46	Greece	SD0239701, SD0239801
+SE00851	Tobias Uller	Comino	2022-05-11	1000218 - Xeric shrubland	unknown		NA	NA	36.02	14.33	Malta	SD0233601, SD0233701, SD0233801, SD0233901, SD0234001, SD0234101
+SE01095	Jim Groombridge	Bel Ombre	2021-12-21	1000220 - Tropical woodland	Forest clearing, next to nest box tree		22	NA	-20.47	57.43	Mauritius	SD0323601
+SE00856	Tobias Uller	Molos Beach	2022-05-21	1000218 - Xeric shrubland	unknown		NA	NA	38.92	24.58	Greece	SD0237201, SD0237301, SD0237401, SD0237501
+SE00669	Luc Wauters	Piedmont	2021-10-13	1000221 - Temperate woodland	parklike habitat		14	ILO	45.02	7.67	Italy	SD0168102
+SE00860	Tobias Uller	Exo Diavates	2022-05-24	1000218 - Xeric shrubland	unknown		NA	NA	38.79	24.51	Greece	SD0238401, SD0238501, SD0238601, SD0238701, SD0238801
+SE00695	Luc Wauters	Lombardy	2021-12-17	1000221 - Temperate woodland	parklike habitat		6	Varese	45.83	8.8	Italy	SD0175202
+SE01092	Jim Groombridge	Grand Gorges	2021-12-20	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.38	57.45	Mauritius	SD0323301
+SE00055	Jim Groombridge	Grand Gauges	2021-01-28	1001803 - Tropical forest	Forest		27	Hebron	-20.39	57.45	Mauritius	SD0017701
+SE01440	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-12-16	1000221 - Temperate woodland	unknown		6	NA	43.04	-2.16	Spain	SD0454001
+SE00922	Garazi Martin	Navarre	2022-08-09	1000198 - Mixed forest	Next to the dam		30	NA	43.21	-1.79	Spain	SD0264601, SD0264701, SD0264801, SD0264901, SD0265001, SD0265101, SD0265201, SD0265301, SD0265401
+SE00841	Tobias Uller	Albano Laziale	2022-04-30	1000248 - Dense settlement	unknown		NA	NA	41.73	12.67	Italy	SD0228301, SD0228401, SD0228501, SD0228601, SD0228701, SD0228801
+SE00253	Luc Wauters	Piedmont	2021-04-07	1000221 - Temperate woodland	parklike habitat		9	Torino	45.06	7.69	Italy	SD0031702, SD0030002, SD0031302, SD0040801, SD0029601, SD0041102
+SE00346	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-21	1000194 - Montane grassland	in ski resort		NA	Tourmalet	42.91	0.17	France	SD0084301, SD0084401, SD0084501, SD0084601, SD0084701
+SE00188	Luc Wauters	Piedmont	2020-10-28	1000221 - Temperate woodland	parklike habitat		21	commande	44.84	7.77	Italy	SD0039001, SD0037101, SD0039101, SD0038401, SD0037701, SD0037401, SD0037001, SD0038301, SD0042101, SD0042001, SD0041901
+SE00337	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-09	1000194 - Montane grassland	unknown		19	Sentein	42.83	0.9	France	SD0078801, SD0078901, SD0079001, SD0079101, SD0079201, SD0079301, SD0079401, SD0079501, SD0079601, SD0079701, SD0079801
+SE01432	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-11-25	1000216 - Montane shrubland	unknown		8	NA	43.15	-2.32	Spain	SD0453201
+SE00339	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-16	1000194 - Montane grassland	rocks along montane road		20	Tourmalet	42.91	0.14	France	SD0080101, SD0080201, SD0080301
+SE00208	Luc Wauters	Piedmont	2020-12-21	1000221 - Temperate woodland	parklike habitat		4	commande	44.84	7.77	Italy	SD0037102, SD0039102, SD0037002, SD0037702, SD0040302
+SE00862	Tobias Uller	Palamari	2022-05-25	1000218 - Xeric shrubland	unknown		NA	NA	38.96	24.51	Greece	SD0239201, SD0239301
+SE01439	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-12-10	1000221 - Temperate woodland	unknown		15	NA	43.15	-2.14	Spain	SD0453901
+SE00052	Jim Groombridge	Grand Gauges	2021-01-27	1001803 - Tropical forest	Forest		26	Kanuka	-20.38	57.44	Mauritius	SD0017401
+SE00671	Luc Wauters	Lombardy	2021-10-07	1000221 - Temperate woodland	parklike habitat		14	Gallarate	45.66	8.78	Italy	SD0031202, SD0176801
+SE00279	Javier Abalos	Aragón	2021-07-17	1000221 - Temperate woodland	Boulders and rocky slopes		20	NA	42.74	-0.59	Spain	SD0061201, SD0061301, SD0061401, SD0061501, SD0061601, SD0061701, SD0061801, SD0061901, SD0062001, SD0062101, SD0062201
+SE01437	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-12-06	1000215 - Temperate shrubland	unknown		12	NA	43	-2.17	Spain	SD0453701
+SE01171	Carlos Cabido	Usurbil	2023-04-22	1000252 - Lake or pond	unknown		NA	NA	43.29	-2.05	Spain	SD0342801, SD0342901, SD0343001, SD0343101, SD0343201, SD0343301, SD0343401
+SE00212	Luc Wauters	Lombardy	2021-01-12	1000221 - Temperate woodland	riparian woodland		0	AddaNord	45.56	9.52	Italy	SD0044002, SD0043602
+SE00858	Tobias Uller	Atsitsa Islet	2022-05-22	1000218 - Xeric shrubland	unknown		NA	NA	38.91	24.46	Greece	SD0237701, SD0237801, SD0237901, SD0238001, SD0238101, SD0238201
+SE00059	Jim Groombridge	Grand Gauges	2021-02-18	1001803 - Tropical forest	Forest clearing		26	Camp aviary	-20.38	57.45	Mauritius	SD0018101
+SE00241	Luc Wauters	Piedmont	2021-03-25	1000221 - Temperate woodland	oak-hornbeam forest		10	Piobesi	44.94	7.59	Italy	SD0037602
+SE01438	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-12-09	1000221 - Temperate woodland	unknown		13	NA	43.18	-2.18	Spain	SD0453801
+SE00664	Luc Wauters	Lombardy	2021-09-28	1000221 - Temperate woodland	parklike habitat		21	Varese	45.83	8.8	Italy	SD0175201, SD0169202
+SE00246	Luc Wauters	Lombardy	2021-03-29	1000221 - Temperate woodland	parklike habitat		23	AddaNord	45.56	9.52	Italy	SD0045803, SD0044803, SD0047201, SD0043802
+SE01408	Tobias Uller	Vedranell	2023-04-23	1000215 - Temperate shrubland	islet		NA	NA	38.87	1.21	Spain	SD0437001, SD0437101, SD0437201, SD0437301, SD0437401, SD0437501, SD0437601
+SE00706	Luc Wauters	Piedmont	2022-02-08	1000221 - Temperate woodland	parklike habitat		6	ILO	45.02	7.67	Italy	SD0179701, SD0179801, SD0179901, SD0180001, SD0039602, SD0042603, SD0039803, SD0176202
+SE00203	Luc Wauters	Piedmont	2020-12-10	1000221 - Temperate woodland	parklike habitat		4	RS	44.95	7.6	Italy	SD0042701, SD0036002, SD0036602, SD0038101, SD0034602
+SE00252	Luc Wauters	Lombardy	2021-03-30	1000221 - Temperate woodland	parklike habitat		24	AddaNord	45.57	9.53	Italy	SD0044103
+SE01091	Jim Groombridge	Grand Gorges	2021-12-20	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.38	57.45	Mauritius	SD0323201
+SE01401	Tobias Uller	Agios Georgios	2023-05-12	1000215 - Temperate shrubland	islet		NA	NA	36.76	24.58	Greece	SD0435401, SD0435501, SD0435801, SD0435901
+SE00180	Luc Wauters	Piedmont	2020-10-12	1000221 - Temperate woodland	parklike habitat		19	RS	44.95	7.6	Italy	SD0034601, SD0035601, SD0036001, SD0036601, SD0036501, SD0036801, SD0036201, SD0036301
+SE00333	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-02	1000221 - Temperate woodland	rocks along montane road		23	Sentein	42.83	0.91	France	SD0075501, SD0075601, SD0075701, SD0075801, SD0075901, SD0076001, SD0076101, SD0076201, SD0076301, SD0076401
+SE01379	Ostaizka Aizpurua Arrieta	Nafarroa	2023-08-22	1000247 - Rangeland	unknown		NA	NA	42.9	-2.16	Spain	SD0420101, SD0420201, SD0420301, SD0420401, SD0420501, SD0420601, SD0420701, SD0420801, SD0420901, SD0421001, SD0421101, SD0421201, SD0421301, SD0421401, SD0421501, SD0421601, SD0421701, SD0421801, SD0421901, SD0422001, SD0422101, SD0422201, SD0422301, SD0422401, SD0422501, SD0422601, SD0422701
+SE01168	Carlos Cabido	Villabona	2023-05-02	1000252 - Lake or pond	unknown		NA	NA	43.16	-2.01	Spain	SD0341201, SD0341301
+SE01435	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-12-03	1000221 - Temperate woodland	unknown		5	NA	43.01	-2.49	Spain	SD0453501
+SE00243	Luc Wauters	Lombardy	2021-03-15	1000221 - Temperate woodland	oak-hornbeam forest		8	Curone	45.73	9.38	Italy	SD0028701, SD0028801, SD0028901, SD0029001, SD0029101
+SE01327	Garazi Martin	Nafarroa	2023-08-07	1000253 - River or stream	unknown		NA	NA	43.16	-1.91	Spain	SD0383701, SD0383801, SD0383901, SD0384001
+SE01390	Tobias Uller	Afanes	2023-05-02	1000215 - Temperate shrubland	inland		NA	NA	38.9	24.52	Greece	SD0429901, SD0430001, SD0430101, SD0430201, SD0430301, SD0430401, SD0430501, SD0430601, SD0430701, SD0430801
+SE01072	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-17	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0317001, SD0317101, SD0317201, SD0317301, SD0317401, SD0317501
+SE01395	Tobias Uller	Valaxa	2023-05-03	1000215 - Temperate shrubland	islet		NA	NA	38.84	24.5	Greece	SD0432901, SD0433001, SD0433101
+SE00223	Luc Wauters	Lombardy	2021-02-11	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		6	Pineta	45.78	8.91	Italy	SD0041601
+SE00681	Luc Wauters	Lombardy	2021-10-25	1000221 - Temperate woodland	mixed conifer-deciduous wood		10	Varese	45.83	8.83	Italy	SD0177601, SD0177701, SD0177801
+SE00830	Tobias Uller	Ibiza	2022-05-21	1000215 - Temperate shrubland	islet		NA	NA	39.01	1.29	Spain	SD0223001, SD0223101, SD0223201, SD0223301, SD0223401, SD0223501, SD0223601
+SE01094	Jim Groombridge	Bel Ombre	2021-12-21	1000220 - Tropical woodland	Forest clearing, next to nest box tree		22	NA	-20.47	57.43	Mauritius	SD0323501
+SE00850	Tobias Uller	Ggantija	2022-05-10	1000248 - Dense settlement	unknown		NA	NA	36.05	14.27	Malta	SD0232401, SD0232501, SD0232601, SD0232701, SD0232801, SD0232901, SD0233001, SD0233101, SD0233201, SD0233301, SD0233401, SD0233501
+SE00185	Luc Wauters	Lombardy	2020-10-27	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		20	Golasecca	45.69	8.66	Italy	SD0029801
+SE00635	Luc Wauters	Piedmont	2021-05-05	1000221 - Temperate woodland	parklike habitat		20	commande	44.84	7.77	Italy	SD0042003, SD0037003, SD0037103, SD0042802
+SE00061	Jim Groombridge	Grand Gauges	2021-02-10	1001803 - Tropical forest	Forest clearing		27	Camp aviary	-20.38	57.45	Mauritius	SD0018301
+SE00349	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-29	1000194 - Montane grassland	unknown		21	Tourmalet	42.93	0.2	France	SD0086801, SD0086901, SD0087001, SD0087101, SD0087201, SD0087301, SD0087401, SD0087501, SD0087601, SD0087701
+SE01397	Tobias Uller	Polyaigos	2023-05-10	1000215 - Temperate shrubland	islet		NA	NA	36.77	24.61	Greece	SD0433801, SD0433901
+SE01066	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-06	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0315801, SD0315901
+SE01100	Jim Groombridge	Grand Gorges	2021-12-22	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.38	57.45	Mauritius	SD0324201
+SE00200	Luc Wauters	Piedmont	2020-12-10	1000221 - Temperate woodland	oak-hornbeam forest		4	Piobesi	44.94	7.59	Italy	SD0037601, SD0034303, SD0034102, SD0040401, SD0036702, SD0041301, SD0034402, SD0042901
+SE01172	Carlos Cabido	Eskoriatza	2023-04-25	1000252 - Lake or pond	unknown		NA	NA	42.97	-2.5	Spain	SD0343501, SD0343601, SD0343701, SD0343801, SD0343901
+SE00685	Luc Wauters	Lombardy	2021-11-04	1000221 - Temperate woodland	mixed conifer-deciduous wood		9	Varese	45.8	8.85	Italy	SD0171202, SD0171102, SD0178301
+SE01109	Jim Groombridge	Grand Gorges	2022-01-04	1000220 - Tropical woodland	Forest clearing, next to nest box tree		22	NA	-20.38	57.45	Mauritius	SD0325101
+SE00259	Luc Wauters	Lombardy	2021-04-14	1000221 - Temperate woodland	parklike habitat		12	Gallarate	45.66	8.78	Italy	SD0031401
+SE00201	Luc Wauters	Piedmont	2020-12-11	1000221 - Temperate woodland	oak-hornbeam forest		3	Piobesi	44.94	7.59	Italy	SD0035903, SD0038001
+SE01097	Jim Groombridge	Grand Gorges	2021-12-21	1000220 - Tropical woodland	Forest clearing, next to nest box tree		22	NA	-20.37	57.44	Mauritius	SD0323901
+SE01429	Carlos Cabido	Zarautz	2023-12-18	1000252 - Lake or pond	unknown		NA	NA	43.29	-2.19	Spain	SD0451601, SD0451701, SD0451801, SD0451901, SD0452001, SD0452101, SD0452201, SD0452301
+SE00063	Jim Groombridge	Bel Ombre	2020-12-30	1001803 - Tropical forest	Forest		24	Western Front	-20.45	57.42	Mauritius	SD0018501
+SE00923	Garazi Martin	Gipuzkoa	2022-08-10	1000198 - Mixed forest	By the walking path		30	NA	43.31	-1.75	Spain	SD0265501, SD0265601, SD0265701, SD0265801, SD0265901, SD0266001, SD0266101, SD0266201, SD0266301
+SE00249	Luc Wauters	Lombardy	2021-03-31	1000221 - Temperate woodland	riparian woodland		26	AddaNord	45.56	9.53	Italy	SD0044004
+SE01193	Alex Sutton	Arvidsjaur	2023-08-17	1000250 - Boreal forests or taiga	Forest		16	NA	65.66	19.16	Sweden	SD0350601, SD0321902, SD0350801
+SE00653	Luc Wauters	Lombardy	2021-08-11	1000221 - Temperate woodland	parklike habitat		26	Varese	45.82	8.81	Italy	SD0172201, SD0172301
+SE00839	Tobias Uller	Poggio di Roio	2022-04-27	1000246 - Village	unknown		NA	NA	42.33	13.38	Italy	SD0226601, SD0226701, SD0226801, SD0226901, SD0227001, SD0227101, SD0227201, SD0227301
+SE00225	Luc Wauters	Lombardy	2021-02-22	1000221 - Temperate woodland	riparian woodland		14	Calusco	45.68	9.46	Italy	SD0044601, SD0045601, SD0045301, SD0043701
+SE00258	Luc Wauters	Lombardy	2021-04-13	1000221 - Temperate woodland	parklike habitat		14	Gallarate	45.66	8.78	Italy	SD0033101
+SE01111	Jim Groombridge	Bel Ombre	2022-01-05	1000220 - Tropical woodland	Forest clearing, next to nest box tree		24	NA	-20.45	57.43	Mauritius	SD0325301
+SE00679	Luc Wauters	Lombardy	2021-10-20	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		13	Pineta	45.78	8.91	Italy	SD0041603, SD0177401, SD0043003
+SE01425	Carlos Cabido	Donostia	2023-12-14	1000252 - Lake or pond	unknown		NA	NA	43.28	-2.01	Spain	SD0448401, SD0448501, SD0448601, SD0448701, SD0448801, SD0448901, SD0449001, SD0449101, SD0449201
+SE01409	Tobias Uller	Escull Vermell	2023-04-24	1000215 - Temperate shrubland	islet		NA	NA	38.98	1.16	Spain	SD0437701, SD0437801, SD0437901, SD0438001
+SE01118	Jim Groombridge	Bel Ombre	2022-02-08	1000220 - Tropical woodland	Forest clearing, next to nest box tree		25	NA	-20.46	57.43	Mauritius	SD0326001
+SE00973	Raphael Eisenhofer	Warren	2022-05-11	1000221 - Temperate woodland	Open Forest 10m-30m. Jarrah/Marri Domiant		7	NA	-34.04	116.47	Australia	SD0284001
+SE01071	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-16	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0316801, SD0316901
+SE00234	Luc Wauters	Lombardy	2021-03-09	1000221 - Temperate woodland	mixed conifer-deciduous wood		7	Pineta	45.76	8.9	Italy	SD0030301, SD0031101
+SE00702	Luc Wauters	Lombardy	2022-01-24	1000221 - Temperate woodland	mixed conifer-deciduous wood		2	Varese	45.83	8.83	Italy	SD0177602, SD0177802
+SE00210	Luc Wauters	Lombardy	2021-01-12	1000221 - Temperate woodland	parklike habitat		0	AddaNord	45.56	9.52	Italy	SD0044202, SD0043202, SD0043801
+SE01428	Carlos Cabido	Oñati	2023-12-18	1000252 - Lake or pond	unknown		NA	NA	43.06	-2.4	Spain	SD0450801, SD0450901, SD0451001, SD0451101, SD0451201, SD0451301, SD0451401, SD0451501
+SE00053	Jim Groombridge	Grand Gauges	2021-01-27	1001803 - Tropical forest	Forest		26	Kanuka	-20.38	57.44	Mauritius	SD0017501
+SE00194	Luc Wauters	Lombardy	2020-11-11	1000221 - Temperate woodland	parklike habitat		9	AddaNord	45.57	9.53	Italy	SD0043901
+SE01201	Peter Hosner	Azuay	2022-09-24	1000216 - Montane shrubland	Polylepis, woodland, paramo		NA	NA	-2.96	-79.27	Ecuador	SD0370401, SD0370501, SD0370601, SD0370701, SD0370801, SD0370901, SD0371001
+SE00367	Javier Abalos	Formentera	2021-09-23	1000215 - Temperate shrubland	Stone walls between agricultural fields		20	NA	38.71	1.43	Spain	SD0103201, SD0103501, SD0103601, SD0103701, SD0103301, SD0103401, SD0103801, SD0103901, SD0104001, SD0104201, SD0104301, SD0104401, SD0104501, SD0104601, SD0104901, SD0105001, SD0105101, SD0105201, SD0105301, SD0105601, SD0105701, SD0105801
+SE01112	Jim Groombridge	Bel Ombre	2022-01-05	1000220 - Tropical woodland	Forest clearing, next to nest box tree		24	NA	-20.44	57.43	Mauritius	SD0325401
+SE01178	Carlos Cabido	Donostia	2023-04-29	1000252 - Lake or pond	unknown		NA	NA	43.28	-2.01	Spain	SD0346301, SD0346401, SD0346501, SD0346601
+SE00645	Luc Wauters	Lombardy	2021-05-31	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		19	Golasecca	45.69	8.66	Italy	SD0029703, SD0170101, SD0040902, SD0040202, SD0038504, SD0170201, SD0170301
+SE00708	Luc Wauters	Lombardy	2022-02-16	1000221 - Temperate woodland	mixed conifer-deciduous wood		6	Varese	45.84	8.81	Italy	SD0180401
+SE00213	Luc Wauters	Lombardy	2021-01-13	1000221 - Temperate woodland	riparian woodland		4	AddaNord	45.56	9.52	Italy	SD0046101, SD0046302
+SE00251	Luc Wauters	Lombardy	2021-03-29	1000221 - Temperate woodland	parklike habitat		23	AddaNord	45.57	9.53	Italy	SD0043904
+SE00680	Luc Wauters	Lombardy	2021-10-20	1000221 - Temperate woodland	mixed conifer-deciduous wood		13	Pineta	45.76	8.9	Italy	SD0030304, SD0031103
+SE00220	Luc Wauters	Lombardy	2021-01-15	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		3	Golasecca	45.69	8.66	Italy	SD0040201
+SE01424	Carlos Cabido	Irun	2023-12-14	1000252 - Lake or pond	unknown		NA	NA	43.33	-1.77	Spain	SD0447701, SD0447801, SD0447901, SD0448001, SD0448101, SD0448201, SD0448301
+SE00650	Luc Wauters	Lombardy	2021-07-14	1000221 - Temperate woodland	mixed conifer-deciduous wood		20	Varese	45.8	8.85	Italy	SD0171101, SD0171201, SD0171301
+SE00665	Luc Wauters	Lombardy	2021-09-30	1000221 - Temperate woodland	parklike habitat		20	Varese	45.83	8.8	Italy	SD0175301
+SE01083	Alex Sutton	Arvidsjaur	2023-05-14	1000250 - Boreal forests or taiga	Forest		18	NA	65.67	19.23	Sweden	SD0320001, SD0320101, SD0320201, SD0320301
+SE00660	Luc Wauters	Lombardy	2021-09-27	1000221 - Temperate woodland	parklike habitat		18	Varese	45.82	8.81	Italy	SD0172202
+SE00273	Javier Abalos	Catalunya	2021-06-26	1000221 - Temperate woodland	Shrubs and boulders		14	NA	42.64	0.76	Spain	SD0056201, SD0056301, SD0056401, SD0056501, SD0056601, SD0056701, SD0056801, SD0056901, SD0057001, SD0057101, SD0057201, SD0057301
+SE01173	Carlos Cabido	Aia	2023-04-27	1000252 - Lake or pond	unknown		NA	NA	43.26	-2.15	Spain	SD0344001, SD0344101, SD0344201, SD0344301, SD0344401, SD0344501
+SE00366	Javier Abalos	Formentera	2021-09-21	1000215 - Temperate shrubland	Shrubs and dunes in a coastal natural park		20	NA	38.77	1.43	Spain	SD0100601, SD0100701, SD0100801, SD0100901, SD0101001, SD0101101, SD0101201, SD0101301, SD0101401, SD0101501, SD0101601, SD0101701, SD0101801, SD0101901, SD0102001, SD0102101, SD0102201, SD0102301, SD0102401, SD0102501, SD0102601, SD0102701, SD0102801, SD0102901, SD0103001, SD0103101
+SE00707	Luc Wauters	Piedmont	2022-02-09	1000221 - Temperate woodland	parklike habitat		6	ILO	45.02	7.67	Italy	SD0180101, SD0180201, SD0180301, SD0175902, SD0191502, SD0176402
+SE01411	Tobias Uller	Es Vedra	2023-05-01	1000215 - Temperate shrubland	islet		NA	NA	38.87	1.2	Spain	SD0438301, SD0438401, SD0438501
+SE00183	Luc Wauters	Lombardy	2020-10-19	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		15	Golasecca	45.69	8.66	Italy	SD0038501
+SE01328	Garazi Martin	Nafarroa	2023-08-07	1000253 - River or stream	unknown		NA	NA	43	-1.17	Spain	SD0382901, SD0383001, SD0383101, SD0383201, SD0383301, SD0383401, SD0383501, SD0383601
+SE01392	Tobias Uller	Koulouri	2023-05-03	1000215 - Temperate shrubland	islet		NA	NA	38.87	24.44	Greece	SD0431401, SD0431501, SD0431601, SD0431701
+SE00652	Luc Wauters	Lombardy	2021-08-10	1000221 - Temperate woodland	parklike habitat		25	Varese	45.82	8.81	Italy	SD0191301, SD0191401
+SE00829	Tobias Uller	Ibiza	2022-05-20	1000215 - Temperate shrubland	islet		NA	NA	38.81	1.41	Spain	SD0222401, SD0222501, SD0222601, SD0222701, SD0222801, SD0222901
+SE00638	Luc Wauters	Lombardy	2021-05-10	1000221 - Temperate woodland	parklike habitat		15	Varese	45.83	8.8	Italy	SD0169001
+SE00335	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-05	1000246 - Village	small montane village		27	Sentein	42.84	0.94	France	SD0077501, SD0077601, SD0077701, SD0077801, SD0077901, SD0078001, SD0078101, SD0078201
+SE00855	Tobias Uller	Molos Islet	2022-05-21	1000218 - Xeric shrubland	unknown		NA	NA	38.92	24.58	Greece	SD0236901, SD0237001, SD0237101
+SE01169	Carlos Cabido	Oñati	2023-04-24	1000252 - Lake or pond	unknown		NA	NA	43.06	-2.4	Spain	SD0341401, SD0341501, SD0341601, SD0341701, SD0341801, SD0341901
+SE00065	Jim Groombridge	Bel Ombre	2021-02-16	1001803 - Tropical forest	Forest		26	Gondwanaland	-20.45	57.43	Mauritius	SD0018701
+SE01068	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-13	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0316201
+SE00221	Luc Wauters	Lombardy	2021-01-29	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		3	Pineta	45.78	8.91	Italy	SD0043001, SD0040601
+SE00668	Luc Wauters	Piedmont	2021-10-12	1000221 - Temperate woodland	parklike habitat		12	ILO	45.02	7.67	Italy	SD0039802, SD0039402, SD0175901, SD0042602, SD0176001, SD0176101, SD0176201, SD0191501, SD0176301, SD0176401, SD0191601
+SE01402	Tobias Uller	Polyaigos Small Islet	2023-05-12	1000215 - Temperate shrubland	islet		NA	NA	36.77	24.61	Greece	SD0435601, SD0435701
+SE00209	Luc Wauters	Piedmont	2020-12-22	1000221 - Temperate woodland	parklike habitat		5	commande	44.84	7.77	Italy	SD0039002, SD0038402, SD0037402, SD0042102, SD0042002, SD0042801
+SE00054	Jim Groombridge	Bel Ombre	2021-01-12	1001803 - Tropical forest	Forest		25	Rockfield	-20.47	57.43	Mauritius	SD0017601
+SE01433	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-11-26	1000215 - Temperate shrubland	unknown		8	NA	43.04	-2.18	Spain	SD0453301
+SE01103	Jim Groombridge	Grand Gorges	2021-12-22	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.38	57.44	Mauritius	SD0324501
+SE00711	Luc Wauters	Lombardy	2022-02-24	1000221 - Temperate woodland	parklike habitat		8	Gallarate	45.66	8.78	Italy	SD0176902
+SE01064	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-04	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0315001, SD0315101, SD0315201, SD0315301
+SE00228	Luc Wauters	Lombardy	2021-02-25	1000221 - Temperate woodland	riparian woodland		20	Calusco	45.68	9.46	Italy	SD0046001, SD0043401, SD0044602, SD0046501
+SE01399	Tobias Uller	Plaka	2023-05-12	1000215 - Temperate shrubland	town		NA	NA	36.74	24.42	Greece	SD0434501, SD0434601, SD0434701, SD0434801, SD0434901
+SE00704	Luc Wauters	Lombardy	2022-01-26	1000221 - Temperate woodland	mixed conifer-deciduous wood		1	Varese	45.83	8.83	Italy	SD0177702
+SE01120	Jim Groombridge	Grand Gorges	2022-02-28	1000220 - Tropical woodland	Forest clearing, next to nest box tree		27	NA	-20.41	57.46	Mauritius	SD0326201
+SE01394	Tobias Uller	Kotsiles	2023-05-04	1000215 - Temperate shrubland	islet		NA	NA	38.93	24.45	Greece	SD0432701, SD0432801, SD0433201, SD0433301, SD0433401
+SE00232	Luc Wauters	Lombardy	2021-03-04	1000221 - Temperate woodland	mixed conifer-deciduous wood		8	Pineta	45.76	8.9	Italy	SD0040101
+SE01403	Tobias Uller	Kimolos	2023-05-14	1000215 - Temperate shrubland	islet		NA	NA	36.8	24.57	Greece	SD0436001, SD0436101
+SE01329	Garazi Martin	Nafarroa	2023-08-07	1000253 - River or stream	unknown		NA	NA	43.03	-1.18	Spain	SD0384601, SD0384701, SD0384801, SD0384901, SD0385001, SD0385101, SD0385201
+SE00861	Tobias Uller	Meso Diavates	2022-05-24	1000218 - Xeric shrubland	unknown		NA	NA	38.8	24.53	Greece	SD0238901, SD0239001, SD0239101
+SE00875	Joana Fernandes	Arouca	2022-05-12	1000199 - Mediterranean forest	unknown		NA	NA	40.84	-8.16	Portugal	SD0248401, SD0248501, SD0248601, SD0248701, SD0248801, SD0248901, SD0249001, SD0249101, SD0249201
+SE00698	Luc Wauters	Lombardy	2022-01-12	1000221 - Temperate woodland	mixed conifer-deciduous wood		1	Varese	45.8	8.85	Italy	SD0178302
+SE00275	Javier Abalos	Catalunya	2021-06-29	1000221 - Temperate woodland	Boulders and stone-walls		14	NA	42.56	0.75	Spain	SD0058801, SD0058901, SD0059001, SD0059101, SD0059201, SD0059301, SD0059401, SD0059501, SD0059601, SD0059701, SD0059801, SD0059901
+SE00688	Luc Wauters	Piedmont	2021-11-11	1000221 - Temperate woodland	parklike habitat		11	Torino	45.06	7.69	Italy	SD0178701, SD0041402, SD0178801
+SE00280	Javier Abalos	Aragón	2021-07-17	1000221 - Temperate woodland	Rocky slopes of schists		25	NA	42.78	-0.59	Spain	SD0062301, SD0062401, SD0062501, SD0062601, SD0062701, SD0062801, SD0062901, SD0063001, SD0063101, SD0063201, SD0063301
+SE00662	Luc Wauters	Lombardy	2021-09-29	1000221 - Temperate woodland	parklike habitat		21	Varese	45.82	8.81	Italy	SD0172402
+SE00682	Luc Wauters	Lombardy	2021-10-26	1000221 - Temperate woodland	mixed conifer-deciduous wood		8	Varese	45.83	8.83	Italy	SD0177901
+SE01116	Jim Groombridge	Grand Gorges	2022-02-07	1000220 - Tropical woodland	Forest clearing, next to nest box tree		28	NA	-20.38	57.45	Mauritius	SD0325801
+SE00845	Tobias Uller	Ghadira	2022-05-05	1000248 - Dense settlement	unknown		NA	NA	35.97	14.35	Malta	SD0230601, SD0230701, SD0230801
+SE00532	Emina Šunje	Hercegovina	2021-12-07	1001505 - Alpine tundra	Dinarides		13	NA	43.61	17.6	Bosnia and Herzegovina	SD0148001, SD0148101, SD0148201, SD0148301, SD0148401, SD0148501, SD0148601, SD0148701, SD0148801
+SE01061	Ostaizka Aizpurua Arrieta	Daneborg	2022-09-02	1001625 - Polar Tundra	military station		NA	NA	74.18	-20.22	Greenland	SD0313501, SD0313601, SD0313701, SD0313801, SD0313901, SD0314001, SD0314101, SD0314201, SD0314301, SD0314401, SD0314501
+SE01106	Jim Groombridge	Grand Gorges	2021-12-23	1000220 - Tropical woodland	Forest clearing, next to nest box tree		24	NA	-20.39	57.44	Mauritius	SD0324801
+SE00835	Tobias Uller	Castel Fusano	2022-04-26	1000248 - Dense settlement	unknown		NA	NA	41.72	12.31	Italy	SD0225501, SD0225601, SD0225701, SD0225801, SD0225901, SD0226001
+SE00227	Luc Wauters	Lombardy	2021-02-24	1000221 - Temperate woodland	riparian woodland		20	Calusco	45.68	9.46	Italy	SD0044301
+SE00699	Luc Wauters	Lombardy	2022-01-17	1000221 - Temperate woodland	parklike habitat		7	Gallarate	45.66	8.78	Italy	SD0176502, SD0176803
+SE00068	Jim Groombridge	Grand Gauges	2021-02-26	1001803 - Tropical forest	Forest		28	Nazca	-20.38	57.44	Mauritius	SD0019001
+SE00173	Luc Wauters	Lombardy	2020-09-09	1000196 - Coniferous forest	Pinus mugo		13	Cancano	46.56	10.25	Italy	SD0034501
+SE00056	Jim Groombridge	Grand Gauges	2020-12-28	1001803 - Tropical forest	Forest		26	La meteo	-20.4	57.46	Mauritius	SD0017801
+SE00060	Jim Groombridge	Grand Gauges	2021-02-18	1001803 - Tropical forest	Forest clearing		26	Camp aviary	-20.38	57.45	Mauritius	SD0018102
+SE00701	Luc Wauters	Lombardy	2022-01-24	1000221 - Temperate woodland	mixed conifer-deciduous wood		2	Varese	45.84	8.81	Italy	SD0169503
+SE00832	Tobias Uller	Ibiza	2022-05-30	1000215 - Temperate shrubland	island		NA	NA	38.91	1.22	Spain	SD0224401, SD0224501, SD0224601, SD0224701, SD0224801, SD0239901
+SE00199	Luc Wauters	Piedmont	2020-12-09	1000221 - Temperate woodland	oak-hornbeam forest		5	Piobesi	44.94	7.59	Italy	SD0034202, SD0041001, SD0035902
+SE00254	Luc Wauters	Piedmont	2021-04-08	1000221 - Temperate woodland	parklike habitat		15	Torino	45.06	7.69	Italy	SD0041401, SD0029902, SD0032402, SD0032801, SD0032301
+SE00215	Luc Wauters	Lombardy	2021-01-12	1000221 - Temperate woodland	parklike habitat		0	AddaNord	45.57	9.53	Italy	SD0043902, SD0044102
+SE00236	Luc Wauters	Piedmont	2021-03-23	1000221 - Temperate woodland	parklike habitat		9	RS	44.95	7.6	Italy	SD0036003, SD0035603, SD0034603, SD0030401, SD0036402, SD0037901, SD0034003, SD0032901
+SE01398	Tobias Uller	Paralia Kipos	2023-05-10	1000215 - Temperate shrubland	roadside		NA	NA	36.67	24.43	Greece	SD0434001, SD0434101, SD0434201, SD0434301, SD0434401
+SE00368	Javier Abalos	Formentera	2021-09-23	1000215 - Temperate shrubland	Stone walls shrubs in coastal area		20	NA	38.72	1.46	Spain	SD0104101, SD0104701, SD0104801, SD0105401, SD0105501
+SE01101	Jim Groombridge	Grand Gorges	2021-12-22	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.38	57.44	Mauritius	SD0324301
+SE00282	Javier Abalos	Aragón	2021-07-21	1000221 - Temperate woodland	Boulders and rocky slopes		25	NA	42.79	-0.6	Spain	SD0064601, SD0064701, SD0064801, SD0064901, SD0065001, SD0065101, SD0065201, SD0065301, SD0065401, SD0065501, SD0065601, SD0065701
+SE01117	Jim Groombridge	Bel Ombre	2022-02-08	1000220 - Tropical woodland	Forest clearing, next to nest box tree		25	NA	-20.45	57.43	Mauritius	SD0325901
+SE00181	Luc Wauters	Piedmont	2020-10-13	1000221 - Temperate woodland	parklike habitat		17	RS	44.95	7.6	Italy	SD0034001, SD0037301, SD0035701, SD0038801
+SE01107	Jim Groombridge	Grand Gorges	2021-12-27	1000220 - Tropical woodland	Forest clearing, next to nest box tree		22	NA	-20.38	57.45	Mauritius	SD0324901
+SE00692	Luc Wauters	Lombardy	2021-12-10	1000221 - Temperate woodland	parklike habitat		0	Pineta	45.74	8.91	Italy	SD0170803, SD0170903
+SE00713	Luc Wauters	Lombardy	2022-03-04	1000221 - Temperate woodland	mixed conifer-deciduous wood		7	Varese	45.83	8.83	Italy	SD0180901, SD0181001
+SE00240	Luc Wauters	Piedmont	2021-03-24	1000221 - Temperate woodland	oak-hornbeam forest		10	Piobesi	44.94	7.59	Italy	SD0041002, SD0042401, SD0035904, SD0034304
+SE01380	Ostaizka Aizpurua Arrieta	Nafarroa	2023-08-29	1000247 - Rangeland	unknown		NA	NA	42.9	-2.16	Spain	SD0420102, SD0420202, SD0420302, SD0420402, SD0420502, SD0420602, SD0420702, SD0420802, SD0420902, SD0421002, SD0421102, SD0421202, SD0421302, SD0421402, SD0421502, SD0421602, SD0421702, SD0421802, SD0421902, SD0422002, SD0422102, SD0422202, SD0422302, SD0422402, SD0422502, SD0422602, SD0422702
+SE00399	Nerea Pagaldai	Gipuzkoa	2020-04-25	1000197 - Broadleaf forest	unknown		NA	Donostia	43.31	-2.02	Spain	SD0116901, SD0117001
+SE00865	Tobias Uller	Atsitsa_1	2022-05-28	1000218 - Xeric shrubland	unknown		NA	NA	38.91	24.46	Greece	SD0239601
+SE01431	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-11-12	1000221 - Temperate woodland	unknown		17	NA	43.14	-2.13	Spain	SD0453101
+SE01121	Jim Groombridge	Grand Gorges	2022-02-28	1000220 - Tropical woodland	Forest clearing, next to nest box tree		27	NA	-20.41	57.46	Mauritius	SD0326301
+SE00205	Luc Wauters	Lombardy	2020-12-15	1000221 - Temperate woodland	oak-hornbeam forest		5	Curone	45.72	9.37	Italy	SD0046201
+SE00689	Luc Wauters	Lombardy	2021-11-16	1000221 - Temperate woodland	riparian woodland		10	Calusco	45.68	9.46	Italy	SD0046603, SD0178901, SD0044604, SD0045002, SD0179001, SD0179101
+SE01393	Tobias Uller	Rinia	2023-05-04	1000215 - Temperate shrubland	islet		NA	NA	38.83	24.43	Greece	SD0431801, SD0431901, SD0432001, SD0432101, SD0432201, SD0432301, SD0432401, SD0432501, SD0432601
+SE00271	Javier Abalos	Aragón	2021-06-25	1000221 - Temperate woodland	Shrubs and rocks near river		14	NA	42.6	0.76	Spain	SD0053601, SD0053701, SD0053801, SD0053901, SD0054001, SD0054101, SD0054201, SD0054301, SD0054401, SD0054501, SD0054601, SD0054701, SD0054801
+SE00202	Luc Wauters	Piedmont	2020-12-09	1000221 - Temperate woodland	parklike habitat		5	RS	44.95	7.6	Italy	SD0037302, SD0034002, SD0035602, SD0036401, SD0036101, SD0038901
+SE00218	Luc Wauters	Lombardy	2021-01-11	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		-2	Golasecca	45.69	8.66	Italy	SD0038202, SD0040901, SD0029702
+SE00257	Luc Wauters	Lombardy	2021-04-16	1000221 - Temperate woodland	parklike habitat		10	Gallarate	45.66	8.78	Italy	SD0030501, SD0030601, SD0030201
+SE01436	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-12-06	1000221 - Temperate woodland	unknown		12	NA	43.09	-1.98	Spain	SD0453601
+SE00192	Luc Wauters	Lombardy	2020-11-10	1000221 - Temperate woodland	riparian woodland		10	AddaNord	45.56	9.53	Italy	SD0046701, SD0046301, SD0044201
+SE00831	Tobias Uller	Ibiza	2022-05-23	1000215 - Temperate shrubland	islet		NA	NA	39.09	1.43	Spain	SD0223701, SD0223801, SD0223901, SD0224001, SD0224101, SD0224201, SD0224301
+SE00171	Luc Wauters	Lombardy	2020-09-07	1000196 - Coniferous forest	Pinus mugo		11	Cancano	46.56	10.25	Italy	SD0035201
+SE01119	Jim Groombridge	Grand Gorges	2022-02-21	1000220 - Tropical woodland	Forest clearing, next to aviary and supplementary food stations		24	NA	-20.38	57.45	Mauritius	SD0326101
+SE01070	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-15	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0316601, SD0316701
+SE00700	Luc Wauters	Lombardy	2022-01-18	1000221 - Temperate woodland	parklike habitat		5	Gallarate	45.66	8.78	Italy	SD0031203
+SE00242	Luc Wauters	Lombardy	2021-03-08	1000221 - Temperate woodland	oak-hornbeam forest		3	Curone	45.73	9.38	Italy	SD0028601
+SE00655	Luc Wauters	Lombardy	2021-09-06	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		22	Golasecca	45.69	8.66	Italy	SD0040203, SD0032503, SD0170302, SD0172501, SD0170402, SD0172601
+SE00263	Luc Wauters	Lombardy	2021-04-13	1000221 - Temperate woodland	riparian woodland		15	Calusco	45.68	9.46	Italy	SD0045502, SD0046602, SD0045201, SD0044603, SD0046502
+SE00238	Luc Wauters	Piedmont	2021-03-25	1000221 - Temperate woodland	parklike habitat		10	RS	44.95	7.6	Italy	SD0042201, SD0038102, SD0036102
+SE01244	Joana Fernandes	Arouca	2023-05-17	1000199 - Mediterranean forest	unknown		NA	NA	40.87	-8.27	Portugal	SD0355501, SD0355601
+SE00677	Luc Wauters	Lombardy	2021-10-18	1000221 - Temperate woodland	parklike habitat		11	Pineta	45.74	8.91	Italy	SD0170902, SD0177101, SD0170802
+SE01427	Carlos Cabido	Orio	2023-12-15	1000252 - Lake or pond	unknown		NA	NA	43.28	-2.12	Spain	SD0450201, SD0450301, SD0450401, SD0450501, SD0450601, SD0450701
+SE00278	Javier Abalos	Catalunya	2021-07-03	1000221 - Temperate woodland	Boulders and stone-walls		21	NA	42.63	0.76	Spain	SD0061101
+SE00848	Tobias Uller	Marsaxlokk	2022-05-06	1000248 - Dense settlement	unknown		NA	NA	35.84	14.54	Malta	SD0231201, SD0231301, SD0231401, SD0231501, SD0231601, SD0231701
+SE01443	Ostaizka Aizpurua Arrieta	Gipuzkoa	2024-01-01	1000221 - Temperate woodland	unknown		12	NA	43.11	-1.97	Spain	SD0454301
+SE01105	Jim Groombridge	Grand Gorges	2021-12-23	1000220 - Tropical woodland	Forest clearing, next to nest box tree		24	NA	-20.39	57.44	Mauritius	SD0324701
+SE01198	Peter Hosner	Azuay	2022-09-21	1000216 - Montane shrubland	Polylepis, woodland, paramo		NA	NA	-2.96	-79.27	Ecuador	SD0368001, SD0368101, SD0368201, SD0368301, SD0368401, SD0368501, SD0368601, SD0368701, SD0368801, SD0368901, SD0369001, SD0369101, SD0369201, SD0369301
+SE00840	Tobias Uller	Pianelle	2022-04-27	1000246 - Village	unknown		NA	NA	42.4	14.05	Italy	SD0227401, SD0227501, SD0227601, SD0227701, SD0227801, SD0227901, SD0228001, SD0228101, SD0228201
+SE00057	Jim Groombridge	Bel Ombre	2021-01-12	1001803 - Tropical forest	Forest		24	Crackhammer	-20.45	57.42	Mauritius	SD0017901
+SE01104	Jim Groombridge	Grand Gorges	2021-12-23	1000220 - Tropical woodland	Forest clearing, next to nest box tree		24	NA	-20.39	57.44	Mauritius	SD0324601
+SE00204	Luc Wauters	Piedmont	2020-12-11	1000221 - Temperate woodland	parklike habitat		3	RS	44.95	7.6	Italy	SD0036302
+SE01400	Tobias Uller	Efstathios	2023-05-12	1000215 - Temperate shrubland	islet		NA	NA	36.77	24.58	Greece	SD0435001, SD0435101, SD0435201, SD0435301
+SE01110	Jim Groombridge	Grand Gorges	2022-01-04	1000220 - Tropical woodland	Forest clearing, next to nest box tree		22	NA	-20.38	57.44	Mauritius	SD0325201
+SE00852	Tobias Uller	Cominotto	2022-05-12	1000218 - Xeric shrubland	unknown		NA	NA	36.01	14.32	Malta	SD0234201, SD0234301, SD0234401, SD0234501, SD0234601, SD0234701, SD0234801, SD0234901, SD0235001, SD0235101, SD0235201, SD0235301, SD0235401, SD0235501, SD0235601, SD0235701
+SE00654	Luc Wauters	Lombardy	2021-08-26	1000221 - Temperate woodland	parklike habitat		22	Varese	45.82	8.81	Italy	SD0172401
+SE00648	Luc Wauters	Lombardy	2021-07-02	1000221 - Temperate woodland	parklike habitat		25	Pineta	45.74	8.91	Italy	SD0170801, SD0170901
+SE01306	Joana Fernandes	Arouca	2023-07-29	1000199 - Mediterranean forest	unknown		NA	NA	40.83	-8.17	Portugal	SD0363401
+SE01434	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-11-25	1000215 - Temperate shrubland	unknown		12	NA	43.1	-2.01	Spain	SD0453401
+SE00277	Javier Abalos	Catalunya	2021-07-01	1000221 - Temperate woodland	Boulders and stone-walls		14	NA	42.63	0.76	Spain	SD0060101, SD0060201, SD0060301, SD0060401, SD0060501, SD0060601, SD0060701, SD0060801, SD0060901, SD0061001
+SE00833	Tobias Uller	Albano Laziale	2022-04-24	1000248 - Dense settlement	unknown		NA	NA	41.73	12.67	Italy	SD0224901, SD0225001, SD0225101
+SE01080	Alex Sutton	Arvidsjaur	2023-05-13	1000250 - Boreal forests or taiga	Forest		15	NA	65.66	19.14	Sweden	SD0319301
+SE00248	Luc Wauters	Lombardy	2021-03-30	1000221 - Temperate woodland	riparian woodland		24	AddaNord	45.56	9.53	Italy	SD0043603
+SE00834	Tobias Uller	Castel Fusano	2022-04-25	1000248 - Dense settlement	unknown		NA	NA	41.72	12.31	Italy	SD0225201, SD0225301, SD0225401
+SE00191	Luc Wauters	Lombardy	2020-11-10	1000221 - Temperate woodland	parklike habitat		10	AddaNord	45.57	9.53	Italy	SD0044101, SD0044401
+SE01114	Jim Groombridge	Bel Ombre	2022-01-05	1000220 - Tropical woodland	Forest clearing, next to nest box tree		24	NA	-20.44	57.43	Mauritius	SD0325601
+SE00342	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-20	1000194 - Montane grassland	unknown		20	Tourmalet	42.92	0.13	France	SD0081301, SD0081401, SD0081501, SD0081601, SD0081701, SD0081801, SD0081901, SD0082101
+SE01060	Ostaizka Aizpurua Arrieta	Daneborg	2022-09-01	1001625 - Polar Tundra	military station		NA	NA	74.18	-20.22	Greenland	SD0311001, SD0311101, SD0311201, SD0311301, SD0311401, SD0311501, SD0311601, SD0311701, SD0311801, SD0311901, SD0312001, SD0312101, SD0312201, SD0312301, SD0312401, SD0312501, SD0312601, SD0312701, SD0312801, SD0312901, SD0313001, SD0313101, SD0313201, SD0313301, SD0313401
+SE01176	Carlos Cabido	Zarautz	2023-04-22	1000252 - Lake or pond	unknown		NA	NA	43.29	-2.19	Spain	SD0345301, SD0345401, SD0345501, SD0345601, SD0345701, SD0345801, SD0345901, SD0346001, SD0346101
+SE01093	Jim Groombridge	Grand Gorges	2021-12-20	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.39	57.44	Mauritius	SD0323401
+SE01096	Jim Groombridge	Bel Ombre	2021-12-21	1000220 - Tropical woodland	Forest clearing, next to nest box tree		22	NA	-20.47	57.44	Mauritius	SD0323701
+SE01307	Joana Fernandes	Arouca	2023-07-29	1000199 - Mediterranean forest	unknown		NA	NA	40.82	-8.17	Portugal	SD0363501
+SE00230	Luc Wauters	Piedmont	2021-02-24	1000221 - Temperate woodland	parklike habitat		17	Torino	45.06	7.69	Italy	SD0030901, SD0030701, SD0033001, SD0040501
+SE00207	Luc Wauters	Lombardy	2020-12-16	1000221 - Temperate woodland	oak-hornbeam forest		7	Curone	45.73	9.38	Italy	SD0044501
+SE00854	Tobias Uller	Grave of Rupert Brooke	2022-05-20	1000218 - Xeric shrubland	unknown		NA	NA	38.78	24.61	Greece	SD0236701, SD0236801
+SE00836	Tobias Uller	Albano Laziale	2022-04-26	1000248 - Dense settlement	unknown		NA	NA	41.73	12.67	Italy	SD0226101
+SE01059	Ostaizka Aizpurua Arrieta	Daneborg	2022-08-31	1001625 - Polar Tundra	military station		NA	NA	74.18	-20.22	Greenland	SD0310201, SD0310301, SD0310401, SD0310501, SD0310601, SD0310701, SD0310801, SD0310901
+SE01331	Garazi Martin	Nafarroa	2023-08-09	1000253 - River or stream	unknown		NA	NA	43.16	-1.91	Spain	SD0384101, SD0384201, SD0384301, SD0384401, SD0384501
+SE00255	Luc Wauters	Lombardy	2021-04-13	1000221 - Temperate woodland	parklike habitat		14	Gallarate	45.66	8.78	Italy	SD0039201
+SE00646	Luc Wauters	Lombardy	2021-06-01	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		19	Golasecca	45.69	8.66	Italy	SD0029804, SD0170401, SD0170501, SD0032502, SD0170601
+SE01069	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-14	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0316301, SD0316401, SD0316501
+SE00661	Luc Wauters	Lombardy	2021-09-28	1000221 - Temperate woodland	parklike habitat		21	Varese	45.82	8.81	Italy	SD0191402
+SE00244	Luc Wauters	Lombardy	2021-03-16	1000221 - Temperate woodland	oak-hornbeam forest		7	Curone	45.73	9.38	Italy	SD0029201, SD0029301
+SE00857	Tobias Uller	Grave of Rupert Brooke	2022-05-21	1000218 - Xeric shrubland	unknown		NA	NA	38.78	24.61	Greece	SD0237601
+SE01067	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-09	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0316001, SD0316101
+SE00694	Luc Wauters	Lombardy	2021-12-16	1000221 - Temperate woodland	parklike habitat		4	Varese	45.83	8.8	Italy	SD0175302, SD0179501
+SE00172	Luc Wauters	Lombardy	2020-09-08	1000196 - Coniferous forest	Pinus mugo		12	Cancano	46.56	10.25	Italy	SD0034701, SD0035301
+SE00844	Tobias Uller	Filfla	2022-05-04	1000218 - Xeric shrubland	unknown		NA	NA	35.79	14.41	Malta	SD0229701, SD0229801, SD0229901, SD0230001, SD0230101, SD0230201, SD0230301, SD0230401, SD0230501
+SE01063	Ostaizka Aizpurua Arrieta	Ittoqqortoormii	2022-09-03	1001625 - Polar Tundra	unknown		NA	NA	70.3	-21.95	Greenland	SD0314701, SD0314801, SD0314901
+SE00343	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-20	1000194 - Montane grassland	unknown		21	Tourmalet	42.92	0.13	France	SD0082201, SD0082301, SD0082401, SD0082501, SD0082601, SD0082701, SD0082801, SD0082901, SD0083001, SD0083101
+SE01323	Garazi Martin	Nafarroa	2023-06-14	1000246 - Village	unknown		NA	NA	42.67	-2.03	Spain	SD0378901, SD0379001, SD0379101, SD0379201, SD0379301, SD0379401, SD0379501, SD0379601, SD0379701, SD0379801
+SE00174	Luc Wauters	Lombardy	2020-09-10	1000196 - Coniferous forest	Pinus mugo		15	Cancano	46.56	10.25	Italy	SD0034801, SD0033301
+SE01115	Jim Groombridge	Grand Gorges	2022-01-26	1000220 - Tropical woodland	Forest clearing, next to nest box tree		26	NA	-20.37	57.44	Mauritius	SD0325701
+SE00639	Luc Wauters	Lombardy	2021-05-12	1000221 - Temperate woodland	parklike habitat		17	Varese	45.83	8.8	Italy	SD0169101, SD0169201, SD0169301
+SE00693	Luc Wauters	Lombardy	2021-12-16	1000221 - Temperate woodland	parklike habitat		4	Varese	45.82	8.81	Italy	SD0172203
+SE00705	Luc Wauters	Lombardy	2022-02-07	1000221 - Temperate woodland	oak-hornbeam-chestnut forest		13	Golasecca	45.69	8.66	Italy	SD0179601, SD0170303
+SE01108	Jim Groombridge	Grand Gorges	2021-12-27	1000220 - Tropical woodland	Forest clearing, next to nest box tree		22	NA	-20.38	57.44	Mauritius	SD0325001
+SE00696	Luc Wauters	Lombardy	2021-12-21	1000221 - Temperate woodland	parklike habitat		6	Varese	45.83	8.8	Italy	SD0169103
+SE01330	Garazi Martin	Gipuzkoa	2023-08-08	1000253 - River or stream	unknown		NA	NA	43.14	-1.91	Spain	SD0385301, SD0385401, SD0385501, SD0385601, SD0385701, SD0385801, SD0385901
+SE01113	Jim Groombridge	Bel Ombre	2022-01-05	1000220 - Tropical woodland	Forest clearing, next to nest box tree		24	NA	-20.44	57.43	Mauritius	SD0325501
+SE01442	Ostaizka Aizpurua Arrieta	Gipuzkoa	2024-01-01	1000221 - Temperate woodland	unknown		9	NA	43.04	-2.16	Spain	SD0454201
+SE01102	Jim Groombridge	Grand Gorges	2021-12-22	1000220 - Tropical woodland	Forest clearing, next to nest box tree		23	NA	-20.38	57.44	Mauritius	SD0324401
+SE00058	Jim Groombridge	Grand Gauges	2020-12-29	1001803 - Tropical forest	Forest		26	Los Angeles	-20.4	57.45	Mauritius	SD0018001
+SE00332	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-02	1000221 - Temperate woodland	rocks along montane road		24	Sentein	42.82	0.92	France	SD0074501, SD0074601, SD0074701, SD0074801, SD0074901, SD0075001, SD0075101, SD0075201, SD0075301, SD0075401
+SE00239	Luc Wauters	Piedmont	2021-03-23	1000221 - Temperate woodland	oak-hornbeam forest		9	Piobesi	44.94	7.59	Italy	SD0034203, SD0037501, SD0038002, SD0030801, SD0031601, SD0034403, SD0035802, SD0041201, SD0034103
+SE00272	Javier Abalos	Aragón	2021-06-25	1000221 - Temperate woodland	Shrubs and rocks near river		21	NA	42.51	0.72	Spain	SD0054901, SD0055001, SD0055101, SD0055201, SD0055301, SD0055401, SD0055501, SD0055601, SD0055701, SD0055801, SD0055901, SD0056001, SD0056101
+SE00921	Garazi Martin	Navarre	2022-08-08	1000216 - Montane shrubland	Andia transect		29	NA	42.84	-2.02	Spain	SD0263501, SD0263601, SD0263701, SD0263801, SD0263901, SD0264001, SD0264101, SD0264201, SD0264301, SD0264401, SD0264501
+SE00690	Luc Wauters	Lombardy	2021-11-17	1000221 - Temperate woodland	riparian woodland		10	Calusco	45.68	9.46	Italy	SD0179201, SD0045303, SD0179301, SD0045603
+SE00265	Luc Wauters	Piedmont	2021-04-20	1000221 - Temperate woodland	parklike habitat		18	ILO	45.02	7.67	Italy	SD0039401, SD0039901, SD0039501, SD0042601, SD0040001, SD0039701, SD0039601, SD0039801, SD0168101, SD0168201, SD0168301
+SE00064	Jim Groombridge	Bel Ombre	2021-01-06	1001803 - Tropical forest	Forest		25	Mollocus	-20.46	57.43	Mauritius	SD0018601
+SE00673	Luc Wauters	Lombardy	2021-10-08	1000221 - Temperate woodland	parklike habitat		14	Gallarate	45.66	8.78	Italy	SD0176802
+SE00842	Tobias Uller	University of Malta	2022-05-02	1000248 - Dense settlement	unknown		NA	NA	35.9	14.48	Malta	SD0228901, SD0229001, SD0229101, SD0229201, SD0229301, SD0229401, SD0229501
+SE00697	Luc Wauters	Lombardy	2022-01-11	1000221 - Temperate woodland	mixed conifer-deciduous wood		5	Varese	45.8	8.85	Italy	SD0171303, SD0171103, SD0179402, SD0171203
+SE00350	Fabien Aubret,Tom Sarraude 	Occitanie	2021-07-29	1000194 - Montane grassland	near a dam		22	Tourmalet	42.92	0.19	France	SD0087801, SD0087901, SD0088001, SD0088101, SD0088201, SD0088301, SD0088401, SD0088501, SD0088601, SD0088701
+SE01441	Ostaizka Aizpurua Arrieta	Gipuzkoa	2023-12-23	1000221 - Temperate woodland	unknown		10	NA	43.13	-2.22	Spain	SD0454101
+SE00066	Jim Groombridge	Grand Gauges	2021-01-13	1001803 - Tropical forest	Forest		26	Galapagos	-20.38	57.45	Mauritius	SD0018801
+SE00067	Jim Groombridge	Grand Gauges	2021-02-26	1001803 - Tropical forest	Forest		28	Nazca	-20.38	57.44	Mauritius	SD0018901
+SE01413	Tobias Uller	Malví Pla (Sur)	2023-05-07	1000215 - Temperate shrubland	islet		NA	NA	38.88	1.43	Spain	SD0438701, SD0438801

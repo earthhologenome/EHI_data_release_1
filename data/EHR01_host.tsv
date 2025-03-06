@@ -1,0 +1,23 @@
+host_species	taxid	host_genus	host_family	host_order	host_class
+Zonotrichia capensis	44391	Zonotrichia	Passerellidae	Passeriformes	Aves
+Sciurus vulgaris	55149	Sciurus	Sciuridae	Rodentia	Mammalia
+Plecotus auritus	61862	Plecotus	Vespertilionidae	Chiroptera	Mammalia
+Podarcis filfolensis	65481	Podarcis	Lacertidae	Squamata	Lepidosauria
+Natrix astreptophora	1768099	Natrix	Colubridae	Squamata	Lepidosauria
+Lepus europaeus	9983	Lepus	Leporidae	Lagomorpha	Mammalia
+Psittacula echo	232653	Psittacula	Psittacidae	Psittaciformes	Aves
+Lissotriton helveticus	256425	Lissotriton	Salamandridae	Caudata	Amphibia
+Calotriton asper	30374	Calotriton	Salamandridae	Caudata	Amphibia
+Trichosurus vulpecula	9337	Trichosurus	Phalangeridae	Diprotodontia	Mammalia
+Geospizopsis unicolor	2691115	Geospizopsis	Thraupidae	Passeriformes	Aves
+Salamandra atra	57570	Salamandra	Salamandridae	Caudata	Amphibia
+Podarcis gaigeae	90521	Podarcis	Lacertidae	Squamata	Lepidosauria
+Podarcis liolepis	662736	Podarcis	Lacertidae	Squamata	Lepidosauria
+Perisoreus infaustus	56787	Perisoreus	Corvidae	Passeriformes	Aves
+Strix aluco	111821	Strix	Strigidae	Strigiformes	Aves
+Chalcides striatus	227093	Chalcides	Scincidae	Squamata	Lepidosauria
+Sciurus carolinensis	30640	Sciurus	Sciuridae	Rodentia	Mammalia
+Podarcis pityusensis	74359	Podarcis	Lacertidae	Squamata	Lepidosauria
+Canis familiaris	9615	Canis	Canidae	Carnivora	Mammalia
+Podarcis milensis	90522	Podarcis	Lacertidae	Squamata	Lepidosauria
+Podarcis muralis	64176	Podarcis	Lacertidae	Squamata	Lepidosauria
