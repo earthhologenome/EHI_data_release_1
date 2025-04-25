@@ -48,7 +48,7 @@ rawdata_metadata <- airtable("tblaMWLkBUn2g5gRR", "appQpr6MxnaiVHsHy") %>%
   rename(rawdata_id=EHI_number,sample_id=sample_alias,total_gb=`Total Data (GB)`,host_gb=`Host Data (GB)`,metagenomic_gb=`Metagenomic Data (GB)`,accession_experiment=`ENA_experiment_accession`,accession_run=`ENA_run_accession`) %>% 
   mutate(lowqual_gb=total_gb-host_gb-metagenomic_gb) %>% 
   left_join(rawdata_preprocessing_metadata,by="rawdata_id") %>%
-  group_by(rawdata_id,sample_id) %>% 
+  group_by(rawdata_id,sample_id,accession_experiment,accession_run) %>% 
   summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) %>% 
   as_tibble() 
 
@@ -144,9 +144,9 @@ Fetch metadata of individual assemblies derived from the raw datasets. Note that
 
 ```{r assembly_metadata, warning=FALSE, comments="", message=FALSE}
 assembly_metadata <- airtable("tblG6ZIvkYN844I97", "appQpr6MxnaiVHsHy") %>%
-  read_airtable(., fields = c("ID","EHI_number_api","Type (from AB Batch)","N50","L50","num_contigs","num_bins"), id_to_col = TRUE) %>% 
+  read_airtable(., fields = c("ID","EHI_number_api","Type (from AB Batch)","N50","L50","num_contigs","num_bins","release_flat"), id_to_col = TRUE) %>% 
   select(-airtable_record_id) %>% 
-  filter(EHI_number_api %in% datasets) %>% 
+  filter(release_flat == release) %>% 
   rename(assembly_id=ID,rawdata_id=EHI_number_api,assembly_type=`Type (from AB Batch)`,assembly_n50=N50,assembly_l50=L50,assembly_contigs=num_contigs) %>%
   #only retain individual assemblies
   filter(assembly_type == "Individual") %>%
@@ -164,11 +164,9 @@ assembly_metadata %>% write_tsv(file=str_c("data/",release,"_assembly.tsv"))
 Fetch metadata of metagenome-assembled genomes (MAGs) derived from individual assemblies.
 
 ```{r genome_metadata, warning=FALSE, comments="", message=FALSE, eval=FALSE}
-genome_metadata <- airtable("tblMzd3oyaJhdeQcs", "appWbHBNLE6iAsMRV") %>%
-  read_airtable(., fields = c("ID","eha_number","GTDB_version","domain","phylum","class","order","family","genus","species","completeness","contamination","size","GC","N50","coding_density","contigs"), id_to_col = TRUE) %>% 
+genome_metadata <- airtable("tblMzd3oyaJhdeQcs", "appWbHBNLE6iAsMRV", view=release) %>%
+  read_airtable(., fields = c("ID","eha_number","GTDB_version","domain","phylum","class","order","family","genus","species","completeness","contamination","size","GC","N50","coding_density","contigs","Release"), id_to_col = TRUE) %>% 
   select(-airtable_record_id) %>%
-  #only retain genomes associated with assemblies
-  filter(eha_number %in% assembly_metadata$assembly_id) %>% 
   rename(genome_id=ID,assembly_id=eha_number,genome_size=size,genome_gc=GC,genome_n50=N50) %>% 
   as_tibble() 
 

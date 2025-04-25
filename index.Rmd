@@ -2,7 +2,7 @@
 title: "Earth Hologenome Initiative | Gaun et al. 2025"
 subtitle: "The Earth Hologenome Initiative: Data Release 1"
 author:
-  - Nanna Gaun, Raphael Eisenhofer, Carlotta Pietroni, Antton Alberdi^[University of Copenhagen, antton.alberdi@sund.ku.dk]
+  - Nanna Gaun, Raphael Eisenhofer, Carlotta Pietroni, Garazi Martin-Bideguren, Jonas Lauritsen, Ostaizka Aizpurua, Joana Fernandes, Eduardo Ferreira, Fabien Aubret, Tom Sarraude, Constant Perry, Lucas Wauters, Claudia Romeo,, Martina Spada, Claudia Tranquillo, Alex O Sutton, Michael Griesser, Miya Warrington, Guillem Pérez i de Lanuza, Javier Abalos, Prem Aguilar, Ferrán de la Cruz, Javier Juste, Pedro Alonso, Jim Groombridge, Rebecca Louch, Kevin Ruhomaun, Sion Henshaw, Carlos Cabido, Ion Garin Barrio, Emina Šunje, Peter Hosner, Tobias Uller, Nathalie Feiner, Antton Alberdi^[University of Copenhagen, antton.alberdi@sund.ku.dk]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -24,6 +24,12 @@ knitr::opts_chunk$set(
 # Introduction
 
 This webbook contains all the code used for the comparative study on the generation of metagenomic data from faeces of various species using three extraction methods.
+
+## Accession numbers
+
+The ENA accession numbers can be found in the sample and raw data metadata tables stored in the Gihub repository:
+
+> https://github.com/earthhologenome/EHI_data_release_1/tree/main/data
 
 ## Prepare the R environment
 

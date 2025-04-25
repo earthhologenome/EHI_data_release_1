@@ -108,6 +108,18 @@ genome_metadata %>%
   filter(phylum != "p__") %>% 
   tt()
 
+selected_phyla <- genome_metadata %>% 
+  group_by(phylum) %>%
+  summarise(genomes=n(),
+            completenes=mean(completeness),
+            contamination=mean(contamination),
+            size=mean(genome_size)/1000000) %>%
+  arrange(-genomes) %>%
+  filter(genomes > 0) %>% 
+  filter(phylum != "p__") %>% 
+  filter(phylum != "nan") %>% 
+  pull(phylum)
+
 #genus
 genome_metadata %>% 
   group_by(genus) %>%
@@ -180,27 +192,11 @@ genome_metadata %>%
   tt()
 ```
 
-## Genus - host heatmap
+## Microbial phylogenies
 
-```{r genus_host_relationship, warning=FALSE, comments="", message=FALSE}
-genus_host <- genome_metadata %>% 
-  left_join(assembly_metadata,by="assembly_id") %>% 
-  left_join(summary_table,by="rawdata_id") %>% 
-  select(phylum,genus,host_species) %>% 
-  filter(genus != "g__") %>% 
-  group_by(phylum,genus,host_species) %>% 
-  summarise(genomes=n()) %>% 
-  arrange(-genomes) %>% 
-  ungroup() 
+### Bacteria
 
-genus_host_spread <- genus_host %>% 
-    group_by(phylum,genus) %>% 
-    summarise(host_species=n()) %>% 
-    arrange(-host_species)
-
-```
-
-```{r genome_tree, warning=FALSE, comments="", message=FALSE}
+```{r genome_tree_bacteria, warning=FALSE, comments="", message=FALSE}
 
 gtdb_tree <- read_tree("data/bac120_r214.tree")
 
@@ -222,6 +218,127 @@ ehi_mags_tree$tip.label <- represented_genera %>%
   arrange(match(genome, ehi_mags_tree$tip.label)) %>% # Match order of genomes to tree tip labels
   pull(genus)
 ```
+
+```{r genome_tree_bacteria_plot, warning=FALSE, comments="", message=FALSE}
+genus_metadata <- genome_metadata %>% 
+  filter(phylum %in% selected_phyla) %>% 
+  group_by(genus,phylum) %>% 
+  summarise(count=n()) %>% 
+  filter(genus %in% ehi_mags_tree$tip.label)
+
+phylum_metadata <- genus_metadata %>%
+  group_by(phylum) %>%
+  summarise(node = MRCA(ehi_mags_tree, genus)) %>%
+  arrange(node) %>% 
+  filter(node>length(ehi_mags_tree$tip.label)) %>% 
+  mutate(group = row_number()) 
+ 
+ehi_mags_tree <- groupClade(ehi_mags_tree, phylum_metadata$node)
+
+# Replace group numbers to phylum names
+current_groups <- attributes(ehi_mags_tree)$group 
+group_to_phylum <- setNames(phylum_metadata$phylum, phylum_metadata$group)
+group_to_phylum <- c(`0` = NA,group_to_phylum)
+
+new_groups <- sapply(current_groups, function(g) {
+  if (g %in% phylum_metadata$group) {
+    return(group_to_phylum[g])  # Map numeric group to phylum name
+  } else {
+    return(NA)  # Keep other nodes NA
+  }
+}) %>% unname()
+attributes(ehi_mags_tree)$group <- new_groups
+
+#Plot tree
+ggtree(ehi_mags_tree, layout="equal_angle", aes(color = group)) %<+% genus_metadata +
+  geom_tippoint(aes(size = count, alpha=0.5)) +
+  scale_size_continuous(range = c(1, 10)) +
+  scale_color_manual(values = phylum_colors, na.value = "black") +
+  theme_void()
+
+```
+
+```{r genome_tree_archaea, warning=FALSE, comments="", message=FALSE}
+
+gtdb_tree <- read_tree("data/ar53_r214.tree")
+
+gtdb_metadata <- read_tsv("data/ar53_taxonomy_r214.tsv.gz", col_names = FALSE) %>% 
+  rename(genome=1,classification=2) %>% 
+  separate(classification, c("domain","phylum","class","order","family","genus","species"),  sep =";")
+
+represented_genera <- gtdb_metadata %>% 
+  filter(genus %in% genus_host$genus) %>% 
+  filter(genome %in% gtdb_tree$tip.label) %>%
+  group_by(genus) %>%
+  slice_sample(n = 1) %>%
+  ungroup()
+  
+ehi_mags_tree <- keep.tip(gtdb_tree, tip=represented_genera$genome)
+
+ehi_mags_tree$tip.label <- represented_genera %>%
+  filter(genome %in% ehi_mags_tree$tip.label) %>% # Keep only rows corresponding to tree tip labels
+  arrange(match(genome, ehi_mags_tree$tip.label)) %>% # Match order of genomes to tree tip labels
+  pull(genus)
+```
+
+```{r genome_tree_archaea_plot, warning=FALSE, comments="", message=FALSE}
+genus_metadata <- genome_metadata %>% 
+  filter(phylum %in% selected_phyla) %>% 
+  group_by(genus,phylum) %>% 
+  summarise(count=n()) %>% 
+  filter(genus %in% ehi_mags_tree$tip.label)
+
+phylum_metadata <- genus_metadata %>%
+  group_by(phylum) %>%
+  summarise(node = MRCA(ehi_mags_tree, genus)) %>%
+  arrange(node) %>% 
+  filter(node>length(ehi_mags_tree$tip.label)) %>% 
+  mutate(group = row_number()) 
+ 
+ehi_mags_tree <- groupClade(ehi_mags_tree, phylum_metadata$node)
+
+# Replace group numbers to phylum names
+current_groups <- attributes(ehi_mags_tree)$group 
+group_to_phylum <- setNames(phylum_metadata$phylum, phylum_metadata$group)
+group_to_phylum <- c(`0` = NA,group_to_phylum)
+
+new_groups <- sapply(current_groups, function(g) {
+  if (g %in% phylum_metadata$group) {
+    return(group_to_phylum[g])  # Map numeric group to phylum name
+  } else {
+    return(NA)  # Keep other nodes NA
+  }
+}) %>% unname()
+attributes(ehi_mags_tree)$group <- new_groups
+
+#Plot tree
+ggtree(ehi_mags_tree, layout="equal_angle", aes(color = group)) %<+% genus_metadata +
+  geom_tippoint(aes(size = count, alpha=0.5)) +
+  scale_size_continuous(range = c(1, 10)) +
+  scale_color_manual(values = c("#c9c9c9","#8a8a8a","#454545"), na.value = "black") +
+  theme_void()
+
+```
+## Genus - host heatmap
+
+```{r genus_host_relationship, warning=FALSE, comments="", message=FALSE}
+genus_host <- genome_metadata %>% 
+  left_join(assembly_metadata,by="assembly_id") %>% 
+  left_join(summary_table,by="rawdata_id") %>% 
+  select(phylum,genus,host_species) %>% 
+  filter(genus != "g__") %>% 
+  group_by(phylum,genus,host_species) %>% 
+  summarise(genomes=n()) %>% 
+  arrange(-genomes) %>% 
+  ungroup() 
+
+genus_host_spread <- genus_host %>% 
+    group_by(phylum,genus) %>% 
+    summarise(host_species=n()) %>% 
+    arrange(-host_species)
+
+```
+
 
 ```{r genome_tree_plot, warning=FALSE, comments="", message=FALSE, fig.width=10, fig.height=18}
 genus_host2 <- genus_host %>% 

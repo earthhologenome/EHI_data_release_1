@@ -1,4 +1,4 @@
-# 1st EHI Data Release (Expected 2024 Q4)
+# 1st EHI Data Release
 
 This is the repository of the 1st EHI Data Release.
 

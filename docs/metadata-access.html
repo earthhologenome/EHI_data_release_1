@@ -20,10 +20,10 @@
   <meta name="twitter:description" content="&lt;p&gt;Summary statistics of the first EHI data release.&lt;/p&gt;" />
   
 
-<meta name="author" content="Nanna Gaun, Raphael Eisenhofer, Carlotta Pietroni, Antton Alberdi" />
+<meta name="author" content="Nanna Gaun, Raphael Eisenhofer, Carlotta Pietroni, Garazi Martin-Bideguren, Jonas Lauritsen, Ostaizka Aizpurua, Joana Fernandes, Eduardo Ferreira, Fabien Aubret, Tom Sarraude, Constant Perry, Lucas Wauters, Claudia Romeo,, Martina Spada, Claudia Tranquillo, Alex O Sutton, Michael Griesser, Miya Warrington, Guillem Pérez i de Lanuza, Javier Abalos, Prem Aguilar, Ferrán de la Cruz, Javier Juste, Pedro Alonso, Jim Groombridge, Rebecca Louch, Kevin Ruhomaun, Sion Henshaw, Carlos Cabido, Ion Garin Barrio, Emina Šunje, Peter Hosner, Tobias Uller, Nathalie Feiner, Antton Alberdi" />
 
 
-<meta name="date" content="2025-03-06" />
+<meta name="date" content="2025-03-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -2024,10 +2024,11 @@ background-color: #ffffff !important;
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#prepare-the-r-environment"><i class="fa fa-check"></i><b>1.1</b> Prepare the R environment</a>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#accession-numbers"><i class="fa fa-check"></i><b>1.1</b> Accession numbers</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#prepare-the-r-environment"><i class="fa fa-check"></i><b>1.2</b> Prepare the R environment</a>
 <ul>
-<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#environment"><i class="fa fa-check"></i><b>1.1.1</b> Environment</a></li>
-<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#libraries"><i class="fa fa-check"></i><b>1.1.2</b> Libraries</a></li>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#environment"><i class="fa fa-check"></i><b>1.2.1</b> Environment</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#libraries"><i class="fa fa-check"></i><b>1.2.2</b> Libraries</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="metadata-access.html"><a href="metadata-access.html"><i class="fa fa-check"></i><b>2</b> Metadata access</a>
@@ -2122,7 +2123,7 @@ background-color: #ffffff !important;
 <span id="cb6-5"><a href="metadata-access.html#cb6-5" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">rawdata_id=</span>EHI_number,<span class="at">sample_id=</span>sample_alias,<span class="at">total_gb=</span><span class="st">`</span><span class="at">Total Data (GB)</span><span class="st">`</span>,<span class="at">host_gb=</span><span class="st">`</span><span class="at">Host Data (GB)</span><span class="st">`</span>,<span class="at">metagenomic_gb=</span><span class="st">`</span><span class="at">Metagenomic Data (GB)</span><span class="st">`</span>,<span class="at">accession_experiment=</span><span class="st">`</span><span class="at">ENA_experiment_accession</span><span class="st">`</span>,<span class="at">accession_run=</span><span class="st">`</span><span class="at">ENA_run_accession</span><span class="st">`</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb6-6"><a href="metadata-access.html#cb6-6" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">lowqual_gb=</span>total_gb<span class="sc">-</span>host_gb<span class="sc">-</span>metagenomic_gb) <span class="sc">%&gt;%</span> </span>
 <span id="cb6-7"><a href="metadata-access.html#cb6-7" tabindex="-1"></a>  <span class="fu">left_join</span>(rawdata_preprocessing_metadata,<span class="at">by=</span><span class="st">&quot;rawdata_id&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb6-8"><a href="metadata-access.html#cb6-8" tabindex="-1"></a>  <span class="fu">group_by</span>(rawdata_id,sample_id) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-8"><a href="metadata-access.html#cb6-8" tabindex="-1"></a>  <span class="fu">group_by</span>(rawdata_id,sample_id,accession_experiment,accession_run) <span class="sc">%&gt;%</span> </span>
 <span id="cb6-9"><a href="metadata-access.html#cb6-9" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">where</span>(is.numeric), \(x) <span class="fu">mean</span>(x, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))) <span class="sc">%&gt;%</span> </span>
 <span id="cb6-10"><a href="metadata-access.html#cb6-10" tabindex="-1"></a>  <span class="fu">as_tibble</span>() </span>
 <span id="cb6-11"><a href="metadata-access.html#cb6-11" tabindex="-1"></a></span>
