@@ -23,7 +23,7 @@
 <meta name="author" content="Nanna Gaun, Raphael Eisenhofer, Carlotta Pietroni, Garazi Martin-Bideguren, Jonas Lauritsen, Ostaizka Aizpurua, Joana Fernandes, Eduardo Ferreira, Fabien Aubret, Tom Sarraude, Constant Perry, Lucas Wauters, Claudia Romeo,, Martina Spada, Claudia Tranquillo, Alex O Sutton, Michael Griesser, Miya Warrington, Guillem Pérez i de Lanuza, Javier Abalos, Prem Aguilar, Ferrán de la Cruz, Javier Juste, Pedro Alonso, Jim Groombridge, Rebecca Louch, Kevin Ruhomaun, Sion Henshaw, Carlos Cabido, Ion Garin Barrio, Emina Šunje, Peter Hosner, Tobias Uller, Nathalie Feiner, Antton Alberdi" />
 
 
-<meta name="date" content="2025-03-08" />
+<meta name="date" content="2025-08-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -1874,6 +1874,7 @@ a.anchor-section::before {content: '#';font-size: 80%;}
 
 
 <style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -2050,6 +2051,7 @@ background-color: #ffffff !important;
 <li class="chapter" data-level="3.1.1" data-path="data-statistics.html"><a href="data-statistics.html#absolute-total-data"><i class="fa fa-check"></i><b>3.1.1</b> Absolute total data</a></li>
 <li class="chapter" data-level="3.1.2" data-path="data-statistics.html"><a href="data-statistics.html#relative-total-data"><i class="fa fa-check"></i><b>3.1.2</b> Relative total data</a></li>
 <li class="chapter" data-level="3.1.3" data-path="data-statistics.html"><a href="data-statistics.html#per-sample-data"><i class="fa fa-check"></i><b>3.1.3</b> Per-sample data</a></li>
+<li class="chapter" data-level="3.1.4" data-path="data-statistics.html"><a href="data-statistics.html#per-sample-relative-data"><i class="fa fa-check"></i><b>3.1.4</b> Per-sample relative data</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="data-statistics.html"><a href="data-statistics.html#amount-of-samples"><i class="fa fa-check"></i><b>3.2</b> Amount of samples</a></li>
 <li class="chapter" data-level="3.3" data-path="data-statistics.html"><a href="data-statistics.html#sample-type-statistics"><i class="fa fa-check"></i><b>3.3</b> Sample type statistics</a></li>
@@ -2063,7 +2065,10 @@ background-color: #ffffff !important;
 <li class="chapter" data-level="5.2" data-path="bacterial-genome-statistics.html"><a href="bacterial-genome-statistics.html#genome-quality"><i class="fa fa-check"></i><b>5.2</b> Genome quality</a></li>
 <li class="chapter" data-level="5.3" data-path="bacterial-genome-statistics.html"><a href="bacterial-genome-statistics.html#taxonomic-statistics"><i class="fa fa-check"></i><b>5.3</b> Taxonomic statistics</a></li>
 <li class="chapter" data-level="5.4" data-path="bacterial-genome-statistics.html"><a href="bacterial-genome-statistics.html#new-taxa-discovery"><i class="fa fa-check"></i><b>5.4</b> New taxa discovery</a></li>
-<li class="chapter" data-level="5.5" data-path="bacterial-genome-statistics.html"><a href="bacterial-genome-statistics.html#genus---host-heatmap"><i class="fa fa-check"></i><b>5.5</b> Genus - host heatmap</a></li>
+<li class="chapter" data-level="5.5" data-path="bacterial-genome-statistics.html"><a href="bacterial-genome-statistics.html#microbial-phylogenies"><i class="fa fa-check"></i><b>5.5</b> Microbial phylogenies</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="bacterial-genome-statistics.html"><a href="bacterial-genome-statistics.html#bacteria"><i class="fa fa-check"></i><b>5.5.1</b> Bacteria</a></li>
+</ul></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://www.earthhologenome.org" target="blank"><b>Earth Hologenome Initiative</b></a></li>
@@ -2107,12 +2112,12 @@ background-color: #ffffff !important;
 <!-- preamble start -->
 
     <script>
-      function styleCell_21y5pig0t3u580ubjjud(i, j, css_id) {
-        var table = document.getElementById("tinytable_21y5pig0t3u580ubjjud");
+      function styleCell_6v06tx1wnrlqcfjfczfw(i, j, css_id) {
+        var table = document.getElementById("tinytable_6v06tx1wnrlqcfjfczfw");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_21y5pig0t3u580ubjjud');
+        var table = document.getElementById('tinytable_6v06tx1wnrlqcfjfczfw');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -2120,8 +2125,8 @@ background-color: #ffffff !important;
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_21y5pig0t3u580ubjjud(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_21y5pig0t3u580ubjjud");
+      function spanCell_6v06tx1wnrlqcfjfczfw(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_6v06tx1wnrlqcfjfczfw");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -2147,17 +2152,17 @@ background-color: #ffffff !important;
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_21y5pig0t3u580ubjjud(0, 0, 'tinytable_css_id1lk61rdcci8pw3d4l9ra') })
-window.addEventListener('load', function () { styleCell_21y5pig0t3u580ubjjud(0, 1, 'tinytable_css_id1lk61rdcci8pw3d4l9ra') })
-window.addEventListener('load', function () { styleCell_21y5pig0t3u580ubjjud(0, 2, 'tinytable_css_id1lk61rdcci8pw3d4l9ra') })
-window.addEventListener('load', function () { styleCell_21y5pig0t3u580ubjjud(0, 3, 'tinytable_css_id1lk61rdcci8pw3d4l9ra') })
+window.addEventListener('load', function () { styleCell_6v06tx1wnrlqcfjfczfw(0, 0, 'tinytable_css_id9c1xxnyxq3ayxxnfsnhb') })
+window.addEventListener('load', function () { styleCell_6v06tx1wnrlqcfjfczfw(0, 1, 'tinytable_css_id9c1xxnyxq3ayxxnfsnhb') })
+window.addEventListener('load', function () { styleCell_6v06tx1wnrlqcfjfczfw(0, 2, 'tinytable_css_id9c1xxnyxq3ayxxnfsnhb') })
+window.addEventListener('load', function () { styleCell_6v06tx1wnrlqcfjfczfw(0, 3, 'tinytable_css_id9c1xxnyxq3ayxxnfsnhb') })
     </script>
 
     <style>
-.table td.tinytable_css_id1lk61rdcci8pw3d4l9ra, .table th.tinytable_css_id1lk61rdcci8pw3d4l9ra { border-bottom: solid 0.1em #d3d8dc; }
+.table td.tinytable_css_id9c1xxnyxq3ayxxnfsnhb, .table th.tinytable_css_id9c1xxnyxq3ayxxnfsnhb { border-bottom: solid 0.1em #d3d8dc; }
 </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_21y5pig0t3u580ubjjud" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_6v06tx1wnrlqcfjfczfw" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -2190,12 +2195,12 @@ window.addEventListener('load', function () { styleCell_21y5pig0t3u580ubjjud(0, 
 <!-- preamble start -->
 
     <script>
-      function styleCell_ynv8iufaax4f9c00k1zy(i, j, css_id) {
-        var table = document.getElementById("tinytable_ynv8iufaax4f9c00k1zy");
+      function styleCell_0g3pysuariw4z6qch61o(i, j, css_id) {
+        var table = document.getElementById("tinytable_0g3pysuariw4z6qch61o");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_ynv8iufaax4f9c00k1zy');
+        var table = document.getElementById('tinytable_0g3pysuariw4z6qch61o');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -2203,8 +2208,8 @@ window.addEventListener('load', function () { styleCell_21y5pig0t3u580ubjjud(0, 
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_ynv8iufaax4f9c00k1zy(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_ynv8iufaax4f9c00k1zy");
+      function spanCell_0g3pysuariw4z6qch61o(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_0g3pysuariw4z6qch61o");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -2230,17 +2235,17 @@ window.addEventListener('load', function () { styleCell_21y5pig0t3u580ubjjud(0, 
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_ynv8iufaax4f9c00k1zy(0, 0, 'tinytable_css_idlt9gn2jcbcnbx8lhadu0') })
-window.addEventListener('load', function () { styleCell_ynv8iufaax4f9c00k1zy(0, 1, 'tinytable_css_idlt9gn2jcbcnbx8lhadu0') })
-window.addEventListener('load', function () { styleCell_ynv8iufaax4f9c00k1zy(0, 2, 'tinytable_css_idlt9gn2jcbcnbx8lhadu0') })
-window.addEventListener('load', function () { styleCell_ynv8iufaax4f9c00k1zy(0, 3, 'tinytable_css_idlt9gn2jcbcnbx8lhadu0') })
+window.addEventListener('load', function () { styleCell_0g3pysuariw4z6qch61o(0, 0, 'tinytable_css_id9mpvp7xgakz0d4bjyq2o') })
+window.addEventListener('load', function () { styleCell_0g3pysuariw4z6qch61o(0, 1, 'tinytable_css_id9mpvp7xgakz0d4bjyq2o') })
+window.addEventListener('load', function () { styleCell_0g3pysuariw4z6qch61o(0, 2, 'tinytable_css_id9mpvp7xgakz0d4bjyq2o') })
+window.addEventListener('load', function () { styleCell_0g3pysuariw4z6qch61o(0, 3, 'tinytable_css_id9mpvp7xgakz0d4bjyq2o') })
     </script>
 
     <style>
-.table td.tinytable_css_idlt9gn2jcbcnbx8lhadu0, .table th.tinytable_css_idlt9gn2jcbcnbx8lhadu0 { border-bottom: solid 0.1em #d3d8dc; }
+.table td.tinytable_css_id9mpvp7xgakz0d4bjyq2o, .table th.tinytable_css_id9mpvp7xgakz0d4bjyq2o { border-bottom: solid 0.1em #d3d8dc; }
 </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_ynv8iufaax4f9c00k1zy" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_0g3pysuariw4z6qch61o" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -2271,12 +2276,12 @@ window.addEventListener('load', function () { styleCell_ynv8iufaax4f9c00k1zy(0, 
 <!-- preamble start -->
 
     <script>
-      function styleCell_s4o9s0phfhesz81kra4h(i, j, css_id) {
-        var table = document.getElementById("tinytable_s4o9s0phfhesz81kra4h");
+      function styleCell_4f8thhbo5wpxuhkm8sns(i, j, css_id) {
+        var table = document.getElementById("tinytable_4f8thhbo5wpxuhkm8sns");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_s4o9s0phfhesz81kra4h');
+        var table = document.getElementById('tinytable_4f8thhbo5wpxuhkm8sns');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -2284,8 +2289,8 @@ window.addEventListener('load', function () { styleCell_ynv8iufaax4f9c00k1zy(0, 
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_s4o9s0phfhesz81kra4h(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_s4o9s0phfhesz81kra4h");
+      function spanCell_4f8thhbo5wpxuhkm8sns(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_4f8thhbo5wpxuhkm8sns");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -2311,18 +2316,18 @@ window.addEventListener('load', function () { styleCell_ynv8iufaax4f9c00k1zy(0, 
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_s4o9s0phfhesz81kra4h(0, 0, 'tinytable_css_idgabrntbm3ykasjkzhp0f') })
-window.addEventListener('load', function () { styleCell_s4o9s0phfhesz81kra4h(0, 1, 'tinytable_css_idgabrntbm3ykasjkzhp0f') })
-window.addEventListener('load', function () { styleCell_s4o9s0phfhesz81kra4h(0, 2, 'tinytable_css_idgabrntbm3ykasjkzhp0f') })
-window.addEventListener('load', function () { styleCell_s4o9s0phfhesz81kra4h(0, 3, 'tinytable_css_idgabrntbm3ykasjkzhp0f') })
-window.addEventListener('load', function () { styleCell_s4o9s0phfhesz81kra4h(0, 4, 'tinytable_css_idgabrntbm3ykasjkzhp0f') })
+window.addEventListener('load', function () { styleCell_4f8thhbo5wpxuhkm8sns(0, 0, 'tinytable_css_idze1itdorn7y97a6eb4yz') })
+window.addEventListener('load', function () { styleCell_4f8thhbo5wpxuhkm8sns(0, 1, 'tinytable_css_idze1itdorn7y97a6eb4yz') })
+window.addEventListener('load', function () { styleCell_4f8thhbo5wpxuhkm8sns(0, 2, 'tinytable_css_idze1itdorn7y97a6eb4yz') })
+window.addEventListener('load', function () { styleCell_4f8thhbo5wpxuhkm8sns(0, 3, 'tinytable_css_idze1itdorn7y97a6eb4yz') })
+window.addEventListener('load', function () { styleCell_4f8thhbo5wpxuhkm8sns(0, 4, 'tinytable_css_idze1itdorn7y97a6eb4yz') })
     </script>
 
     <style>
-.table td.tinytable_css_idgabrntbm3ykasjkzhp0f, .table th.tinytable_css_idgabrntbm3ykasjkzhp0f { border-bottom: solid 0.1em #d3d8dc; }
+.table td.tinytable_css_idze1itdorn7y97a6eb4yz, .table th.tinytable_css_idze1itdorn7y97a6eb4yz { border-bottom: solid 0.1em #d3d8dc; }
 </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_s4o9s0phfhesz81kra4h" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_4f8thhbo5wpxuhkm8sns" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -2347,36 +2352,29 @@ window.addEventListener('load', function () { styleCell_s4o9s0phfhesz81kra4h(0, 
     </div>
 <!-- hack to avoid NA insertion in last line -->
 </div>
-</div>
-<div id="amount-of-samples" class="section level2 hasAnchor" number="3.2">
-<h2><span class="header-section-number">3.2</span> Amount of samples<a href="data-statistics.html#amount-of-samples" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb18-1"><a href="data-statistics.html#cb18-1" tabindex="-1"></a>summary_table <span class="ot">&lt;-</span> sampling_metadata <span class="sc">%&gt;%</span> </span>
-<span id="cb18-2"><a href="data-statistics.html#cb18-2" tabindex="-1"></a>  <span class="fu">separate_rows</span>(capture_id, <span class="at">sep =</span> <span class="st">&quot;, &quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-3"><a href="data-statistics.html#cb18-3" tabindex="-1"></a>  <span class="fu">right_join</span>(capture_metadata,<span class="at">by=</span><span class="st">&quot;capture_id&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-4"><a href="data-statistics.html#cb18-4" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>capture_id) <span class="sc">%&gt;%</span></span>
-<span id="cb18-5"><a href="data-statistics.html#cb18-5" tabindex="-1"></a>  <span class="fu">right_join</span>(specimen_metadata,<span class="at">by=</span><span class="st">&quot;specimen_id&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-6"><a href="data-statistics.html#cb18-6" tabindex="-1"></a>  <span class="fu">inner_join</span>(host_metadata,<span class="at">by=</span><span class="st">&quot;host_species&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-7"><a href="data-statistics.html#cb18-7" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>capture_id) <span class="sc">%&gt;%</span></span>
-<span id="cb18-8"><a href="data-statistics.html#cb18-8" tabindex="-1"></a>  <span class="fu">separate_rows</span>(sample_id, <span class="at">sep =</span> <span class="st">&quot;, &quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-9"><a href="data-statistics.html#cb18-9" tabindex="-1"></a>  <span class="fu">right_join</span>(sample_metadata,<span class="at">by=</span><span class="st">&quot;sample_id&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-10"><a href="data-statistics.html#cb18-10" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>rawdata_id) <span class="sc">%&gt;%</span></span>
-<span id="cb18-11"><a href="data-statistics.html#cb18-11" tabindex="-1"></a>  <span class="fu">right_join</span>(rawdata_metadata,<span class="at">by=</span><span class="st">&quot;sample_id&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-12"><a href="data-statistics.html#cb18-12" tabindex="-1"></a>  <span class="fu">separate_rows</span>(rawdata_id, <span class="at">sep =</span> <span class="st">&quot;, &quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-13"><a href="data-statistics.html#cb18-13" tabindex="-1"></a>  <span class="fu">filter</span>(rawdata_id <span class="sc">%in%</span> datasets)</span>
-<span id="cb18-14"><a href="data-statistics.html#cb18-14" tabindex="-1"></a></span>
-<span id="cb18-15"><a href="data-statistics.html#cb18-15" tabindex="-1"></a>summary_table <span class="sc">%&gt;%</span> </span>
-<span id="cb18-16"><a href="data-statistics.html#cb18-16" tabindex="-1"></a>  <span class="fu">group_by</span>(host_species,host_order,host_class) <span class="sc">%&gt;%</span> </span>
-<span id="cb18-17"><a href="data-statistics.html#cb18-17" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">events=</span><span class="fu">n_distinct</span>(sampling_id),<span class="at">individuals=</span><span class="fu">n_distinct</span>(specimen_id),<span class="at">samples=</span><span class="fu">n_distinct</span>(sample_id),<span class="at">data=</span><span class="fu">sum</span>(total_gb)) <span class="sc">%&gt;%</span> </span>
-<span id="cb18-18"><a href="data-statistics.html#cb18-18" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
+<div id="per-sample-relative-data" class="section level3 hasAnchor" number="3.1.4">
+<h3><span class="header-section-number">3.1.4</span> Per-sample relative data<a href="data-statistics.html#per-sample-relative-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb18-1"><a href="data-statistics.html#cb18-1" tabindex="-1"></a>rawdata_metadata <span class="sc">%&gt;%</span></span>
+<span id="cb18-2"><a href="data-statistics.html#cb18-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">host_rel=</span>host_gb<span class="sc">/</span>total_gb<span class="sc">*</span><span class="dv">100</span>,</span>
+<span id="cb18-3"><a href="data-statistics.html#cb18-3" tabindex="-1"></a>         <span class="at">metagenomic_rel=</span>metagenomic_gb<span class="sc">/</span>total_gb<span class="sc">*</span><span class="dv">100</span>,</span>
+<span id="cb18-4"><a href="data-statistics.html#cb18-4" tabindex="-1"></a>         <span class="at">lowqual_rel=</span>lowqual_gb<span class="sc">/</span>total_gb<span class="sc">*</span><span class="dv">100</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb18-5"><a href="data-statistics.html#cb18-5" tabindex="-1"></a>  <span class="fu">filter</span>(host_rel<span class="sc">&gt;=</span><span class="dv">0</span> <span class="sc">&amp;</span> metagenomic_rel<span class="sc">&gt;=</span><span class="dv">0</span>, lowqual_rel<span class="sc">&gt;=</span><span class="dv">0</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-6"><a href="data-statistics.html#cb18-6" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">host_mean=</span><span class="fu">mean</span>(host_rel),</span>
+<span id="cb18-7"><a href="data-statistics.html#cb18-7" tabindex="-1"></a>            <span class="at">host_sd=</span><span class="fu">sd</span>(host_rel),</span>
+<span id="cb18-8"><a href="data-statistics.html#cb18-8" tabindex="-1"></a>            <span class="at">metagenomic_mean=</span><span class="fu">mean</span>(metagenomic_rel),</span>
+<span id="cb18-9"><a href="data-statistics.html#cb18-9" tabindex="-1"></a>            <span class="at">metagenomic_sd=</span><span class="fu">sd</span>(metagenomic_rel),</span>
+<span id="cb18-10"><a href="data-statistics.html#cb18-10" tabindex="-1"></a>            <span class="at">lowqual_mean=</span><span class="fu">mean</span>(lowqual_rel),</span>
+<span id="cb18-11"><a href="data-statistics.html#cb18-11" tabindex="-1"></a>            <span class="at">lowqual_sd=</span><span class="fu">sd</span>(lowqual_rel)) <span class="sc">%&gt;%</span></span>
+<span id="cb18-12"><a href="data-statistics.html#cb18-12" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
 <!-- preamble start -->
 
     <script>
-      function styleCell_zw05uqjxk27sxewvw3i9(i, j, css_id) {
-        var table = document.getElementById("tinytable_zw05uqjxk27sxewvw3i9");
+      function styleCell_2ksqze750l0gnl3lln2c(i, j, css_id) {
+        var table = document.getElementById("tinytable_2ksqze750l0gnl3lln2c");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_zw05uqjxk27sxewvw3i9');
+        var table = document.getElementById('tinytable_2ksqze750l0gnl3lln2c');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -2384,8 +2382,8 @@ window.addEventListener('load', function () { styleCell_s4o9s0phfhesz81kra4h(0, 
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_zw05uqjxk27sxewvw3i9(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_zw05uqjxk27sxewvw3i9");
+      function spanCell_2ksqze750l0gnl3lln2c(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_2ksqze750l0gnl3lln2c");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -2411,20 +2409,123 @@ window.addEventListener('load', function () { styleCell_s4o9s0phfhesz81kra4h(0, 
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 0, 'tinytable_css_idnw7viajpszoauppgt96l') })
-window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 1, 'tinytable_css_idnw7viajpszoauppgt96l') })
-window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 2, 'tinytable_css_idnw7viajpszoauppgt96l') })
-window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 3, 'tinytable_css_idnw7viajpszoauppgt96l') })
-window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 4, 'tinytable_css_idnw7viajpszoauppgt96l') })
-window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 5, 'tinytable_css_idnw7viajpszoauppgt96l') })
-window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 6, 'tinytable_css_idnw7viajpszoauppgt96l') })
+window.addEventListener('load', function () { styleCell_2ksqze750l0gnl3lln2c(0, 0, 'tinytable_css_id785oc90yzsdoaacbyvrf') })
+window.addEventListener('load', function () { styleCell_2ksqze750l0gnl3lln2c(0, 1, 'tinytable_css_id785oc90yzsdoaacbyvrf') })
+window.addEventListener('load', function () { styleCell_2ksqze750l0gnl3lln2c(0, 2, 'tinytable_css_id785oc90yzsdoaacbyvrf') })
+window.addEventListener('load', function () { styleCell_2ksqze750l0gnl3lln2c(0, 3, 'tinytable_css_id785oc90yzsdoaacbyvrf') })
+window.addEventListener('load', function () { styleCell_2ksqze750l0gnl3lln2c(0, 4, 'tinytable_css_id785oc90yzsdoaacbyvrf') })
+window.addEventListener('load', function () { styleCell_2ksqze750l0gnl3lln2c(0, 5, 'tinytable_css_id785oc90yzsdoaacbyvrf') })
     </script>
 
     <style>
-.table td.tinytable_css_idnw7viajpszoauppgt96l, .table th.tinytable_css_idnw7viajpszoauppgt96l { border-bottom: solid 0.1em #d3d8dc; }
+.table td.tinytable_css_id785oc90yzsdoaacbyvrf, .table th.tinytable_css_id785oc90yzsdoaacbyvrf { border-bottom: solid 0.1em #d3d8dc; }
 </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_zw05uqjxk27sxewvw3i9" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_2ksqze750l0gnl3lln2c" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        <thead>
+        
+              <tr>
+                <th scope="col">host_mean</th>
+                <th scope="col">host_sd</th>
+                <th scope="col">metagenomic_mean</th>
+                <th scope="col">metagenomic_sd</th>
+                <th scope="col">lowqual_mean</th>
+                <th scope="col">lowqual_sd</th>
+              </tr>
+        </thead>
+        
+        <tbody>
+                <tr>
+                  <td>16.5684</td>
+                  <td>27.51604</td>
+                  <td>76.54316</td>
+                  <td>28.73969</td>
+                  <td>6.888443</td>
+                  <td>7.141278</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+</div>
+<div id="amount-of-samples" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Amount of samples<a href="data-statistics.html#amount-of-samples" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb19-1"><a href="data-statistics.html#cb19-1" tabindex="-1"></a>summary_table <span class="ot">&lt;-</span> sampling_metadata <span class="sc">%&gt;%</span> </span>
+<span id="cb19-2"><a href="data-statistics.html#cb19-2" tabindex="-1"></a>  <span class="fu">separate_rows</span>(capture_id, <span class="at">sep =</span> <span class="st">&quot;, &quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-3"><a href="data-statistics.html#cb19-3" tabindex="-1"></a>  <span class="fu">right_join</span>(capture_metadata,<span class="at">by=</span><span class="st">&quot;capture_id&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-4"><a href="data-statistics.html#cb19-4" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>capture_id) <span class="sc">%&gt;%</span></span>
+<span id="cb19-5"><a href="data-statistics.html#cb19-5" tabindex="-1"></a>  <span class="fu">right_join</span>(specimen_metadata,<span class="at">by=</span><span class="st">&quot;specimen_id&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-6"><a href="data-statistics.html#cb19-6" tabindex="-1"></a>  <span class="fu">inner_join</span>(host_metadata,<span class="at">by=</span><span class="st">&quot;host_species&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-7"><a href="data-statistics.html#cb19-7" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>capture_id) <span class="sc">%&gt;%</span></span>
+<span id="cb19-8"><a href="data-statistics.html#cb19-8" tabindex="-1"></a>  <span class="fu">separate_rows</span>(sample_id, <span class="at">sep =</span> <span class="st">&quot;, &quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-9"><a href="data-statistics.html#cb19-9" tabindex="-1"></a>  <span class="fu">right_join</span>(sample_metadata,<span class="at">by=</span><span class="st">&quot;sample_id&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-10"><a href="data-statistics.html#cb19-10" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>rawdata_id) <span class="sc">%&gt;%</span></span>
+<span id="cb19-11"><a href="data-statistics.html#cb19-11" tabindex="-1"></a>  <span class="fu">right_join</span>(rawdata_metadata,<span class="at">by=</span><span class="st">&quot;sample_id&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-12"><a href="data-statistics.html#cb19-12" tabindex="-1"></a>  <span class="fu">separate_rows</span>(rawdata_id, <span class="at">sep =</span> <span class="st">&quot;, &quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-13"><a href="data-statistics.html#cb19-13" tabindex="-1"></a>  <span class="fu">filter</span>(rawdata_id <span class="sc">%in%</span> datasets)</span>
+<span id="cb19-14"><a href="data-statistics.html#cb19-14" tabindex="-1"></a></span>
+<span id="cb19-15"><a href="data-statistics.html#cb19-15" tabindex="-1"></a>summary_table <span class="sc">%&gt;%</span> </span>
+<span id="cb19-16"><a href="data-statistics.html#cb19-16" tabindex="-1"></a>  <span class="fu">group_by</span>(host_species,host_order,host_class) <span class="sc">%&gt;%</span> </span>
+<span id="cb19-17"><a href="data-statistics.html#cb19-17" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">events=</span><span class="fu">n_distinct</span>(sampling_id),<span class="at">individuals=</span><span class="fu">n_distinct</span>(specimen_id),<span class="at">samples=</span><span class="fu">n_distinct</span>(sample_id),<span class="at">data=</span><span class="fu">sum</span>(total_gb)) <span class="sc">%&gt;%</span> </span>
+<span id="cb19-18"><a href="data-statistics.html#cb19-18" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
+<!-- preamble start -->
+
+    <script>
+      function styleCell_q5t6rcn7upagqjb06ymi(i, j, css_id) {
+        var table = document.getElementById("tinytable_q5t6rcn7upagqjb06ymi");
+        table.rows[i].cells[j].classList.add(css_id);
+      }
+      function insertSpanRow(i, colspan, content) {
+        var table = document.getElementById('tinytable_q5t6rcn7upagqjb06ymi');
+        var newRow = table.insertRow(i);
+        var newCell = newRow.insertCell(0);
+        newCell.setAttribute("colspan", colspan);
+        // newCell.innerText = content;
+        // this may be unsafe, but innerText does not interpret <br>
+        newCell.innerHTML = content;
+      }
+      function spanCell_q5t6rcn7upagqjb06ymi(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_q5t6rcn7upagqjb06ymi");
+        const targetRow = table.rows[i];
+        const targetCell = targetRow.cells[j];
+        for (let r = 0; r < rowspan; r++) {
+          // Only start deleting cells to the right for the first row (r == 0)
+          if (r === 0) {
+            // Delete cells to the right of the target cell in the first row
+            for (let c = colspan - 1; c > 0; c--) {
+              if (table.rows[i + r].cells[j + c]) {
+                table.rows[i + r].deleteCell(j + c);
+              }
+            }
+          }
+          // For rows below the first, delete starting from the target column
+          if (r > 0) {
+            for (let c = colspan - 1; c >= 0; c--) {
+              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
+                table.rows[i + r].deleteCell(j);
+              }
+            }
+          }
+        }
+        // Set rowspan and colspan of the target cell
+        targetCell.rowSpan = rowspan;
+        targetCell.colSpan = colspan;
+      }
+window.addEventListener('load', function () { styleCell_q5t6rcn7upagqjb06ymi(0, 0, 'tinytable_css_idtti5nfk4ya3n3o3hh7ws') })
+window.addEventListener('load', function () { styleCell_q5t6rcn7upagqjb06ymi(0, 1, 'tinytable_css_idtti5nfk4ya3n3o3hh7ws') })
+window.addEventListener('load', function () { styleCell_q5t6rcn7upagqjb06ymi(0, 2, 'tinytable_css_idtti5nfk4ya3n3o3hh7ws') })
+window.addEventListener('load', function () { styleCell_q5t6rcn7upagqjb06ymi(0, 3, 'tinytable_css_idtti5nfk4ya3n3o3hh7ws') })
+window.addEventListener('load', function () { styleCell_q5t6rcn7upagqjb06ymi(0, 4, 'tinytable_css_idtti5nfk4ya3n3o3hh7ws') })
+window.addEventListener('load', function () { styleCell_q5t6rcn7upagqjb06ymi(0, 5, 'tinytable_css_idtti5nfk4ya3n3o3hh7ws') })
+window.addEventListener('load', function () { styleCell_q5t6rcn7upagqjb06ymi(0, 6, 'tinytable_css_idtti5nfk4ya3n3o3hh7ws') })
+    </script>
+
+    <style>
+.table td.tinytable_css_idtti5nfk4ya3n3o3hh7ws, .table th.tinytable_css_idtti5nfk4ya3n3o3hh7ws { border-bottom: solid 0.1em #d3d8dc; }
+</style>
+    <div class="container">
+      <table class="table table-borderless" id="tinytable_q5t6rcn7upagqjb06ymi" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -2653,21 +2754,21 @@ window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 
 </div>
 <div id="sample-type-statistics" class="section level2 hasAnchor" number="3.3">
 <h2><span class="header-section-number">3.3</span> Sample type statistics<a href="data-statistics.html#sample-type-statistics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb19-1"><a href="data-statistics.html#cb19-1" tabindex="-1"></a>summary_table <span class="sc">%&gt;%</span> </span>
-<span id="cb19-2"><a href="data-statistics.html#cb19-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sample_type=</span><span class="fu">ifelse</span>(sample_type<span class="sc">==</span><span class="st">&quot;Skin swab: dorsal&quot;</span>,<span class="st">&quot;Skin swab&quot;</span>,sample_type),</span>
-<span id="cb19-3"><a href="data-statistics.html#cb19-3" tabindex="-1"></a>         <span class="at">sample_type=</span><span class="fu">ifelse</span>(sample_type<span class="sc">==</span><span class="st">&quot;Skin swab: ventral&quot;</span>,<span class="st">&quot;Skin swab&quot;</span>,sample_type)) <span class="sc">%&gt;%</span> </span>
-<span id="cb19-4"><a href="data-statistics.html#cb19-4" tabindex="-1"></a>  <span class="fu">group_by</span>(sample_type) <span class="sc">%&gt;%</span> </span>
-<span id="cb19-5"><a href="data-statistics.html#cb19-5" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">samples=</span><span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb19-6"><a href="data-statistics.html#cb19-6" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb20-1"><a href="data-statistics.html#cb20-1" tabindex="-1"></a>summary_table <span class="sc">%&gt;%</span> </span>
+<span id="cb20-2"><a href="data-statistics.html#cb20-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sample_type=</span><span class="fu">ifelse</span>(sample_type<span class="sc">==</span><span class="st">&quot;Skin swab: dorsal&quot;</span>,<span class="st">&quot;Skin swab&quot;</span>,sample_type),</span>
+<span id="cb20-3"><a href="data-statistics.html#cb20-3" tabindex="-1"></a>         <span class="at">sample_type=</span><span class="fu">ifelse</span>(sample_type<span class="sc">==</span><span class="st">&quot;Skin swab: ventral&quot;</span>,<span class="st">&quot;Skin swab&quot;</span>,sample_type)) <span class="sc">%&gt;%</span> </span>
+<span id="cb20-4"><a href="data-statistics.html#cb20-4" tabindex="-1"></a>  <span class="fu">group_by</span>(sample_type) <span class="sc">%&gt;%</span> </span>
+<span id="cb20-5"><a href="data-statistics.html#cb20-5" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">samples=</span><span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
+<span id="cb20-6"><a href="data-statistics.html#cb20-6" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
 <!-- preamble start -->
 
     <script>
-      function styleCell_5s2fbulmm5f1rwffhchr(i, j, css_id) {
-        var table = document.getElementById("tinytable_5s2fbulmm5f1rwffhchr");
+      function styleCell_42q9vona6lwwkwqglifo(i, j, css_id) {
+        var table = document.getElementById("tinytable_42q9vona6lwwkwqglifo");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_5s2fbulmm5f1rwffhchr');
+        var table = document.getElementById('tinytable_42q9vona6lwwkwqglifo');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -2675,8 +2776,8 @@ window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_5s2fbulmm5f1rwffhchr(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_5s2fbulmm5f1rwffhchr");
+      function spanCell_42q9vona6lwwkwqglifo(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_42q9vona6lwwkwqglifo");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -2702,15 +2803,15 @@ window.addEventListener('load', function () { styleCell_zw05uqjxk27sxewvw3i9(0, 
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_5s2fbulmm5f1rwffhchr(0, 0, 'tinytable_css_id1mg893a7awf8ng6lswei') })
-window.addEventListener('load', function () { styleCell_5s2fbulmm5f1rwffhchr(0, 1, 'tinytable_css_id1mg893a7awf8ng6lswei') })
+window.addEventListener('load', function () { styleCell_42q9vona6lwwkwqglifo(0, 0, 'tinytable_css_id9heyfr825hy11qjch02i') })
+window.addEventListener('load', function () { styleCell_42q9vona6lwwkwqglifo(0, 1, 'tinytable_css_id9heyfr825hy11qjch02i') })
     </script>
 
     <style>
-.table td.tinytable_css_id1mg893a7awf8ng6lswei, .table th.tinytable_css_id1mg893a7awf8ng6lswei { border-bottom: solid 0.1em #d3d8dc; }
+.table td.tinytable_css_id9heyfr825hy11qjch02i, .table th.tinytable_css_id9heyfr825hy11qjch02i { border-bottom: solid 0.1em #d3d8dc; }
 </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_5s2fbulmm5f1rwffhchr" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_42q9vona6lwwkwqglifo" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -2755,24 +2856,24 @@ window.addEventListener('load', function () { styleCell_5s2fbulmm5f1rwffhchr(0, 
 </div>
 <div id="country-statistics" class="section level2 hasAnchor" number="3.4">
 <h2><span class="header-section-number">3.4</span> Country statistics<a href="data-statistics.html#country-statistics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb20-1"><a href="data-statistics.html#cb20-1" tabindex="-1"></a>sampling_metadata <span class="sc">%&gt;%</span></span>
-<span id="cb20-2"><a href="data-statistics.html#cb20-2" tabindex="-1"></a>  <span class="fu">pull</span>(country) <span class="sc">%&gt;%</span></span>
-<span id="cb20-3"><a href="data-statistics.html#cb20-3" tabindex="-1"></a>  <span class="fu">unique</span>() <span class="sc">%&gt;%</span> </span>
-<span id="cb20-4"><a href="data-statistics.html#cb20-4" tabindex="-1"></a>  <span class="fu">length</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb21-1"><a href="data-statistics.html#cb21-1" tabindex="-1"></a>sampling_metadata <span class="sc">%&gt;%</span></span>
+<span id="cb21-2"><a href="data-statistics.html#cb21-2" tabindex="-1"></a>  <span class="fu">pull</span>(country) <span class="sc">%&gt;%</span></span>
+<span id="cb21-3"><a href="data-statistics.html#cb21-3" tabindex="-1"></a>  <span class="fu">unique</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb21-4"><a href="data-statistics.html#cb21-4" tabindex="-1"></a>  <span class="fu">length</span>()</span></code></pre></div>
 <pre class="script-output"><code>[1] 12</code></pre>
-<div class="sourceCode" id="cb22"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb22-1"><a href="data-statistics.html#cb22-1" tabindex="-1"></a>summary_table <span class="sc">%&gt;%</span> </span>
-<span id="cb22-2"><a href="data-statistics.html#cb22-2" tabindex="-1"></a>  <span class="fu">group_by</span>(country) <span class="sc">%&gt;%</span> </span>
-<span id="cb22-3"><a href="data-statistics.html#cb22-3" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">samples=</span><span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb22-4"><a href="data-statistics.html#cb22-4" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb23-1"><a href="data-statistics.html#cb23-1" tabindex="-1"></a>summary_table <span class="sc">%&gt;%</span> </span>
+<span id="cb23-2"><a href="data-statistics.html#cb23-2" tabindex="-1"></a>  <span class="fu">group_by</span>(country) <span class="sc">%&gt;%</span> </span>
+<span id="cb23-3"><a href="data-statistics.html#cb23-3" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">samples=</span><span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
+<span id="cb23-4"><a href="data-statistics.html#cb23-4" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
 <!-- preamble start -->
 
     <script>
-      function styleCell_temm9hzdcgfb9czf11qa(i, j, css_id) {
-        var table = document.getElementById("tinytable_temm9hzdcgfb9czf11qa");
+      function styleCell_qqrfml32y9tl3vwpjfih(i, j, css_id) {
+        var table = document.getElementById("tinytable_qqrfml32y9tl3vwpjfih");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_temm9hzdcgfb9czf11qa');
+        var table = document.getElementById('tinytable_qqrfml32y9tl3vwpjfih');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -2780,8 +2881,8 @@ window.addEventListener('load', function () { styleCell_5s2fbulmm5f1rwffhchr(0, 
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_temm9hzdcgfb9czf11qa(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_temm9hzdcgfb9czf11qa");
+      function spanCell_qqrfml32y9tl3vwpjfih(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_qqrfml32y9tl3vwpjfih");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -2807,15 +2908,15 @@ window.addEventListener('load', function () { styleCell_5s2fbulmm5f1rwffhchr(0, 
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_temm9hzdcgfb9czf11qa(0, 0, 'tinytable_css_iduh04rse3nx5dicbrrc6q') })
-window.addEventListener('load', function () { styleCell_temm9hzdcgfb9czf11qa(0, 1, 'tinytable_css_iduh04rse3nx5dicbrrc6q') })
+window.addEventListener('load', function () { styleCell_qqrfml32y9tl3vwpjfih(0, 0, 'tinytable_css_id7cdj8j1u1edz0b4ir06n') })
+window.addEventListener('load', function () { styleCell_qqrfml32y9tl3vwpjfih(0, 1, 'tinytable_css_id7cdj8j1u1edz0b4ir06n') })
     </script>
 
     <style>
-.table td.tinytable_css_iduh04rse3nx5dicbrrc6q, .table th.tinytable_css_iduh04rse3nx5dicbrrc6q { border-bottom: solid 0.1em #d3d8dc; }
+.table td.tinytable_css_id7cdj8j1u1edz0b4ir06n, .table th.tinytable_css_id7cdj8j1u1edz0b4ir06n { border-bottom: solid 0.1em #d3d8dc; }
 </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_temm9hzdcgfb9czf11qa" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_qqrfml32y9tl3vwpjfih" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -2884,20 +2985,20 @@ window.addEventListener('load', function () { styleCell_temm9hzdcgfb9czf11qa(0, 
 </div>
 <div id="environmental-representation" class="section level2 hasAnchor" number="3.5">
 <h2><span class="header-section-number">3.5</span> Environmental representation<a href="data-statistics.html#environmental-representation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb23-1"><a href="data-statistics.html#cb23-1" tabindex="-1"></a>sampling_metadata <span class="sc">%&gt;%</span></span>
-<span id="cb23-2"><a href="data-statistics.html#cb23-2" tabindex="-1"></a>  <span class="fu">group_by</span>(biome) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-3"><a href="data-statistics.html#cb23-3" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-4"><a href="data-statistics.html#cb23-4" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>count) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-5"><a href="data-statistics.html#cb23-5" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r script-source"><code class="sourceCode r"><span id="cb24-1"><a href="data-statistics.html#cb24-1" tabindex="-1"></a>sampling_metadata <span class="sc">%&gt;%</span></span>
+<span id="cb24-2"><a href="data-statistics.html#cb24-2" tabindex="-1"></a>  <span class="fu">group_by</span>(biome) <span class="sc">%&gt;%</span> </span>
+<span id="cb24-3"><a href="data-statistics.html#cb24-3" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
+<span id="cb24-4"><a href="data-statistics.html#cb24-4" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>count) <span class="sc">%&gt;%</span> </span>
+<span id="cb24-5"><a href="data-statistics.html#cb24-5" tabindex="-1"></a>  <span class="fu">tt</span>()</span></code></pre></div>
 <!-- preamble start -->
 
     <script>
-      function styleCell_0cpdacsb2uitrtkb4onp(i, j, css_id) {
-        var table = document.getElementById("tinytable_0cpdacsb2uitrtkb4onp");
+      function styleCell_pq831dz354nhqh1tbdul(i, j, css_id) {
+        var table = document.getElementById("tinytable_pq831dz354nhqh1tbdul");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_0cpdacsb2uitrtkb4onp');
+        var table = document.getElementById('tinytable_pq831dz354nhqh1tbdul');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -2905,8 +3006,8 @@ window.addEventListener('load', function () { styleCell_temm9hzdcgfb9czf11qa(0, 
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_0cpdacsb2uitrtkb4onp(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_0cpdacsb2uitrtkb4onp");
+      function spanCell_pq831dz354nhqh1tbdul(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_pq831dz354nhqh1tbdul");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -2932,15 +3033,15 @@ window.addEventListener('load', function () { styleCell_temm9hzdcgfb9czf11qa(0, 
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_0cpdacsb2uitrtkb4onp(0, 0, 'tinytable_css_ida4gu5fiba62c8jgz4gvi') })
-window.addEventListener('load', function () { styleCell_0cpdacsb2uitrtkb4onp(0, 1, 'tinytable_css_ida4gu5fiba62c8jgz4gvi') })
+window.addEventListener('load', function () { styleCell_pq831dz354nhqh1tbdul(0, 0, 'tinytable_css_idjzprxeis7qpo36x5vkbi') })
+window.addEventListener('load', function () { styleCell_pq831dz354nhqh1tbdul(0, 1, 'tinytable_css_idjzprxeis7qpo36x5vkbi') })
     </script>
 
     <style>
-.table td.tinytable_css_ida4gu5fiba62c8jgz4gvi, .table th.tinytable_css_ida4gu5fiba62c8jgz4gvi { border-bottom: solid 0.1em #d3d8dc; }
+.table td.tinytable_css_idjzprxeis7qpo36x5vkbi, .table th.tinytable_css_idjzprxeis7qpo36x5vkbi { border-bottom: solid 0.1em #d3d8dc; }
 </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_0cpdacsb2uitrtkb4onp" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_pq831dz354nhqh1tbdul" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>

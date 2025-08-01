@@ -194,6 +194,24 @@ genome_metadata %>%
 
 ## Microbial phylogenies
 
+```{r genus_host_relationship, warning=FALSE, comments="", message=FALSE}
+genus_host <- genome_metadata %>% 
+  left_join(assembly_metadata,by="assembly_id") %>% 
+  left_join(summary_table,by="rawdata_id") %>% 
+  select(phylum,genus,host_species) %>% 
+  filter(genus != "g__") %>% 
+  group_by(phylum,genus,host_species) %>% 
+  summarise(genomes=n()) %>% 
+  arrange(-genomes) %>% 
+  ungroup() 
+
+genus_host_spread <- genus_host %>% 
+    group_by(phylum,genus) %>% 
+    summarise(host_species=n()) %>% 
+    arrange(-host_species)
+
+```
+
 ### Bacteria
 
 ```{r genome_tree_bacteria, warning=FALSE, comments="", message=FALSE}
@@ -320,25 +338,6 @@ ggtree(ehi_mags_tree, layout="equal_angle", aes(color = group)) %<+% genus_metad
 
 ```
 ## Genus - host heatmap
-
-```{r genus_host_relationship, warning=FALSE, comments="", message=FALSE}
-genus_host <- genome_metadata %>% 
-  left_join(assembly_metadata,by="assembly_id") %>% 
-  left_join(summary_table,by="rawdata_id") %>% 
-  select(phylum,genus,host_species) %>% 
-  filter(genus != "g__") %>% 
-  group_by(phylum,genus,host_species) %>% 
-  summarise(genomes=n()) %>% 
-  arrange(-genomes) %>% 
-  ungroup() 
-
-genus_host_spread <- genus_host %>% 
-    group_by(phylum,genus) %>% 
-    summarise(host_species=n()) %>% 
-    arrange(-host_species)
-
-```
-
 
 ```{r genome_tree_plot, warning=FALSE, comments="", message=FALSE, fig.width=10, fig.height=18}
 genus_host2 <- genus_host %>% 

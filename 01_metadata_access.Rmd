@@ -42,13 +42,13 @@ Fetch dataset metadata and merge with the preprocessing table.
 
 ```{r rawdata_metadata, warning=FALSE, comments="", message=FALSE}
 rawdata_metadata <- airtable("tblaMWLkBUn2g5gRR", "appQpr6MxnaiVHsHy") %>%
-  read_airtable(., fields = c("EHI_number","sample_alias","Total Data (GB)","Host Data (GB)","Metagenomic Data (GB)","ENA_experiment_accession","ENA_run_accession"), id_to_col = TRUE) %>% 
+  read_airtable(., fields = c("EHI_number","sample_alias","Total Data (GB)","Host Data (GB)","Metagenomic Data (GB)","ENA_experiment_accession","ENA_run_accession", "sequencing_batch"), id_to_col = TRUE) %>% 
   select(-airtable_record_id) %>% 
   filter(EHI_number %in% datasets) %>% 
   rename(rawdata_id=EHI_number,sample_id=sample_alias,total_gb=`Total Data (GB)`,host_gb=`Host Data (GB)`,metagenomic_gb=`Metagenomic Data (GB)`,accession_experiment=`ENA_experiment_accession`,accession_run=`ENA_run_accession`) %>% 
   mutate(lowqual_gb=total_gb-host_gb-metagenomic_gb) %>% 
   left_join(rawdata_preprocessing_metadata,by="rawdata_id") %>%
-  group_by(rawdata_id,sample_id,accession_experiment,accession_run) %>% 
+  group_by(rawdata_id,sample_id,accession_experiment,accession_run,sequencing_batch) %>% 
   summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) %>% 
   as_tibble() 
 

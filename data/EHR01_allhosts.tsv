@@ -99,6 +99,7 @@ Aves
 Mammalia
 Reptilia
 Mammalia
+Mammalia
 Aves
 Aves
 Reptilia
@@ -193,6 +194,7 @@ Mammalia
 Mammalia
 Reptilia
 Mammalia
+Amphibia
 Aves
 Mammalia
 Reptilia
@@ -215,6 +217,7 @@ Aves
 Mammalia
 Aves
 Aves
+Amphibia
 Mammalia
 Mammalia
 Aves
@@ -447,6 +450,7 @@ Mammalia
 Aves
 Aves
 Aves
+Amphibia
 Mammalia
 Aves
 Aves
@@ -523,6 +527,7 @@ Aves
 Mammalia
 Aves
 Reptilia
+Amphibia
 Reptilia
 Mammalia
 Aves
@@ -753,6 +758,7 @@ Aves
 Mammalia
 Aves
 Amphibia
+Amphibia
 Mammalia
 Aves
 Reptilia
@@ -764,6 +770,7 @@ Aves
 Reptilia
 Aves
 Aves
+Amphibia
 Reptilia
 Reptilia
 Aves
@@ -778,6 +785,7 @@ Aves
 Aves
 Reptilia
 Mammalia
+Mammalia
 Aves
 Mammalia
 Mammalia
@@ -807,6 +815,7 @@ Mammalia
 Mammalia
 Mammalia
 Mammalia
+Amphibia
 Mammalia
 Aves
 Reptilia
@@ -992,6 +1001,7 @@ Mammalia
 Mammalia
 Aves
 Mammalia
+Amphibia
 Reptilia
 Reptilia
 Mammalia
@@ -1023,6 +1033,7 @@ Reptilia
 Reptilia
 Mammalia
 Aves
+Amphibia
 Aves
 Mammalia
 Reptilia
@@ -1054,6 +1065,7 @@ Amphibia
 Mammalia
 Mammalia
 Reptilia
+Amphibia
 Amphibia
 Reptilia
 Mammalia
@@ -1152,11 +1164,13 @@ Aves
 Amphibia
 Mammalia
 Reptilia
+Amphibia
 Reptilia
 Mammalia
 Mammalia
 Mammalia
 Mammalia
+Amphibia
 Aves
 Reptilia
 Mammalia
@@ -1208,8 +1222,10 @@ Mammalia
 Reptilia
 Aves
 Aves
+Amphibia
 Reptilia
 Mammalia
+Amphibia
 Reptilia
 Mammalia
 Mammalia
@@ -1335,6 +1351,7 @@ Amphibia
 Aves
 Amphibia
 Reptilia
+Mammalia
 Mammalia
 Reptilia
 Mammalia
@@ -1679,6 +1696,7 @@ Mammalia
 Reptilia
 Reptilia
 Mammalia
+Amphibia
 Aves
 Mammalia
 Reptilia
@@ -2018,6 +2036,7 @@ Mammalia
 Aves
 Reptilia
 Aves
+Amphibia
 Mammalia
 Reptilia
 Mammalia
@@ -2080,6 +2099,7 @@ Aves
 Mammalia
 Reptilia
 Mammalia
+Amphibia
 Mammalia
 Mammalia
 Reptilia
@@ -2135,6 +2155,7 @@ Mammalia
 Mammalia
 Reptilia
 Reptilia
+Amphibia
 Mammalia
 Amphibia
 Mammalia
@@ -2163,6 +2184,7 @@ Amphibia
 Mammalia
 Aves
 Aves
+Amphibia
 Aves
 Mammalia
 Reptilia
@@ -2359,6 +2381,7 @@ Aves
 Aves
 Mammalia
 Amphibia
+Mammalia
 Reptilia
 Reptilia
 Aves
@@ -2403,6 +2426,7 @@ Mammalia
 Reptilia
 Reptilia
 Aves
+Mammalia
 Amphibia
 Reptilia
 Mammalia
@@ -2525,6 +2549,7 @@ Aves
 Reptilia
 Aves
 Mammalia
+Amphibia
 Amphibia
 Amphibia
 Reptilia
@@ -2611,6 +2636,7 @@ Aves
 Mammalia
 Reptilia
 Reptilia
+Amphibia
 Reptilia
 Aves
 Reptilia
@@ -2683,8 +2709,10 @@ Aves
 Mammalia
 Mammalia
 Reptilia
+Amphibia
 Mammalia
 Aves
+Amphibia
 Mammalia
 Aves
 Amphibia
@@ -2724,6 +2752,7 @@ Aves
 Mammalia
 Reptilia
 Mammalia
+Amphibia
 Mammalia
 Reptilia
 Aves
@@ -2775,6 +2804,7 @@ Mammalia
 Mammalia
 Mammalia
 Amphibia
+Amphibia
 Reptilia
 Mammalia
 Reptilia
@@ -2820,6 +2850,7 @@ Reptilia
 Aves
 Mammalia
 Aves
+Amphibia
 Mammalia
 Mammalia
 Reptilia
@@ -2835,6 +2866,7 @@ Aves
 Mammalia
 Aves
 Reptilia
+Amphibia
 Reptilia
 Aves
 Aves
@@ -3080,6 +3112,7 @@ Mammalia
 Reptilia
 Amphibia
 Reptilia
+Amphibia
 Mammalia
 Reptilia
 Mammalia
@@ -3305,6 +3338,7 @@ Reptilia
 Amphibia
 Aves
 Mammalia
+Amphibia
 Amphibia
 Reptilia
 Aves
@@ -3331,6 +3365,7 @@ Aves
 Mammalia
 Mammalia
 Mammalia
+Amphibia
 Mammalia
 Mammalia
 Reptilia
@@ -3347,6 +3382,7 @@ Reptilia
 Mammalia
 Mammalia
 Reptilia
+Mammalia
 Mammalia
 Mammalia
 Reptilia
@@ -3423,6 +3459,7 @@ Reptilia
 Aves
 Reptilia
 Amphibia
+Amphibia
 Mammalia
 Aves
 Mammalia
@@ -3440,12 +3477,14 @@ Reptilia
 Mammalia
 Aves
 Aves
+Amphibia
 Reptilia
 Reptilia
 Reptilia
 Mammalia
 Aves
 Amphibia
+Mammalia
 Aves
 Aves
 Aves
@@ -3532,6 +3571,7 @@ Aves
 Mammalia
 Reptilia
 Aves
+Mammalia
 Mammalia
 Mammalia
 Reptilia
@@ -3560,6 +3600,7 @@ Mammalia
 Mammalia
 Mammalia
 Reptilia
+Amphibia
 Mammalia
 Reptilia
 Reptilia
@@ -3577,6 +3618,7 @@ Mammalia
 Aves
 Aves
 Reptilia
+Amphibia
 Reptilia
 Mammalia
 Mammalia
@@ -3738,6 +3780,7 @@ Mammalia
 Mammalia
 Reptilia
 Reptilia
+Amphibia
 Aves
 Mammalia
 Reptilia
@@ -3872,11 +3915,13 @@ Aves
 Reptilia
 Aves
 Reptilia
+Mammalia
 Mammalia
 Mammalia
 Aves
 Amphibia
 Aves
+Amphibia
 Mammalia
 Aves
 Reptilia
@@ -3909,6 +3954,7 @@ Reptilia
 Mammalia
 Mammalia
 Mammalia
+Mammalia
 Aves
 Reptilia
 Mammalia
@@ -3961,6 +4007,7 @@ Amphibia
 Mammalia
 Aves
 Reptilia
+Mammalia
 Aves
 Mammalia
 Mammalia
@@ -3976,6 +4023,7 @@ Amphibia
 Mammalia
 Amphibia
 Aves
+Amphibia
 Mammalia
 Aves
 Aves
@@ -3990,6 +4038,7 @@ Aves
 Aves
 Reptilia
 Mammalia
+Amphibia
 Aves
 Mammalia
 Aves
@@ -4129,6 +4178,7 @@ Aves
 Reptilia
 Mammalia
 Amphibia
+Mammalia
 Reptilia
 Mammalia
 Mammalia
@@ -4181,6 +4231,7 @@ Reptilia
 Aves
 Aves
 Reptilia
+Amphibia
 Reptilia
 Mammalia
 Mammalia
@@ -4447,6 +4498,7 @@ Reptilia
 Aves
 Reptilia
 Amphibia
+Amphibia
 Mammalia
 Reptilia
 Mammalia
@@ -4605,6 +4657,7 @@ Mammalia
 Mammalia
 Reptilia
 Aves
+Amphibia
 Amphibia
 Reptilia
 Mammalia
@@ -4668,7 +4721,9 @@ Mammalia
 Reptilia
 Aves
 Mammalia
+Mammalia
 Aves
+Amphibia
 Mammalia
 Reptilia
 Reptilia
@@ -4710,6 +4765,7 @@ Amphibia
 Mammalia
 Amphibia
 Mammalia
+Mammalia
 Aves
 Mammalia
 Reptilia
@@ -4936,6 +4992,7 @@ Mammalia
 Aves
 Reptilia
 Mammalia
+Amphibia
 Mammalia
 Reptilia
 Aves
@@ -4983,11 +5040,13 @@ Amphibia
 Mammalia
 Mammalia
 Mammalia
+Amphibia
 Mammalia
 Aves
 Aves
 Reptilia
 Reptilia
+Mammalia
 Mammalia
 Mammalia
 Mammalia
@@ -5195,6 +5254,7 @@ Falconiformes
 Carnivora
 Squamata
 Chiroptera
+Carnivora
 Piciformes
 Passeriformes
 Squamata
@@ -5289,6 +5349,7 @@ Rodentia
 Chiroptera
 Squamata
 Chiroptera
+Urodela
 Passeriformes
 Rodentia
 Squamata
@@ -5311,6 +5372,7 @@ Passeriformes
 Chiroptera
 Falconiformes
 Piciformes
+Urodela
 Chiroptera
 Rodentia
 Passeriformes
@@ -5543,6 +5605,7 @@ Rodentia
 Passeriformes
 Passeriformes
 Passeriformes
+Urodela
 Chiroptera
 Falconiformes
 Strigiformes
@@ -5619,6 +5682,7 @@ Passeriformes
 Rodentia
 Falconiformes
 Squamata
+Urodela
 Squamata
 Chiroptera
 Charadriiformes
@@ -5849,6 +5913,7 @@ Psittaciformes
 Rodentia
 Passeriformes
 Urodela
+Urodela
 Chiroptera
 Passeriformes
 Squamata
@@ -5860,6 +5925,7 @@ Accipitriformes
 Squamata
 Passeriformes
 Strigiformes
+Urodela
 Squamata
 Squamata
 Passeriformes
@@ -5874,6 +5940,7 @@ Strigiformes
 Passeriformes
 Squamata
 Rodentia
+Carnivora
 Apodiformes
 Chiroptera
 Chiroptera
@@ -5903,6 +5970,7 @@ Diprotodontia
 Chiroptera
 Rodentia
 Chiroptera
+Urodela
 Chiroptera
 Passeriformes
 Squamata
@@ -6088,6 +6156,7 @@ Chiroptera
 Rodentia
 Coraciiformes
 Chiroptera
+Urodela
 Squamata
 Squamata
 Diprotodontia
@@ -6119,6 +6188,7 @@ Squamata
 Squamata
 Rodentia
 Passeriformes
+Urodela
 Passeriformes
 Rodentia
 Squamata
@@ -6150,6 +6220,7 @@ Urodela
 Rodentia
 Carnivora
 Squamata
+Urodela
 Urodela
 Squamata
 Rodentia
@@ -6248,11 +6319,13 @@ Passeriformes
 Urodela
 Rodentia
 Squamata
+Urodela
 Squamata
 Rodentia
 Chiroptera
 Rodentia
 Rodentia
+Urodela
 Passeriformes
 Squamata
 Carnivora
@@ -6304,8 +6377,10 @@ Rodentia
 Squamata
 Charadriiformes
 Passeriformes
+Urodela
 Squamata
 Diprotodontia
+Urodela
 Squamata
 Chiroptera
 Chiroptera
@@ -6431,6 +6506,7 @@ Urodela
 Passeriformes
 Anura
 Squamata
+Carnivora
 Chiroptera
 Squamata
 Chiroptera
@@ -6775,6 +6851,7 @@ Rodentia
 Squamata
 Squamata
 Chiroptera
+Urodela
 Passeriformes
 Rodentia
 Squamata
@@ -7114,6 +7191,7 @@ Chiroptera
 Falconiformes
 Squamata
 Passeriformes
+Urodela
 Chiroptera
 Squamata
 Carnivora
@@ -7176,6 +7254,7 @@ Passeriformes
 Rodentia
 Squamata
 Rodentia
+Urodela
 Rodentia
 Diprotodontia
 Squamata
@@ -7231,6 +7310,7 @@ Diprotodontia
 Rodentia
 Squamata
 Squamata
+Urodela
 Rodentia
 Anura
 Chiroptera
@@ -7259,6 +7339,7 @@ Anura
 Rodentia
 Psittaciformes
 Passeriformes
+Urodela
 Passeriformes
 Rodentia
 Squamata
@@ -7455,6 +7536,7 @@ Psittaciformes
 Passeriformes
 Rodentia
 Anura
+Carnivora
 Squamata
 Squamata
 Passeriformes
@@ -7499,6 +7581,7 @@ Chiroptera
 Squamata
 Squamata
 Passeriformes
+Lagomorpha
 Urodela
 Squamata
 Rodentia
@@ -7623,6 +7706,7 @@ Passeriformes
 Carnivora
 Anura
 Urodela
+Urodela
 Squamata
 Urodela
 Rodentia
@@ -7707,6 +7791,7 @@ Accipitriformes
 Chiroptera
 Squamata
 Squamata
+Urodela
 Squamata
 Passeriformes
 Squamata
@@ -7779,8 +7864,10 @@ Accipitriformes
 Rodentia
 Chiroptera
 Squamata
+Urodela
 Rodentia
 Passeriformes
+Urodela
 Carnivora
 Passeriformes
 Anura
@@ -7820,6 +7907,7 @@ Coraciiformes
 Rodentia
 Squamata
 Chiroptera
+Urodela
 Lagomorpha
 Squamata
 Passeriformes
@@ -7870,6 +7958,7 @@ Chiroptera
 Dasyuromorphia
 Chiroptera
 Chiroptera
+Urodela
 Anura
 Squamata
 Chiroptera
@@ -7916,6 +8005,7 @@ Squamata
 Accipitriformes
 Chiroptera
 Piciformes
+Urodela
 Chiroptera
 Chiroptera
 Squamata
@@ -7931,6 +8021,7 @@ Passeriformes
 Rodentia
 Passeriformes
 Squamata
+Urodela
 Squamata
 Falconiformes
 Passeriformes
@@ -8176,6 +8267,7 @@ Chiroptera
 Squamata
 Anura
 Squamata
+Urodela
 Rodentia
 Squamata
 Rodentia
@@ -8402,6 +8494,7 @@ Urodela
 Passeriformes
 Rodentia
 Urodela
+Urodela
 Squamata
 Passeriformes
 Squamata
@@ -8427,6 +8520,7 @@ Passeriformes
 Rodentia
 Rodentia
 Chiroptera
+Urodela
 Diprotodontia
 Rodentia
 Squamata
@@ -8443,6 +8537,7 @@ Squamata
 Rodentia
 Rodentia
 Squamata
+Carnivora
 Chiroptera
 Chiroptera
 Squamata
@@ -8519,6 +8614,7 @@ Squamata
 Passeriformes
 Squamata
 Anura
+Urodela
 Rodentia
 Apodiformes
 Rodentia
@@ -8536,12 +8632,14 @@ Squamata
 Rodentia
 Passeriformes
 Passeriformes
+Urodela
 Squamata
 Squamata
 Squamata
 Chiroptera
 Piciformes
 Anura
+Carnivora
 Passeriformes
 Passeriformes
 Passeriformes
@@ -8629,6 +8727,7 @@ Chiroptera
 Squamata
 Falconiformes
 Lagomorpha
+Carnivora
 Rodentia
 Squamata
 Rodentia
@@ -8656,6 +8755,7 @@ Rodentia
 Rodentia
 Chiroptera
 Squamata
+Urodela
 Rodentia
 Squamata
 Squamata
@@ -8673,6 +8773,7 @@ Rodentia
 Charadriiformes
 Passeriformes
 Squamata
+Urodela
 Squamata
 Rodentia
 Chiroptera
@@ -8834,6 +8935,7 @@ Rodentia
 Rodentia
 Squamata
 Squamata
+Urodela
 Passeriformes
 Chiroptera
 Squamata
@@ -8968,11 +9070,13 @@ Passeriformes
 Squamata
 Passeriformes
 Squamata
+Carnivora
 Chiroptera
 Chiroptera
 Psittaciformes
 Anura
 Passeriformes
+Urodela
 Rodentia
 Cuculiformes
 Squamata
@@ -9004,6 +9108,7 @@ Squamata
 Squamata
 Rodentia
 Chiroptera
+Carnivora
 Rodentia
 Passeriformes
 Squamata
@@ -9057,6 +9162,7 @@ Urodela
 Chiroptera
 Passeriformes
 Squamata
+Carnivora
 Coliiformes
 Chiroptera
 Chiroptera
@@ -9072,6 +9178,7 @@ Anura
 Diprotodontia
 Anura
 Charadriiformes
+Urodela
 Chiroptera
 Passeriformes
 Psittaciformes
@@ -9086,6 +9193,7 @@ Passeriformes
 Passeriformes
 Squamata
 Chiroptera
+Urodela
 Passeriformes
 Chiroptera
 Passeriformes
@@ -9225,6 +9333,7 @@ Strigiformes
 Squamata
 Rodentia
 Urodela
+Carnivora
 Squamata
 Chiroptera
 Rodentia
@@ -9277,6 +9386,7 @@ Squamata
 Passeriformes
 Falconiformes
 Squamata
+Urodela
 Squamata
 Rodentia
 Chiroptera
@@ -9542,6 +9652,7 @@ Squamata
 Squamata
 Passeriformes
 Squamata
+Urodela
 Urodela
 Diprotodontia
 Squamata
@@ -9702,6 +9813,7 @@ Rodentia
 Squamata
 Passeriformes
 Urodela
+Urodela
 Squamata
 Chiroptera
 Squamata
@@ -9764,7 +9876,9 @@ Rodentia
 Squamata
 Passeriformes
 Chiroptera
+Carnivora
 Passeriformes
+Urodela
 Diprotodontia
 Squamata
 Squamata
@@ -9806,6 +9920,7 @@ Urodela
 Dasyuromorphia
 Urodela
 Rodentia
+Carnivora
 Passeriformes
 Chiroptera
 Squamata
@@ -10032,6 +10147,7 @@ Diprotodontia
 Passeriformes
 Squamata
 Chiroptera
+Urodela
 Rodentia
 Squamata
 Passeriformes
@@ -10079,6 +10195,7 @@ Anura
 Chiroptera
 Rodentia
 Rodentia
+Urodela
 Chiroptera
 Passeriformes
 Passeriformes
@@ -10088,6 +10205,7 @@ Rodentia
 Diprotodontia
 Rodentia
 Diprotodontia
+Carnivora
 Lagomorpha
 Rodentia
 Carnivora
@@ -10291,6 +10409,7 @@ Falconidae
 Canidae
 Lacertidae
 Vespertilionidae
+Canidae
 Picidae
 Acrocephalidae
 Lacertidae
@@ -10385,6 +10504,7 @@ Sciuridae
 Vespertilionidae
 Lacertidae
 Vespertilionidae
+Salamandridae
 Furnariidae
 Cricetidae
 Lacertidae
@@ -10407,6 +10527,7 @@ Passeridae
 Vespertilionidae
 Falconidae
 Indicatoridae
+Salamandridae
 Vespertilionidae
 Muridae
 Acrocephalidae
@@ -10639,6 +10760,7 @@ Cricetidae
 Muscicapidae
 Passerellidae
 Tyrannidae
+Salamandridae
 Vespertilionidae
 Falconidae
 Strigidae
@@ -10715,6 +10837,7 @@ Grallariidae
 Sciuridae
 Falconidae
 Lamprophiidae
+Salamandridae
 Lacertidae
 Vespertilionidae
 Laridae
@@ -10945,6 +11068,7 @@ Psittaculidae
 Sciuridae
 Thamnophilidae
 Salamandridae
+Salamandridae
 Vespertilionidae
 Corvidae
 Lacertidae
@@ -10956,6 +11080,7 @@ Cathartidae
 Lacertidae
 Parulidae
 Strigidae
+Salamandridae
 Lacertidae
 Lacertidae
 Tyrannidae
@@ -10970,6 +11095,7 @@ Strigidae
 Pachycephalidae
 Lacertidae
 Cricetidae
+Canidae
 Trochilidae
 Vespertilionidae
 Vespertilionidae
@@ -10999,6 +11125,7 @@ Phalangeridae
 Vespertilionidae
 Sciuridae
 Miniopteridae
+Salamandridae
 Vespertilionidae
 Thamnophilidae
 Lacertidae
@@ -11184,6 +11311,7 @@ Phyllostomidae
 Sciuridae
 Meropidae
 Vespertilionidae
+Salamandridae
 Colubridae
 Lacertidae
 Phalangeridae
@@ -11215,6 +11343,7 @@ Phrynosomatidae
 Lacertidae
 Sciuridae
 Furnariidae
+Salamandridae
 Thraupidae
 Cricetidae
 Lacertidae
@@ -11246,6 +11375,7 @@ Salamandridae
 Sciuridae
 Canidae
 Lacertidae
+Salamandridae
 Salamandridae
 Lacertidae
 Sciuridae
@@ -11344,11 +11474,13 @@ Muscicapidae
 Salamandridae
 Muridae
 Lacertidae
+Salamandridae
 Lacertidae
 Muridae
 Vespertilionidae
 Sciuridae
 Cricetidae
+Salamandridae
 Passeridae
 Lacertidae
 Canidae
@@ -11400,8 +11532,10 @@ Muridae
 Lacertidae
 Laridae
 Passeridae
+Salamandridae
 Dactyloidae
 Phalangeridae
+Salamandridae
 Lacertidae
 Vespertilionidae
 Vespertilionidae
@@ -11527,6 +11661,7 @@ Salamandridae
 Ploceidae
 Bombinatoridae
 Lacertidae
+Canidae
 Vespertilionidae
 Lacertidae
 Vespertilionidae
@@ -11871,6 +12006,7 @@ Sciuridae
 Lacertidae
 Dactyloidae
 Miniopteridae
+Salamandridae
 Motacillidae
 Cricetidae
 Lacertidae
@@ -12210,6 +12346,7 @@ Vespertilionidae
 Falconidae
 Phrynosomatidae
 Paridae
+Salamandridae
 Vespertilionidae
 Lacertidae
 Canidae
@@ -12272,6 +12409,7 @@ Malaconotidae
 Muridae
 Lacertidae
 Sciuridae
+Salamandridae
 Sciuridae
 Phalangeridae
 Lacertidae
@@ -12327,6 +12465,7 @@ Phalangeridae
 Sciuridae
 Lacertidae
 Lacertidae
+Salamandridae
 Sciuridae
 Bombinatoridae
 Vespertilionidae
@@ -12355,6 +12494,7 @@ Bombinatoridae
 Sciuridae
 Psittaculidae
 Corvidae
+Salamandridae
 Pipridae
 Sciuridae
 Lacertidae
@@ -12551,6 +12691,7 @@ Psittaculidae
 Corvidae
 Sciuridae
 Bombinatoridae
+Canidae
 Lacertidae
 Lacertidae
 Muscicapidae
@@ -12595,6 +12736,7 @@ Vespertilionidae
 Lacertidae
 Phrynosomatidae
 Hirundinidae
+Leporidae
 Salamandridae
 Lacertidae
 Gliridae
@@ -12719,6 +12861,7 @@ Pachycephalidae
 Canidae
 Bombinatoridae
 Salamandridae
+Salamandridae
 Dactyloidae
 Salamandridae
 Muridae
@@ -12803,6 +12946,7 @@ Cathartidae
 Phyllostomidae
 Lacertidae
 Lacertidae
+Salamandridae
 Lacertidae
 Passerellidae
 Lacertidae
@@ -12875,8 +13019,10 @@ Cathartidae
 Sciuridae
 Miniopteridae
 Lacertidae
+Salamandridae
 Gliridae
 Tyrannidae
+Salamandridae
 Canidae
 Passeridae
 Bombinatoridae
@@ -12916,6 +13062,7 @@ Alcedinidae
 Sciuridae
 Lacertidae
 Rhinolophidae
+Salamandridae
 Leporidae
 Lacertidae
 Furnariidae
@@ -12966,6 +13113,7 @@ Vespertilionidae
 Dasyuridae
 Vespertilionidae
 Vespertilionidae
+Salamandridae
 Bombinatoridae
 Lacertidae
 Vespertilionidae
@@ -13012,6 +13160,7 @@ Lacertidae
 Cathartidae
 Vespertilionidae
 Lybiidae
+Salamandridae
 Vespertilionidae
 Vespertilionidae
 Dactyloidae
@@ -13027,6 +13176,7 @@ Hirundinidae
 Cricetidae
 Troglodytidae
 Scincidae
+Salamandridae
 Lacertidae
 Falconidae
 Thamnophilidae
@@ -13272,6 +13422,7 @@ Rhinolophidae
 Lacertidae
 Bombinatoridae
 Lacertidae
+Salamandridae
 Sciuridae
 Colubridae
 Sciuridae
@@ -13498,6 +13649,7 @@ Salamandridae
 Muscicapidae
 Sciuridae
 Salamandridae
+Salamandridae
 Lacertidae
 Muscicapidae
 Scincidae
@@ -13523,6 +13675,7 @@ Furnariidae
 Sciuridae
 Gliridae
 Vespertilionidae
+Salamandridae
 Phalangeridae
 Sciuridae
 Lacertidae
@@ -13539,6 +13692,7 @@ Lacertidae
 Sciuridae
 Sciuridae
 Lacertidae
+Canidae
 Rhinolophidae
 Vespertilionidae
 Lacertidae
@@ -13615,6 +13769,7 @@ Lacertidae
 Corvidae
 Lacertidae
 Bombinatoridae
+Salamandridae
 Muridae
 Trochilidae
 Sciuridae
@@ -13632,12 +13787,14 @@ Lacertidae
 Sciuridae
 Sylviidae
 Passeridae
+Salamandridae
 Scincidae
 Lacertidae
 Lacertidae
 Vespertilionidae
 Indicatoridae
 Bombinatoridae
+Canidae
 Passeridae
 Furnariidae
 Passeridae
@@ -13725,6 +13882,7 @@ Vespertilionidae
 Lacertidae
 Falconidae
 Leporidae
+Canidae
 Cricetidae
 Scincidae
 Sciuridae
@@ -13752,6 +13910,7 @@ Sciuridae
 Muridae
 Vespertilionidae
 Lacertidae
+Salamandridae
 Cricetidae
 Phrynosomatidae
 Phrynosomatidae
@@ -13769,6 +13928,7 @@ Gliridae
 Laridae
 Thraupidae
 Phrynosomatidae
+Salamandridae
 Phrynosomatidae
 Sciuridae
 Vespertilionidae
@@ -13930,6 +14090,7 @@ Sciuridae
 Sciuridae
 Lacertidae
 Lacertidae
+Salamandridae
 Passeridae
 Vespertilionidae
 Lacertidae
@@ -14064,11 +14225,13 @@ Estrildidae
 Lacertidae
 Passeridae
 Lacertidae
+Canidae
 Rhinolophidae
 Vespertilionidae
 Psittaculidae
 Bombinatoridae
 Parulidae
+Salamandridae
 Sciuridae
 Cuculidae
 Lacertidae
@@ -14100,6 +14263,7 @@ Lacertidae
 Lacertidae
 Cricetidae
 Phyllostomidae
+Canidae
 Sciuridae
 Tyrannidae
 Lacertidae
@@ -14153,6 +14317,7 @@ Salamandridae
 Rhinolophidae
 Tyrannidae
 Lacertidae
+Canidae
 Coliidae
 Vespertilionidae
 Vespertilionidae
@@ -14168,6 +14333,7 @@ Bombinatoridae
 Phalangeridae
 Bombinatoridae
 Laridae
+Salamandridae
 Vespertilionidae
 Parulidae
 Psittaculidae
@@ -14182,6 +14348,7 @@ Acrocephalidae
 Malaconotidae
 Lacertidae
 Vespertilionidae
+Salamandridae
 Furnariidae
 Vespertilionidae
 Passeridae
@@ -14321,6 +14488,7 @@ Strigidae
 Lacertidae
 Sciuridae
 Salamandridae
+Canidae
 Lacertidae
 Rhinolophidae
 Sciuridae
@@ -14373,6 +14541,7 @@ Lacertidae
 Muscicapidae
 Falconidae
 Lacertidae
+Salamandridae
 Lacertidae
 Sciuridae
 Vespertilionidae
@@ -14639,6 +14808,7 @@ Lacertidae
 Corvidae
 Phrynosomatidae
 Salamandridae
+Salamandridae
 Phalangeridae
 Lacertidae
 Muridae
@@ -14798,6 +14968,7 @@ Sciuridae
 Lacertidae
 Sylviidae
 Salamandridae
+Salamandridae
 Lacertidae
 Vespertilionidae
 Lacertidae
@@ -14860,7 +15031,9 @@ Sciuridae
 Lacertidae
 Tyrannidae
 Vespertilionidae
+Canidae
 Tyrannidae
+Salamandridae
 Vombatidae
 Lacertidae
 Lacertidae
@@ -14902,6 +15075,7 @@ Salamandridae
 Dasyuridae
 Salamandridae
 Sciuridae
+Canidae
 Thraupidae
 Vespertilionidae
 Phrynosomatidae
@@ -15128,6 +15302,7 @@ Phalangeridae
 Muscicapidae
 Lacertidae
 Vespertilionidae
+Salamandridae
 Cricetidae
 Lacertidae
 Muscicapidae
@@ -15175,6 +15350,7 @@ Bombinatoridae
 Vespertilionidae
 Cricetidae
 Gliridae
+Salamandridae
 Vespertilionidae
 Parulidae
 Tyrannidae
@@ -15184,6 +15360,7 @@ Sciuridae
 Vombatidae
 Cricetidae
 Phalangeridae
+Canidae
 Leporidae
 Sciuridae
 Canidae
@@ -15289,7 +15466,7 @@ Vespertilionidae
 Parus major
 Podarcis muralis
 Podarcis pityusensis
-Marmota flaviventer
+Marmota flaviventris
 Pteronotus mesoamericanus
 Sciurus vulgaris
 Trichosurus vulpecula
@@ -15306,7 +15483,7 @@ Podarcis filfolensis
 Rhinolophus hipposideros
 Podarcis liolepis
 Trichosurus vulpecula
-Marmota flaviventer
+Marmota flaviventris
 Cinnyris mariquensis
 Podarcis muralis
 Rhinolophus euryale
@@ -15338,7 +15515,7 @@ Vombatus ursinus
 Petrogale xanthopus
 Sciurus carolinensis
 Rattus rattus
-Marmota flaviventer
+Marmota flaviventris
 Sciurus vulgaris
 Acrocephalus scirpaceus
 Myotis daubentonii
@@ -15346,7 +15523,7 @@ Bombina sp.
 Salamandra salamandra gallaica
 Podarcis muralis
 Fringilla coelebs
-Podarcis sp.
+Podarcis guadarramae
 Calotriton asper
 Podarcis liolepis
 Sciurus carolinensis
@@ -15387,10 +15564,11 @@ Falco eleonorae
 Canis familiaris
 Podarcis muralis
 Myotis mystacinus
+Canis familiaris
 Jynx ruficollis
 Acrocephalus scirpaceus
 Podarcis muralis
-Podarcis sp.
+Podarcis guadarramae
 Cossypha caffra
 Sylvia atricapilla
 Trichosurus vulpecula
@@ -15432,7 +15610,7 @@ Lepus europaeus
 Podarcis muralis
 Plecotus auritus
 Trichosurus vulpecula
-Podarcis sp.
+Podarcis bocagei
 Lacerta viridis
 Petrogale xanthopus
 Sciurus carolinensis
@@ -15479,8 +15657,9 @@ Thamnolaea cinnamomeiventris
 Podarcis pityusensis
 Sciurus vulgaris
 Eptesicus serotinus
-Podarcis sp.
+Podarcis bocagei
 Plecotus auritus
+Lissotriton vulgaris
 Xenops minutus
 Peromyscus maniculatus
 Podarcis cretensis
@@ -15503,6 +15682,7 @@ Passer montanus
 Plecotus auritus
 Falco eleonorae
 Indicator minor
+Ichthyosaura alpestris
 Nyctalus noctula
 Rattus rattus
 Acrocephalus arundinaceus
@@ -15554,7 +15734,7 @@ Vombatus ursinus
 Sciurus carolinensis
 Canis familiaris
 Salamandra salamandra gallaica
-Podarcis sp.
+Podarcis guadarramae
 Bombina sp.
 Sciurus carolinensis
 Sciurus carolinensis
@@ -15619,7 +15799,7 @@ Podarcis muralis
 Strix aluco
 Bombina sp.
 Vombatus ursinus
-Marmota flaviventer
+Marmota flaviventris
 Bombina sp.
 Paroaria gularis
 Myotis bechsteinii
@@ -15662,14 +15842,14 @@ Basileuterus culicivorus
 Passer domesticus
 Chlorophoneus sulfureopectus
 Sciurus vulgaris
-Marmota flaviventer
+Marmota flaviventris
 Podarcis gaigeae
 Iberolacerta bonnali
 Cinclodes albidiventris
-Marmota flaviventer
+Marmota flaviventris
 Perisoreus infaustus
 Falco eleonorae
-Podarcis sp.
+Podarcis bocagei
 Apodemus sylvaticus
 Sciurus vulgaris
 Myotis crypticus
@@ -15700,7 +15880,7 @@ Psammodromus manuelae
 Myotis blythii
 Sciurus vulgaris
 Sciurus vulgaris
-Marmota flaviventer
+Marmota flaviventris
 Lissotriton helveticus
 Iberolacerta bonnali
 Bombina sp.
@@ -15726,7 +15906,7 @@ Falco eleonorae
 Sciurus vulgaris
 Bombina sp.
 Chalcides striatus
-Podarcis sp.
+Podarcis guadarramae
 Podarcis sp.
 Dendrocincla merula
 Podarcis pityusensis
@@ -15736,6 +15916,7 @@ Peromyscus maniculatus
 Cossypha dichroa
 Chlorospingus flavopectus
 Mecocerculus leucophrys
+Lissotriton vulgaris
 Myotis bechsteinii
 Falco eleonorae
 Strix aluco
@@ -15748,9 +15929,9 @@ Prinia subflava
 Perisoreus infaustus
 Trichosurus vulpecula
 Lissotriton helveticus
-Marmota flaviventer
+Marmota flaviventris
 Podarcis muralis
-Marmota flaviventer
+Marmota flaviventris
 Carinascincus orocryptus
 Muscardinus avellanarius
 Cyanoloxia rothschildii
@@ -15758,7 +15939,7 @@ Larus michahellis
 Acrocephalus scirpaceus
 Chalcides striatus
 Sciurus vulgaris
-Marmota flaviventer
+Marmota flaviventris
 Podarcis milensis
 Bombina sp.
 Geospizopsis unicolor
@@ -15789,7 +15970,7 @@ Myotis bechsteinii
 Sciurus vulgaris
 Euplectes capensis
 Myotis bechsteinii
-Marmota flaviventer
+Marmota flaviventris
 Plecotus auritus
 Myotis myotis
 Podarcis muralis
@@ -15812,6 +15993,7 @@ Grallaria quitensis
 Sciurus vulgaris
 Falco eleonorae
 Malpolon monspessulanus
+Lissotriton vulgaris
 Podarcis gaigeae
 Plecotus auritus
 Larus michahellis
@@ -15825,7 +16007,7 @@ Sciurus carolinensis
 Trichosurus vulpecula
 Podarcis muralis
 Chloroceryle americana
-Marmota flaviventer
+Marmota flaviventris
 Cossypha caffra
 Podarcis filfolensis
 Passer domesticus
@@ -15867,9 +16049,9 @@ Passer domesticus
 Emberiza cirlus
 Muscardinus avellanarius
 Sciurus carolinensis
-Podarcis sp.
+Podarcis guadarramae
 Trichosurus vulpecula
-Podarcis sp.
+Podarcis bocagei
 Chalcides striatus
 Strix aluco
 Larus michahellis
@@ -15932,7 +16114,7 @@ Lasiorhinus latifrons
 Carinascincus orocryptus
 Perisoreus infaustus
 Podarcis muralis
-Marmota flaviventer
+Marmota flaviventris
 Colluricincla megarhyncha
 Sciurus carolinensis
 Iberolacerta bonnali
@@ -15992,7 +16174,7 @@ Sceloporus hondurensis
 Podarcis muralis
 Podarcis milensis
 Apodemus flavicollis
-Marmota flaviventer
+Marmota flaviventris
 Sciurus carolinensis
 Passer domesticus
 Plecotus auritus
@@ -16025,7 +16207,7 @@ Hypargos margaritatus
 Barbastella barbastellus
 Larus michahellis
 Calotriton asper
-Marmota flaviventer
+Marmota flaviventris
 Habia rubica
 Vombatus ursinus
 Myotis myotis
@@ -16042,17 +16224,19 @@ Psittacula echo
 Sciurus carolinensis
 Hypocnemoides maculicauda
 Salamandra salamandra gallaica
+Lissotriton vulgaris
 Myotis bechsteinii
 Perisoreus infaustus
 Podarcis pityusensis
 Peromyscus maniculatus
-Marmota flaviventer
+Marmota flaviventris
 Trichosurus vulpecula
 Bombina sp.
 Coragyps atratus
 Acanthodactylus erythrurus
 Basileuterus culicivorus
 Strix aluco
+Lissotriton vulgaris
 Iberolacerta bonnali
 Podarcis cretensis
 Mionectes oleagineus
@@ -16067,6 +16251,7 @@ Strix aluco
 Pachycephala soror
 Podarcis muralis
 Peromyscus maniculatus
+Canis familiaris
 Campylopterus hemileucurus
 Plecotus auritus
 Myotis myotis
@@ -16096,6 +16281,7 @@ Trichosurus vulpecula
 Myotis myotis
 Sciurus carolinensis
 Miniopterus schreibersii
+Lissotriton vulgaris
 Plecotus auritus
 Myrmelastes hyperythrus
 Podarcis gaigeae
@@ -16141,10 +16327,10 @@ Lissotriton helveticus
 Sciurus carolinensis
 Petrogale xanthopus
 Podarcis muralis
-Marmota flaviventer
+Marmota flaviventris
 Psittacula echo
 Sciurus vulgaris
-Marmota flaviventer
+Marmota flaviventris
 Sciurus vulgaris
 Sciurus vulgaris
 Mecocerculus leucophrys
@@ -16159,14 +16345,14 @@ Myotis emarginatus
 Melaniparus niger
 Sciurus carolinensis
 Plecotus auritus
-Marmota flaviventer
+Marmota flaviventris
 Melaenornis pammelaina
-Podarcis sp.
+Podarcis guadarramae
 Sciurus vulgaris
 Podarcis pityusensis
 Aleadryas rufinucha
 Podarcis muralis
-Marmota flaviventer
+Marmota flaviventris
 Myotis bechsteinii
 Bombina sp.
 Peromyscus maniculatus
@@ -16232,7 +16418,7 @@ Lepus europaeus
 Passer diffusus
 Myotis bechsteinii
 Sciurus vulgaris
-Podarcis sp.
+Podarcis guadarramae
 Sciurus carolinensis
 Trichosurus vulpecula
 Canis familiaris
@@ -16268,7 +16454,7 @@ Myotis emarginatus
 Podarcis filfolensis
 Psammodromus manuelae
 Myotis myotis
-Marmota flaviventer
+Marmota flaviventris
 Calotriton asper
 Psammodromus manuelae
 Myotis emarginatus
@@ -16281,6 +16467,7 @@ Chiroderma salvini
 Sciurus vulgaris
 Merops pusillus
 Plecotus austriacus
+Lissotriton vulgaris
 Coronella girondica
 Podarcis muralis
 Trichosurus vulpecula
@@ -16312,6 +16499,7 @@ Sceloporus torquatus
 Podarcis sp.
 Sciurus carolinensis
 Clibanornis rubiginosus
+Ichthyosaura alpestris
 Coereba flaveola
 Peromyscus maniculatus
 Iberolacerta bonnali
@@ -16344,6 +16532,7 @@ Sciurus vulgaris
 Canis familiaris
 Podarcis muralis
 Lissotriton helveticus
+Lissotriton vulgaris
 Podarcis pityusensis
 Sciurus carolinensis
 Sciurus vulgaris
@@ -16399,7 +16588,7 @@ Vombatus ursinus
 Sciurus vulgaris
 Podarcis muralis
 Eptesicus serotinus
-Podarcis sp.
+Podarcis bocagei
 Chalcides striatus
 Podarcis liolepis
 Lacerta viridis
@@ -16412,7 +16601,7 @@ Plecotus auritus
 Podarcis muralis
 Lasiorhinus latifrons
 Podarcis cretensis
-Marmota flaviventer
+Marmota flaviventris
 Canis familiaris
 Apodemus flavicollis
 Sciurus vulgaris
@@ -16441,11 +16630,13 @@ Cossypha caffra
 Lissotriton vulgaris
 Rattus lutreolus
 Podarcis muralis
+Lissotriton vulgaris
 Podarcis muralis
 Apodemus flavicollis
 Myotis blythii
 Sciurus vulgaris
 Peromyscus maniculatus
+Lissotriton vulgaris
 Passer domesticus
 Podarcis muralis
 Canis familiaris
@@ -16497,8 +16688,10 @@ Apodemus sylvaticus
 Podarcis milensis
 Larus michahellis
 Passer montanus
+Lissotriton vulgaris
 Anolis yoroensis
 Trichosurus vulpecula
+Ichthyosaura alpestris
 Podarcis muralis
 Myotis bechsteinii
 Myotis bechsteinii
@@ -16624,6 +16817,7 @@ Lissotriton helveticus
 Ploceus ocularis
 Bombina sp.
 Podarcis muralis
+Canis familiaris
 Myotis bechsteinii
 Podarcis milensis
 Plecotus auritus
@@ -16655,7 +16849,7 @@ Sciurus carolinensis
 Lissotriton helveticus
 Bombina sp.
 Psittacula echo
-Marmota flaviventer
+Marmota flaviventris
 Podarcis muralis
 Sciurus carolinensis
 Canis familiaris
@@ -16692,7 +16886,7 @@ Podarcis muralis
 Podarcis muralis
 Iberolacerta bonnali
 Plecotus auritus
-Podarcis sp.
+Podarcis bocagei
 Colibri thalassinus
 Podarcis muralis
 Sciurus vulgaris
@@ -16736,7 +16930,7 @@ Sciurus carolinensis
 Myotis bechsteinii
 Sceloporus spinosus
 Plecotus auritus
-Podarcis sp.
+Podarcis guadarramae
 Donacobius atricapilla
 Podarcis muralis
 Iberolacerta bonnali
@@ -16824,7 +17018,7 @@ Podarcis muralis
 Sciurus carolinensis
 Sciurus carolinensis
 Psammodromus manuelae
-Podarcis sp.
+Podarcis guadarramae
 Bombina sp.
 Ornithorhynchus anatinus
 Sciurus vulgaris
@@ -16968,6 +17162,7 @@ Sciurus carolinensis
 Psammodromus manuelae
 Anolis yoroensis
 Miniopterus schreibersii
+Lissotriton vulgaris
 Motacilla clara
 Myodes glareolus
 Podarcis pityusensis
@@ -16987,7 +17182,7 @@ Eutamias sibiricus
 Larus michahellis
 Sciurus vulgaris
 Sciurus vulgaris
-Marmota flaviventer
+Marmota flaviventris
 Acrocephalus scirpaceus
 Myotis bechsteinii
 Perisoreus infaustus
@@ -17014,7 +17209,7 @@ Euplectes albonotatus
 Peromyscus maniculatus
 Sciurus vulgaris
 Passer domesticus
-Marmota flaviventer
+Marmota flaviventris
 Apodemus sylvaticus
 Strix aluco
 Oncostoma cinereigulare
@@ -17249,7 +17444,7 @@ Podarcis muralis
 Sciurus carolinensis
 Malpolon monspessulanus
 Peromyscus maniculatus
-Podarcis sp.
+Podarcis bocagei
 Podarcis sp.
 Paroaria gularis
 Sceloporus bicanthalis
@@ -17271,7 +17466,7 @@ Canis familiaris
 Falco eleonorae
 Plecotus auritus
 Canis familiaris
-Marmota flaviventer
+Marmota flaviventris
 Pachycephala soror
 Malpolon monspessulanus
 Podarcis muralis
@@ -17307,6 +17502,7 @@ Myotis blythii
 Falco eleonorae
 Sceloporus torquatus
 Parus major
+Lissotriton vulgaris
 Plecotus auritus
 Podarcis muralis
 Canis familiaris
@@ -17340,7 +17536,7 @@ Peromyscus maniculatus
 Marmota sibirica
 Ochthoeca fumicolor
 Passer montanus
-Podarcis sp.
+Podarcis guadarramae
 Podarcis pityusensis
 Podarcis muralis
 Turtur tympanistria
@@ -17369,6 +17565,7 @@ Dryoscopus cubla
 Apodemus sylvaticus
 Podarcis liolepis
 Sciurus vulgaris
+Lissotriton vulgaris
 Sciurus vulgaris
 Trichosurus vulpecula
 Podarcis muralis
@@ -17424,6 +17621,7 @@ Trichosurus vulpecula
 Sciurus carolinensis
 Podarcis muralis
 Podarcis pityusensis
+Lissotriton vulgaris
 Sciurus carolinensis
 Bombina sp.
 Eptesicus serotinus
@@ -17447,11 +17645,12 @@ Sceloporus hondurensis
 Psammodromus manuelae
 Myodes rufocanus
 Acanthodactylus erythrurus
-Podarcis sp.
+Podarcis guadarramae
 Bombina sp.
 Sciurus carolinensis
 Psittacula echo
 Perisoreus infaustus
+Ichthyosaura alpestris
 Pipra fasciicauda
 Sciurus carolinensis
 Podarcis milensis
@@ -17469,7 +17668,7 @@ Myotis keaysi pilosotibialis
 Canis familiaris
 Sceloporus horridus
 Trichosurus vulpecula
-Podarcis sp.
+Podarcis guadarramae
 Sceloporus bicanthalis
 Psittacula echo
 Peromyscus maniculatus
@@ -17544,7 +17743,7 @@ Podarcis muralis
 Tachycineta albiventer
 Calotriton asper
 Myotis blythii
-Marmota flaviventer
+Marmota flaviventris
 Lasiorhinus latifrons
 Miniopterus schreibersii
 Podarcis liolepis
@@ -17576,7 +17775,7 @@ Falco eleonorae
 Podarcis gaigeae
 Sciurus vulgaris
 Podarcis filfolensis
-Marmota flaviventer
+Marmota flaviventris
 Myodes glareolus
 Canis familiaris
 Trichosurus vulpecula
@@ -17606,7 +17805,7 @@ Mecocerculus leucophrys
 Podarcis muralis
 Rhinolophus ferrumequinum
 Lissotriton helveticus
-Marmota flaviventer
+Marmota flaviventris
 Podarcis liolepis
 Sciurus carolinensis
 Sciurus carolinensis
@@ -17648,8 +17847,9 @@ Psittacula echo
 Perisoreus infaustus
 Sciurus vulgaris
 Bombina sp.
+Canis familiaris
 Podarcis cretensis
-Podarcis sp.
+Podarcis guadarramae
 Cossypha caffra
 Myotis myotis
 Myotis bechsteinii
@@ -17692,6 +17892,7 @@ Barbastella barbastellus
 Podarcis liolepis
 Sceloporus bicanthalis
 Progne tapera
+Lepus arcticus
 Lissotriton helveticus
 Podarcis muralis
 Muscardinus avellanarius
@@ -17699,7 +17900,7 @@ Podarcis muralis
 Dermanura azteca
 Catharus mexicanus
 Plecotus auritus
-Podarcis sp.
+Podarcis guadarramae
 Rhinolophus euryale
 Sciurus carolinensis
 Podarcis cretensis
@@ -17747,7 +17948,7 @@ Sciurus vulgaris
 Mus musculus
 Ochthoeca fumicolor
 Chalcides striatus
-Podarcis sp.
+Podarcis bocagei
 Sciurus vulgaris
 Podarcis pityusensis
 Anoura geoffroyi
@@ -17809,12 +18010,13 @@ Podarcis muralis
 Plecotus auritus
 Sceloporus horridus
 Sciurus carolinensis
-Podarcis sp.
+Podarcis bocagei
 Dendrocincla merula
 Podarcis gaigeae
 Pachycephala schlegelii
 Canis familiaris
 Bombina sp.
+Lissotriton vulgaris
 Lissotriton helveticus
 Anolis yoroensis
 Calotriton asper
@@ -17849,7 +18051,7 @@ Sciurus vulgaris
 Eptesicus serotinus
 Sciurus vulgaris
 Colluricincla megarhyncha
-Marmota flaviventer
+Marmota flaviventris
 Aulachorynchus prasinus
 Podarcis cretensis
 Lissotriton vulgaris
@@ -17900,6 +18102,7 @@ Cathartes aura
 Carollia sowelli
 Podarcis muralis
 Podarcis liolepis
+Lissotriton vulgaris
 Podarcis muralis
 Chlorospingus flavopectus
 Podarcis muralis
@@ -17916,7 +18119,7 @@ Trichosurus vulpecula
 Henicorhina leucosticta
 Falco eleonorae
 Chalcides striatus
-Marmota flaviventer
+Marmota flaviventris
 Bombina sp.
 Passer domesticus
 Podarcis muralis
@@ -17924,7 +18127,7 @@ Trichosurus vulpecula
 Lissotriton helveticus
 Salamandra salamandra gallaica
 Sciurus carolinensis
-Podarcis sp.
+Podarcis guadarramae
 Myotis brandtii
 Plecotus auritus
 Apodemus sylvaticus
@@ -17955,7 +18158,7 @@ Turdus assimilis
 Cossypha dichroa
 Tchagra australis
 Passer montanus
-Podarcis sp.
+Podarcis bocagei
 Podarcis gaigeae
 Dicrurus adsimilis
 Peromyscus maniculatus
@@ -17972,8 +18175,10 @@ Coragyps atratus
 Sciurus carolinensis
 Miniopterus schreibersii
 Podarcis sp.
+Lissotriton vulgaris
 Muscardinus avellanarius
 Platyrinchus cancrominus
+Lissotriton vulgaris
 Canis familiaris
 Passer domesticus
 Bombina sp.
@@ -17982,7 +18187,7 @@ Podarcis milensis
 Podarcis cretensis
 Salamandra salamandra gallaica
 Falco eleonorae
-Marmota flaviventer
+Marmota flaviventris
 Eptesicus nilssonii
 Podarcis sp.
 Grallaria guatimalensis
@@ -18010,9 +18215,10 @@ Peromyscus maniculatus
 Miniopterus schreibersii
 Miniopterus schreibersii
 Chloroceryle americana
-Marmota flaviventer
+Marmota flaviventris
 Iberolacerta aranica
 Rhinolophus alcyone
+Lissotriton vulgaris
 Lepus europaeus
 Podarcis muralis
 Automolus ochrolaemus
@@ -18063,6 +18269,7 @@ Myotis bechsteinii
 Dasyurus geoffroii
 Myotis myotis
 Plecotus auritus
+Lissotriton vulgaris
 Bombina sp.
 Podarcis muralis
 Plecotus auritus
@@ -18080,7 +18287,7 @@ Sciurus carolinensis
 Emberiza cirlus
 Carduelis carduelis
 Falco eleonorae
-Podarcis sp.
+Podarcis bocagei
 Sciurus vulgaris
 Rhinolophus hipposideros
 Perisoreus infaustus
@@ -18109,6 +18316,7 @@ Podarcis sp.
 Coragyps atratus
 Plecotus auritus
 Pogoniulus bilineatus
+Ichthyosaura alpestris
 Plecotus auritus
 Myotis myotis
 Anolis yoroensis
@@ -18124,6 +18332,7 @@ Tachycineta albiventer
 Peromyscus maniculatus
 Henicorhina leucosticta
 Chalcides striatus
+Ichthyosaura alpestris
 Podarcis muralis
 Falco eleonorae
 Dysithamnus mentalis
@@ -18177,7 +18386,7 @@ Larus michahellis
 Pachycephala schlegelii
 Podarcis muralis
 Podarcis sp.
-Marmota flaviventer
+Marmota flaviventris
 Falco eleonorae
 Sciurus vulgaris
 Rhagologus leucostigma
@@ -18229,7 +18438,7 @@ Timon lepidus
 Sciurus carolinensis
 Podarcis liolepis
 Turtur chalcospilos
-Marmota flaviventer
+Marmota flaviventris
 Podarcis filfolensis
 Bombina sp.
 Sylvia atricapilla
@@ -18266,7 +18475,7 @@ Myotis myotis
 Momotus momota
 Rhynchocyclus brevirostris
 Podarcis filfolensis
-Marmota flaviventer
+Marmota flaviventris
 Trichosurus vulpecula
 Catharus mexicanus
 Podarcis muralis
@@ -18340,7 +18549,7 @@ Sciurus carolinensis
 Perisoreus infaustus
 Podarcis milensis
 Myotis blythii
-Marmota flaviventer
+Marmota flaviventris
 Chloroceryle americana
 Sceloporus subniger
 Henicorhina leucosticta
@@ -18369,6 +18578,7 @@ Rhinolophus euryale
 Podarcis muralis
 Bombina sp.
 Podarcis filfolensis
+Lissotriton vulgaris
 Sciurus carolinensis
 Natrix astreptophora
 Sciurus vulgaris
@@ -18386,7 +18596,7 @@ Rhynchocyclus brevirostris
 Campylopterus hemileucurus
 Pycnonotus barbatus
 Sciurus vulgaris
-Podarcis sp.
+Podarcis bocagei
 Podarcis gaigeae
 Chalcides striatus
 Podarcis muralis
@@ -18451,7 +18661,7 @@ Trichosurus vulpecula
 Hemispingus superciliaris
 Dasyurus geoffroii
 Acrocephalus arundinaceus
-Podarcis sp.
+Podarcis bocagei
 Sciurus carolinensis
 Sciurus vulgaris
 Larus michahellis
@@ -18517,7 +18727,7 @@ Lasiorhinus latifrons
 Sciurus vulgaris
 Iberolacerta bonnali
 Sciurus carolinensis
-Podarcis sp.
+Podarcis guadarramae
 Chalcides striatus
 Coragyps atratus
 Bombina sp.
@@ -18563,7 +18773,7 @@ Podarcis pityusensis
 Geospizopsis unicolor
 Ploceus capensis
 Sciurus carolinensis
-Marmota flaviventer
+Marmota flaviventris
 Podarcis liolepis
 Podarcis muralis
 Sciurus vulgaris
@@ -18595,6 +18805,7 @@ Lissotriton helveticus
 Phoenicurus ochruros
 Sciurus carolinensis
 Salamandra salamandra gallaica
+Lissotriton vulgaris
 Timon lepidus
 Campicoloides bifasciatus
 Carinascincus palfreymani
@@ -18620,6 +18831,7 @@ Margarornis squamiger
 Marmota sibirica
 Muscardinus avellanarius
 Nyctalus noctula
+Lissotriton vulgaris
 Trichosurus vulpecula
 Sciurus carolinensis
 Lacerta viridis
@@ -18636,6 +18848,7 @@ Podarcis filfolensis
 Sciurus vulgaris
 Sciurus vulgaris
 Podarcis gaigeae
+Canis familiaris
 Rhinolophus hipposideros
 Plecotus auritus
 Podarcis liolepis
@@ -18645,7 +18858,7 @@ Motacilla capensis
 Acrocephalus arundinaceus
 Timon lepidus
 Podarcis muralis
-Marmota flaviventer
+Marmota flaviventris
 Bombina sp.
 Podarcis muralis
 Podarcis muralis
@@ -18712,6 +18925,7 @@ Podarcis filfolensis
 Perisoreus infaustus
 Podarcis muralis
 Bombina sp.
+Lissotriton vulgaris
 Apodemus flavicollis
 Campylopterus hemileucurus
 Sciurus carolinensis
@@ -18726,15 +18940,17 @@ Podarcis muralis
 Lissotriton helveticus
 Bombina sp.
 Podarcis muralis
-Marmota flaviventer
+Marmota flaviventris
 Sylvia atricapilla
 Passer montanus
+Lissotriton vulgaris
 Chalcides striatus
 Podarcis muralis
 Podarcis pityusensis
 Plecotus auritus
 Indicator minor
 Bombina sp.
+Canis familiaris
 Passer montanus
 Xiphorhynchus flavigaster
 Passer domesticus
@@ -18773,7 +18989,7 @@ Podarcis gaigeae
 Myotis bechsteinii
 Myotis daubentonii
 Podarcis muralis
-Podarcis sp.
+Podarcis bocagei
 Lasiorhinus latifrons
 Myotis bechsteinii
 Podarcis muralis
@@ -18798,7 +19014,7 @@ Rattus lutreolus
 Muscardinus avellanarius
 Larus michahellis
 Podarcis muralis
-Marmota flaviventer
+Marmota flaviventris
 Podarcis muralis
 Podarcis gaigeae
 Arremon brunneinucha
@@ -18822,6 +19038,7 @@ Myotis myotis
 Podarcis sp.
 Falco eleonorae
 Lepus europaeus
+Canis familiaris
 Peromyscus maniculatus
 Chalcides striatus
 Sciurus vulgaris
@@ -18849,6 +19066,7 @@ Sciurus carolinensis
 Apodemus flavicollis
 Myotis blythii
 Iberolacerta aranica
+Lissotriton vulgaris
 Peromyscus maniculatus
 Sceloporus subniger
 Sceloporus mucronatus
@@ -18866,6 +19084,7 @@ Muscardinus avellanarius
 Larus michahellis
 Ramphocelus sanguinolentus
 Sceloporus horridus
+Ichthyosaura alpestris
 Sceloporus variabilis
 Sciurus vulgaris
 Myotis blythii
@@ -18908,14 +19127,14 @@ Myioborus melanocephalus
 Lissotriton helveticus
 Myotis bechsteinii
 Sciurus vulgaris
-Podarcis sp.
+Podarcis guadarramae
 Sciurus carolinensis
 Dryoscopus cubla
 Sciurus vulgaris
 Podarcis liolepis
 Chloroceryle amazona
 Muscardinus avellanarius
-Podarcis sp.
+Podarcis guadarramae
 Myioborus melanocephalus
 Spermestes cucullata
 Muscardinus avellanarius
@@ -18938,13 +19157,13 @@ Sceloporus variabilis
 Mecocerculus leucophrys
 Lepus europaeus
 Plecotus auritus
-Marmota flaviventer
+Marmota flaviventris
 Canis familiaris
 Muscardinus avellanarius
 Podarcis muralis
 Podarcis sp.
 Podarcis muralis
-Marmota flaviventer
+Marmota flaviventris
 Falco eleonorae
 Podarcis filfolensis
 Lissotriton helveticus
@@ -18952,7 +19171,7 @@ Psittacula echo
 Sciurus carolinensis
 Sceloporus bicanthalis
 Vombatus ursinus
-Podarcis sp.
+Podarcis guadarramae
 Barbastella barbastellus
 Salamandra salamandra gallaica
 Podarcis filfolensis
@@ -19027,12 +19246,13 @@ Sciurus carolinensis
 Sciurus vulgaris
 Podarcis liolepis
 Iberolacerta aranica
+Lissotriton vulgaris
 Passer domesticus
 Myotis blythii
 Podarcis pityusensis
 Psammodromus manuelae
 Trichosurus vulpecula
-Marmota flaviventer
+Marmota flaviventris
 Psittacula echo
 Sylvia atricapilla
 Phyllastrephus terrestris
@@ -19161,11 +19381,13 @@ Mandingoa nitidula
 Podarcis liolepis
 Passer domesticus
 Podarcis pityusensis
+Canis familiaris
 Rhinolophus hipposideros
 Plecotus auritus
 Psittacula echo
 Bombina sp.
 Basileuterus culicivorus
+Ichthyosaura alpestris
 Sciurus vulgaris
 Cuculus clamosus
 Podarcis cretensis
@@ -19185,10 +19407,10 @@ Iberolacerta aranica
 Myotis escalerai
 Bombina sp.
 Plecotus auritus
-Podarcis sp.
+Podarcis bocagei
 Isleria hauxwelli
 Carollia sowelli
-Podarcis sp.
+Podarcis bocagei
 Pachycephala soror
 Podarcis muralis
 Margarornis squamiger
@@ -19197,6 +19419,7 @@ Podarcis muralis
 Psammodromus manuelae
 Peromyscus maniculatus
 Artibeus watsoni
+Canis familiaris
 Sciurus carolinensis
 Mecocerculus leucophrys
 Podarcis muralis
@@ -19229,7 +19452,7 @@ Falco eleonorae
 Podarcis filfolensis
 Lissotriton helveticus
 Podarcis cretensis
-Marmota flaviventer
+Marmota flaviventris
 Acrocephalus arundinaceus
 Sciurus vulgaris
 Lissotriton helveticus
@@ -19250,6 +19473,7 @@ Lissotriton helveticus
 Rhinolophus hipposideros
 Ochthoeca fumicolor
 Podarcis muralis
+Canis familiaris
 Colius striatus
 Plecotus auritus
 Eptesicus nilssonii
@@ -19265,6 +19489,7 @@ Bombina sp.
 Trichosurus vulpecula
 Bombina sp.
 Larus michahellis
+Ichthyosaura alpestris
 Myotis bechsteinii
 Basileuterus culicivorus
 Psittacula echo
@@ -19279,6 +19504,7 @@ Acrocephalus arundinaceus
 Tchagra tchagra
 Podarcis liolepis
 Plecotus auritus
+Lissotriton vulgaris
 Cinclodes albidiventris
 Eptesicus nilssonii
 Passer domesticus
@@ -19300,7 +19526,7 @@ Peromyscus maniculatus
 Lissotriton helveticus
 Peromyscus maniculatus
 Podarcis cretensis
-Podarcis sp.
+Podarcis guadarramae
 Miniopterus schreibersii
 Apodemus flavicollis
 Muscardinus avellanarius
@@ -19367,7 +19593,7 @@ Sceloporus subniger
 Myotis blythii
 Sturnira hondurensis
 Trichosurus vulpecula
-Podarcis sp.
+Podarcis bocagei
 Salamandra atra
 Podarcis sp.
 Andropadus importunus
@@ -19418,6 +19644,7 @@ Strix aluco
 Podarcis gaigeae
 Sciurus vulgaris
 Lissotriton helveticus
+Canis familiaris
 Podarcis muralis
 Rhinolophus ferrumequinum
 Sciurus carolinensis
@@ -19449,7 +19676,7 @@ Sciurus vulgaris
 Sciurus vulgaris
 Peromyscus maniculatus
 Podarcis sp.
-Podarcis sp.
+Podarcis guadarramae
 Podarcis muralis
 Antechinus sp.
 Trichosurus vulpecula
@@ -19470,6 +19697,7 @@ Podarcis pityusensis
 Cossypha natalensis
 Falco eleonorae
 Psammodromus manuelae
+Ichthyosaura alpestris
 Timon lepidus
 Sciurus vulgaris
 Myotis bechsteinii
@@ -19543,7 +19771,7 @@ Sciurus carolinensis
 Podarcis cretensis
 Perisoreus infaustus
 Larus michahellis
-Marmota flaviventer
+Marmota flaviventris
 Pitohui dichrous
 Canis familiaris
 Anolis yoroensis
@@ -19576,7 +19804,7 @@ Sciurus vulgaris
 Acrocephalus arundinaceus
 Tachycineta albiventer
 Podarcis pityusensis
-Podarcis sp.
+Podarcis guadarramae
 Sceloporus variabilis
 Podarcis muralis
 Rattus rattus
@@ -19611,7 +19839,7 @@ Sciurus vulgaris
 Peromyscus maniculatus
 Salamandra atra
 Miniopterus schreibersii
-Marmota flaviventer
+Marmota flaviventris
 Iberolacerta bonnali
 Tachycineta albiventer
 Podarcis filfolensis
@@ -19725,7 +19953,7 @@ Psittacula echo
 Dryoscopus cubla
 Plecotus auritus
 Podarcis liolepis
-Podarcis sp.
+Podarcis guadarramae
 Podarcis cretensis
 Trichosurus vulpecula
 Myotis blythii
@@ -19735,6 +19963,7 @@ Sceloporus spinosus
 Lacerta viridis
 Perisoreus infaustus
 Sceloporus aeneus
+Lissotriton vulgaris
 Calotriton asper
 Trichosurus vulpecula
 Timon lepidus
@@ -19749,7 +19978,7 @@ Peromyscus maniculatus
 Pipra fasciicauda
 Podarcis pityusensis
 Podarcis liolepis
-Marmota flaviventer
+Marmota flaviventris
 Podarcis gaigeae
 Podarcis gaigeae
 Bombina sp.
@@ -19773,7 +20002,7 @@ Bombina sp.
 Myadestes unicolor
 Peromyscus maniculatus
 Andropadus importunus
-Marmota flaviventer
+Marmota flaviventris
 Peromyscus maniculatus
 Sciurus carolinensis
 Podarcis pityusensis
@@ -19832,7 +20061,7 @@ Sporophila funerea
 Falco eleonorae
 Plecotus auritus
 Lacerta viridis
-Marmota flaviventer
+Marmota flaviventris
 Sciurus vulgaris
 Myrmoborus myotherinus
 Podarcis gaigeae
@@ -19878,7 +20107,7 @@ Batis capensis
 Podarcis cretensis
 Psammodromus manuelae
 Sciurus vulgaris
-Podarcis sp.
+Podarcis bocagei
 Crithagra sulphurata
 Sciurus vulgaris
 Strix aluco
@@ -19894,11 +20123,12 @@ Plecotus auritus
 Sciurus vulgaris
 Podarcis pityusensis
 Sylvia atricapilla
+Lissotriton vulgaris
 Calotriton asper
 Podarcis sp.
 Nyctalus noctula
 Podarcis gaigeae
-Podarcis sp.
+Podarcis bocagei
 Calotriton asper
 Podarcis muralis
 Myotis blythii
@@ -19957,9 +20187,11 @@ Sciurus carolinensis
 Podarcis muralis
 Rhynchocyclus brevirostris
 Myotis bechsteinii
+Canis familiaris
 Mionectes oleagineus
+Lissotriton vulgaris
 Vombatus ursinus
-Podarcis sp.
+Podarcis guadarramae
 Podarcis muralis
 Sciurus carolinensis
 Sciurus carolinensis
@@ -19992,13 +20224,14 @@ Podarcis muralis
 Perisoreus infaustus
 Rhinolophus euryale
 Passer domesticus
-Marmota flaviventer
+Marmota flaviventris
 Sciurus vulgaris
 Sciurus carolinensis
 Lissotriton helveticus
 Dasyurus geoffroii
 Salamandra salamandra gallaica
 Sciurus carolinensis
+Canis familiaris
 Paroaria gularis
 Myotis daubentonii
 Sceloporus variabilis
@@ -20030,7 +20263,7 @@ Sciurus carolinensis
 Timon lepidus
 Sciurus vulgaris
 Podarcis muralis
-Podarcis sp.
+Podarcis bocagei
 Myotis blythii
 Paroaria gularis
 Myotis bechsteinii
@@ -20119,7 +20352,7 @@ Podarcis muralis
 Salamandra salamandra gallaica
 Plecotus auritus
 Plecotus auritus
-Podarcis sp.
+Podarcis guadarramae
 Podarcis filfolensis
 Bombina sp.
 Rhinolophus landeri
@@ -20178,7 +20411,7 @@ Cinnyris chalybeus
 Passer montanus
 Psittacula echo
 Chloroceryle americana
-Marmota flaviventer
+Marmota flaviventris
 Plecotus auritus
 Dasyurus geoffroii
 Sciurus vulgaris
@@ -20225,6 +20458,7 @@ Trichosurus vulpecula
 Cercotrichas quadrivirgata
 Podarcis muralis
 Plecotus auritus
+Lissotriton vulgaris
 Peromyscus maniculatus
 Podarcis muralis
 Phoenicurus ochruros
@@ -20272,6 +20506,7 @@ Bombina sp.
 Plecotus auritus
 Peromyscus maniculatus
 Muscardinus avellanarius
+Lissotriton vulgaris
 Plecotus auritus
 Seiurus aurocapilla
 Empidonax flavescens
@@ -20281,6 +20516,7 @@ Sciurus carolinensis
 Vombatus ursinus
 Peromyscus maniculatus
 Trichosurus vulpecula
+Canis familiaris
 Lepus europaeus
 Sciurus vulgaris
 Canis familiaris
@@ -20324,10 +20560,10 @@ Sciurus vulgaris
 Chalcides striatus
 Podarcis muralis
 Rhinolophus ferrumequinum
-Podarcis sp.
+Podarcis bocagei
 Myotis blythii
 Podarcis gaigeae
-Podarcis sp.
+Podarcis guadarramae
 Bombina sp.
 Podarcis muralis
 Peromyscus maniculatus
@@ -20344,7 +20580,7 @@ Trichosurus vulpecula
 Bombina sp.
 Lasiorhinus latifrons
 Psittacula echo
-Podarcis sp.
+Podarcis bocagei
 Podarcis gaigeae
 Artibeus toltecus
 Trichosurus vulpecula

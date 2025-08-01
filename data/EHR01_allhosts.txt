@@ -1,7 +1,7 @@
 Parus major
 Podarcis muralis
 Podarcis pityusensis
-Marmota flaviventer
+Marmota flaviventris
 Pteronotus mesoamericanus
 Sciurus vulgaris
 Trichosurus vulpecula
@@ -39,7 +39,7 @@ Petrogale xanthopus
 Rattus rattus
 Myotis daubentonii
 Fringilla coelebs
-Podarcis sp.
+Podarcis guadarramae
 Calotriton asper
 Canis familiaris
 Chaerephon pumila
@@ -67,6 +67,7 @@ Marmota sibirica
 Pipra fasciicauda
 Artibeus toltecus
 Timon lepidus
+Podarcis bocagei
 Lacerta viridis
 Pachycephala schlegelii
 Larus michahellis
@@ -83,6 +84,7 @@ Hypocnemoides maculicauda
 Nyctalus noctula
 Andropadus importunus
 Myotis escalerai
+Podarcis sp.
 Thamnolaea cinnamomeiventris
 Eptesicus serotinus
 Xenops minutus
@@ -92,6 +94,7 @@ Paroaria gularis
 Anguis fragilis
 Passer montanus
 Indicator minor
+Ichthyosaura alpestris
 Acrocephalus arundinaceus
 Podarcis milensis
 Eptesicus nilssonii
@@ -285,6 +288,7 @@ Muscicapa caerulescens
 Dicrurus adsimilis
 Pseudoromicia sp
 Psammodromus hispanicus
+Lepus arcticus
 Dessonornis caffer
 Cecropis abyssinica
 Anoura geoffroyi

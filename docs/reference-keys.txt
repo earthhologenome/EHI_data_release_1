@@ -18,6 +18,7 @@ amount-of-data
 absolute-total-data
 relative-total-data
 per-sample-data
+per-sample-relative-data
 amount-of-samples
 sample-type-statistics
 country-statistics
@@ -28,4 +29,5 @@ genome-quantity
 genome-quality
 taxonomic-statistics
 new-taxa-discovery
-genus---host-heatmap
+microbial-phylogenies
+bacteria

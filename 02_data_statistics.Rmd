@@ -39,6 +39,23 @@ rawdata_metadata %>%
   tt()
 ```
 
+### Per-sample relative data
+
+```{r rawdata_absolute_persample_relative, warning=FALSE, comments="", message=FALSE}
+rawdata_metadata %>%
+  mutate(host_rel=host_gb/total_gb*100,
+         metagenomic_rel=metagenomic_gb/total_gb*100,
+         lowqual_rel=lowqual_gb/total_gb*100) %>%
+  filter(host_rel>=0 & metagenomic_rel>=0, lowqual_rel>=0) %>% 
+  summarise(host_mean=mean(host_rel),
+            host_sd=sd(host_rel),
+            metagenomic_mean=mean(metagenomic_rel),
+            metagenomic_sd=sd(metagenomic_rel),
+            lowqual_mean=mean(lowqual_rel),
+            lowqual_sd=sd(lowqual_rel)) %>%
+  tt()
+```
+
 ## Amount of samples
 
 ```{r host_species_summary, warning=FALSE, comments="", message=FALSE}
